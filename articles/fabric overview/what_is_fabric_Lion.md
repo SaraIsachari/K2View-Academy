@@ -18,15 +18,14 @@ A Digital Entity is a digital version of a person, place or thing and is usually
 * Patented Digital Entity based micro-database, a data lake for each Digital Entity instance that **provides unparalleled performance with standard (ANSI) SQL queries**.
 * Patented data security approach, every micro-database is encrypted individually, **providing the peace of mind that massive data breaches are prevented**.
 * Unique near-data-logic architecture that **enfkjdslkdjsfables millisecond performance and throughput for APIs**. 
-* Built-in integrated drag-n-drop data management capabilities to enable a **time-to-market that is measured in days to weeks and not weeks to months**.  
+* Built-in integrated drag-n-drop datadddd management capabilities to enable a **time-to-market that is measured in days to weeks and not weeks to months**.  
 
-To summarize, Fabric architecture yields significant savings in computing, power and storage which makes it a perfect data platform for mission-critical, operational and real-time use cases. 
+To summarize, Fabric architecture yie significant savings in computing, power and storage which makes it a perfect data platform for mission-critical, operational and real-time use cases. 
 
 ### Fabric Use Cases
 Fabric is a great solution for:
 * Anything 360 - customer, order, device, sedfdsfrver, car, credit-card, patient, etc.
 * Micro services.
-* Customer data hub / platform.
 * ML / AI inference.
 * Real-time data processing and correlation.
 
