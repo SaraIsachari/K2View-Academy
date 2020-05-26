@@ -7,9 +7,9 @@ A Translation is a Fabric Studio object that transforms data from one set of val
 How Can I Create a New Translation in Fabric?
 
 1.	Go to the **Project Tree**, click **Logical Units**, **<LU Name>**, right click **Translations** and then select New Translation to display the Translation Schema tab.
-2.	Define the **Translation Schema**:\
-  * Complete the **Name**, **Direction** (Input / Output), **type**, etc. of each field.\
-  * Select what happens if a Translation match is not found. By default, the action is **Use Default**.
+2.	Define the **Translation Schema**: 
+  <p>&nbsp;* Complete the **Name**, **Direction** (Input / Output), **type**, etc. of each field.</p>
+  <p>&nbsp;* Select what happens if a Translation match is not found. By default, the action is **Use Default**.</p>
 3.	Go to the **Translation Data** tab.
 4.	Optional: If the population data exists in a file or is retrieved from the DB, follow the instructions in How Can I Import Translation Data.
 5.	To populate the data manually: 
