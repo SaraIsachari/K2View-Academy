@@ -31,6 +31,8 @@ The following Translation includes a list of Input and Output combinations where
 
 In the following Translation the **Field Type = SQL** whereby the query must be validated via the Query Builder.
 
+![image](/articles/09_translations/images/09_02_02%20Data%20Type%20%3D%20SQL.png)
+
 To validate the query, click the **SQL** icon in the corner of the field and then click **Execute Query** in the **Query Builder** screen.
 
 
