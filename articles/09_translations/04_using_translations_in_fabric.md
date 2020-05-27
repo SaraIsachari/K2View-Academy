@@ -6,14 +6,15 @@ Translations can be used in the [Table Population](/articles/07_table_population
 
 ### How do I Add a Translation to a Table Population?
  
-1.	Go to the **Project Tree**, click **Logical Units** and then click the **<LU Name>**. 
-2.	Click **Tables** and the **<Table Name>** and then click **<Table Population>**
+1.	Go to the **Project Tree**, click **Logical Units** and then click the **[LU Name]**. 
+2.	Click **Tables** and the **[Table Name]** and then click **[Table Population]**
 3.	Click the **Objects** tab in the right panel of the **Table Population** working area.
 4.	Click **Translations** and then click the **Translation** in the list. The list includes the Translation objects defined under the selected LU and under the Shared Objects.
 5.	Drag the **Translation** to the working area.
 6.	Connect the **Translation’s Input** and **Output** fields to the **Table Columns**, as follows:
        * Translation **Input** fields can be either connected to the **Source Object** or other Fabric objects, attached to the **Table Population** like functions or Lookups.
        * Translation **Output** fields can be connected either to the **Target Object** or other Fabric objects, attached to the **Table Population** like functions or Lookups. 
+
 
 [Click for more information about Creating a New Translation.](/articles/09_translations/02_creating_a_new_translation_in_fabric.md)
 
@@ -22,8 +23,8 @@ Translations can be used in the [Table Population](/articles/07_table_population
 
 ## How do I Add A Translation to a Parser Map?
  
-1.	Go to the **Project Tree**, click **Logical Units** and then click the **<LU Name>**. 
-2.	Click **Parsers** and then click **<Parser Map>**.
+1.	Go to the **Project Tree**, click **Logical Units** and then click the **[LU Name]**. 
+2.	Click **Parsers** and then click **[Parser Map]**.
 3.	Click the **Objects** tab in the right panel of the **Parser Map** working area.
 4.	Click **Translations** and then click the **Translation** in the list.
 5.	Drag the **Translation** into the working area.
@@ -36,7 +37,7 @@ Translations can be used in the [Table Population](/articles/07_table_population
  
 Translations can be used in any [Project functions](/articles/07_table_population/08_project_functions.md) defined in Fabric. 
 * Translations used in an LU function can be defined either on an LU level or on a Shared Objects level.
-* Translations used in Web Services must be defined on a Shared Objects level.\
+* Translations used in Web Services must be defined on a Shared Objects level.
 When editing a Java file, two built-in functions are available and displayed in the **Objects** tab.
 
 <table>
