@@ -10,7 +10,7 @@ The [DB Interface](/articles/05_DB_interfaces/04_creating_a_new_database_interfa
 
 ### Opening the Query Builder Window
  The Query Builder window can be opened in several ways. Select one of the following options: 
-1.	**Fabric Studio Toolbars Tab** > <img src="/articles/11_query_builder/images/12_1_1%20icon.png"> **Query Builder**.
+1.	**Fabric Studio Toolbars Tab** > <img src="https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_1_1%20icon.png"> **Query Builder**.
 2.	**Project Tree**, right click **DB Interface** > **Show Query Builder.**
 3.	**Fabric Studio Java Editor**, right click the **Editor** pane > **Open Query Builder** > **Schema**.
 
