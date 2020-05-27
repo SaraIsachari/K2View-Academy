@@ -45,3 +45,4 @@ In the following Translation the **Field Type = SQL** whereby the query must be 
 To validate the query, click the **SQL** icon in the corner of the field and then click **Execute Query** in the **Query Builder** screen.
 
 
+[![Previous](/articles/images/Previous.png)](/articles/09_translations/01_translations_overview_and_use_cases.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/09_translations/03_data_population_in_a_translation.md)
