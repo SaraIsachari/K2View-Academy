@@ -60,7 +60,6 @@ if(tranData.size() > 0) {
 Click **fnEnrichment_CUSTOMER.java** to open an example of a Fabric Java function that retrieves Translation Output values based on the Input value using the getTranslationsData built-in function.
 
 
-
-
+[![Previous](/articles/images/Previous.png)](/articles/09_translations/04_using_translations_in_fabric.md)
 
 
