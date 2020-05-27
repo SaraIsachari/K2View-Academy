@@ -30,7 +30,7 @@ Click **fnErrorCheck.java** to open an example of a Fabric Java function that re
 
 ![image](/articles/09_translations/images/09_04_03%20Table%20Population.png)
 
-This example displays how to apply the Data Transformation Rule in a Table Population. The Translation trnOrderType defines a list of Input  /Output combinations. When the target table is populated, Fabric populates the ORDER_TYPE  in the target table’s ORDERS column using the trnOrderType Translation and a value in the query_public_orders.order_type source field.
+This example displays how to apply the Data Transformation Rule in a Table Population. The Translation **trnOrderType** defines a list of Input/Output combinations. When the target table is populated, Fabric populates the **ORDER_TYPE**  in the target table’s ORDERS column using the trnOrderType Translation and a value in the **query_public_orders.order_type** source field.
 
 ## Example of Using a Translation with Type = SQL
 
@@ -39,13 +39,14 @@ This example displays how to apply the Data Transformation Rule in a Table Popul
        ![image](/articles/09_translations/images/09_04_04%20Type%20%3D%20SQL..png)
 
 2.	Do the following:
-       * In the SQL column, add SQL queries and then validate each query in the column by clicking the adjacent SQL icon. 
+       * In the **SQL** column, add SQL queries and then validate each query in the column by clicking the adjacent **SQL** icon. 
        * Populate other Translation data as needed.
        
        ![image](/articles/09_translations/images/09_04_05%20Translation%20data.png)
        
-       <pre><code>
+       
        3.	Create a function that uses this Translation to execute the relevant SQL query. 
+       <pre><code>
 Map<String, Map<String, String>> tranData = getTranslationsData("trnCheckAnalysisQueries");
 
 if(tranData.size() > 0) {
