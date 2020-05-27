@@ -45,8 +45,9 @@ This example displays how to apply the Data Transformation Rule in a Table Popul
        ![image](/articles/09_translations/images/09_04_05%20Translation%20data.png)
        
        
-       3.	Create a function that uses this Translation to execute the relevant SQL query. 
-       <pre><code>
+ 3.	Create a function that uses this Translation to execute the relevant SQL query. 
+ 
+<pre><code>
 Map<String, Map<String, String>> tranData = getTranslationsData("trnCheckAnalysisQueries");
 
 if(tranData.size() > 0) {
