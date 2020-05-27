@@ -2,12 +2,13 @@
 
 ## Example of Using a Translation in a Fabric Function 
 
-1.	Create a Translation.
+1.	Create a **Translation**.
 
 ![image](/articles/09_translations/images/09_04_01%20Translation.png)
 
 2.	Create the **Function** that uses the **Translation**:
-       <pre><code>
+
+<pre><code>
        
 if (fabricErrorID != null) {
 	Map <String,String> rs = getTranslationValues("trnApplicationErrorList",new Object[]{fabricErrorID});
@@ -16,7 +17,7 @@ if (fabricErrorID != null) {
 }
 </code></pre>
 
-       Click **fnErrorCheck.java** to open an example of a Fabric Java function that retrieves the Translation’s Output values based on the Input value using the **getTranslationValues** built-in function.  
+Click **fnErrorCheck.java** to open an example of a Fabric Java function that retrieves the Translation’s Output values based on the Input value using the **getTranslationValues** built-in function.  
        
        
 ## Example of Using a Translation in a Population
@@ -27,7 +28,7 @@ if (fabricErrorID != null) {
 
 2.	Create a **Table Population** that uses the **Translation** to transform data from one set of values to another.
 
-![image](/articles/09_translations/images/09_04_04%20Type%20%3D%20SQL..png)
+![image](/articles/09_translations/images/09_04_03%20Table%20Population.png)
 
 This example displays how to apply the Data Transformation Rule in a Table Population. The Translation trnOrderType defines a list of Input  /Output combinations. When the target table is populated, Fabric populates the ORDER_TYPE  in the target table’s ORDERS column using the trnOrderType Translation and a value in the query_public_orders.order_type source field.
 
@@ -35,7 +36,7 @@ This example displays how to apply the Data Transformation Rule in a Table Popul
 
 1.	Create a **Translation** where an **Output** column’s **Type = SQL**.
 
-       ![image](/articles/09_translations/images/09_04_05%20Translation%20data.png)
+       ![image](/articles/09_translations/images/09_04_04%20Type%20%3D%20SQL..png)
 
 2.	Do the following:
        * In the SQL column, add SQL queries and then validate each query in the column by clicking the adjacent SQL icon. 
