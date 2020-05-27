@@ -65,13 +65,13 @@ To add a JOIN to the SQL query, do the following:
     a. Right click in the **Main Window > Union > New Union Sub-query, Union / Copy Union Sub-Query**.
     b. Click the + next to the **Q** of the query to add a UNION operator which combines the result-set of two or more SELECT statements. 
 
-![image]
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_6%20link%E2%80%99s%20line%20%20Properties.png)
 
 Each SQL statement that is combined by the UNION operator has a **Q** icon in the **Main Window**. Clicking the **Q** icon of each SQL statement opens its Main Window where you can add DB objects and link them to each other to edit the SQL statement in the Union query. 
 2.	To modify the **Union query** do either:
     a.  Right click ![image] **Link** between the queries to edit the Union type.
 
-![image]
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_7%20SELECT%20statements.png)
 
     b. Right click the **Q** icon to change the order of the SQL statements in the Union SQL query.
     c. Right click the **Q** icon to change the order of the SQL statements in the Union SQL query. 
@@ -85,11 +85,11 @@ This table is displayed on the bottom right of the main window and enables editi
 ### Adding an SQL Function to a DB object Column 
 1.	Click the **3 dots** in the **Expression** column to open the **Expression Editor** window. 
 
-![image]
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_8%20icon%20link.png)
 
 2.	Select the **Function** and the **DB object** column to add to the **SQL Query**.
 
-![image]
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_9%20Union%20type.png)
 
 3.	Populate the **Column Name** column to add an **alias** to the selected DB object column.
 4.	Populate the **Sort Type** and **Sort Order** columns to add an **Order by** to the SQL query.
@@ -100,7 +100,7 @@ This table is displayed on the bottom right of the main window and enables editi
 The **Enable Pre-Execution Commands** checkbox enables running commands on the selected DB before running the SQL query. When this checkbox is checked, the Pre-Execution Commands window is opened.
 Note that when running the Query Builder on a Fabric interface, you must run the [Get Instance] command in the Pre-Execution Commands window since the SQL query must run on an [LU Instance](/articles/01_fabric_overview/02_fabric_glossary.md#lui) level.
 
-![image]
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_10%20Expression%20Editor.png)
 
 The **Max rows** setting is used to set the maximum number of rows returned by the SQL query. The default value is 10,000 rows. You can set a different number of rows to be returned by the SQL query
 
