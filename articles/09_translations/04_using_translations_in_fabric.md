@@ -125,3 +125,5 @@ When editing a Java file, two built-in functions are available and displayed in 
 
 [Click for more information about Translations – Code Examples.](/articles/09_translations/05_translations_code_examples.md)
 
+
+[![Previous](/articles/images/Previous.png)](/articles/09_translations/03_data_population_in_a_translation.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/09_translations/05_translations_code_examples.md)
