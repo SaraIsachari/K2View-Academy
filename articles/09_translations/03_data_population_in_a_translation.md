@@ -86,3 +86,5 @@ Import the data from the CSV file as follows:
 4.	Click **Apply** and then click **Save**.
 
 
+[![Previous](/articles/images/Previous.png)](/articles/09_translations/02_creating_a_new_translation_in_fabric.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/09_translations/04_using_translations_in_fabric.md)
+
