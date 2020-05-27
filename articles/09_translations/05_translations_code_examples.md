@@ -49,7 +49,7 @@ This example displays how to apply the Data Transformation Rule in a Table Popul
  
 <pre><code>
 
-Map<String, Map<String, String>> tranData = getTranslationsData("trnCheckAnalysisQueries");
+Map<String, Map<String, String> tranData = getTranslationsData("trnCheckAnalysisQueries");
 
 if(tranData.size() > 0) {
 	// do something
