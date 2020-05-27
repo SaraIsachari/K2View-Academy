@@ -9,6 +9,7 @@ There are several options for populating data in a Translation in the Fabric Stu
  
 Import options are enabled via the Import screen.
 
+
 ## How Can I Import Translation Data from a File?
  
 **After defining the Translation Schema do the following:** 
@@ -48,6 +49,7 @@ Import the data from the CSV file as follows:
 * Supported file formats are text, CSV or Excel. When the file format is Excel, specify which worksheet.
 * Close the Import file before importing data. 
 * Manual corrections may be required in the Grid columns mapping.
+
 
 ## How Can I Import Translation Data from a Database Table?
  
