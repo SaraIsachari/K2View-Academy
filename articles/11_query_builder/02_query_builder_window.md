@@ -2,7 +2,7 @@
 
 The Query Builder is an embedded visual query building component that allows you to build complex SQL queries on a selected [DB Interface](/articles/05_DB_interfaces/01_interfaces_overview.md) using an intuitive interface. 
 The Query Builder window has two tabs: 
-* [Query], where you can build and run an SQL query on selected DB Tables, Views or Synonyms. 
+* [Query](/articles/11_query_builder/02_query_builder_window.md#query-tab), where you can build and run an SQL query on selected DB Tables, Views or Synonyms. 
 * [Results], which displays the results of the executed SQL query. 
 
 Note: 
