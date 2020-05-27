@@ -122,5 +122,6 @@ When editing a Java file, two built-in functions are available and displayed in 
 </tr>
 </tbody>
 </table>
+
 [Click for more information about Translations – Code Examples.](/articles/09_translations/05_translations_code_examples.md)
 
