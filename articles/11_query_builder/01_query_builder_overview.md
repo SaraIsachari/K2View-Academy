@@ -26,3 +26,4 @@ The [DB Interface](/articles/05_DB_interfaces/03_DB_interfaces_overview.md) has 
 8.	**Graphit window** click <img src="https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_1_1%20icon.png"> **Query Builder** in the **SQL** or **SQL non-prepared** node type.
 
 9.	**Broadway**, click the **QB button** in the **DbCommand actor** to open the **Query Builder**.   
+<!--Next drops (drop 2)- add links to Broaway, Instance Group, Graphit-->
