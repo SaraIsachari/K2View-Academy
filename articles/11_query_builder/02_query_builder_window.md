@@ -16,7 +16,7 @@ The [DB Interface](/articles/05_DB_interfaces/04_creating_a_new_database_interfa
 4.	Query Settings toolbar.
 5.	Query display (bottom of the window), displays the generated SQL statement which can be edited manually.
 
-![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_2_1%20edited%20manually.png)
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_2_3_query_builder_window.PNG)
 
 ### Result Tab
 Displays the data that is received from the executed query. Click **Export to Excel** to export the data into an Excel file.  
