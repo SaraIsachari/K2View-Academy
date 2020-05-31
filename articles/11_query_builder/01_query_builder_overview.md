@@ -27,3 +27,6 @@ The [DB Interface](/articles/05_DB_interfaces/03_DB_interfaces_overview.md) has 
 
 9.	**Broadway**, click the **QB button** in the **DbCommand actor** to open the **Query Builder**.   
 <!--Next drops (drop 2)- add links to Broaway, Instance Group, Graphit-->
+
+[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/11_query_builder/02_query_builder_window.md)
+
