@@ -48,13 +48,11 @@ This example displays how to apply the Data Transformation Rule in a Table Popul
  3.	Create a function that uses this Translation to execute the relevant SQL query. 
  
 <pre><code>
-
 Map<String, Map<String, String> tranData = getTranslationsData("trnCheckAnalysisQueries");
 
 if(tranData.size() > 0) {
 	// do something
 }
-
 </code></pre>
 
 Click **fnEnrichment_CUSTOMER.java** to open an example of a Fabric Java function that retrieves Translation Output values based on the Input value using the getTranslationsData built-in function.
