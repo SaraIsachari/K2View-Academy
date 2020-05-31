@@ -63,7 +63,7 @@ To add a JOIN to the SQL query, do the following:
 
 ### 6. Union SQL Queries  
 1. Do either:
-* Right click in the **Main Window > Union > New Union Sub-query / Copy Union Sub-Query**.
+* Right click in the **Main window > Union > New Union Sub-query / Copy Union Sub-Query**.
 * Click the **+** next to the **Q** of the query to add a UNION operator which combines the result-set of two or more SELECT statements. 
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_7%20SELECT%20statements.png)
@@ -78,7 +78,7 @@ Each SQL statement that is combined by the UNION operator has a **Q** icon in th
 * Right click the **Q** icon to change the order of the SQL statements in the Union SQL query. 
 3.	To remove the **Union SQL** query do either:\
     a. Right click the **Q** icon of the removed query and select **Remove**.\
-    b. Right click the **Main Window**, select **Union > Remove**. 
+    b. Right click the **Main** window, select **Union > Remove**. 
 
 ## Table of Selected Columns - Edit the SQL Query
 This table is displayed on the bottom right of the main window and enables editing the SQL query. Its selected columns hold the same information as in the graphic map in a tabular format.
