@@ -86,7 +86,7 @@ This table is displayed on the bottom right of the main window and enables editi
 ### Adding an SQL Function to a DB object Column 
 1.	Click the **3 dots** in the **Expression** column to open the **Expression Editor** window. 
 
-![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_9%20Union%20type.png)
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/select_case.png)
 
 2.	Select the **Function** and the **DB object** column to add to the **SQL Query**.
 
