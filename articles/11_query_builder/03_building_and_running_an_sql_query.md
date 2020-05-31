@@ -47,7 +47,8 @@ To remove columns from a DB object, do either:
 ## Main Window - Advanced SQL Setting
 
 ### 5. Joining the Selected Tables 
-To add a JOIN to the SQL query, do the following: 
+To add a JOIN to the SQL query, do the following:
+
     * Click the **DB object column** and drag it to the linked **DB object** and column to add an INNER JOIN to the SQL query.
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_4%20DB%20object%20column.png)
