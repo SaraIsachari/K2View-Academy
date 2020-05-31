@@ -14,14 +14,14 @@ Import options are enabled via the Import screen.
  
 **After defining the Translation Schema do the following:** 
 
-1.	Go to the **Translation Data** tab and click **Import Data**.
+1.	Go to **Translation Data tab** > **Import Data**.
 
 2.	Click the **Import from File** tab. 
 
 3.	Do the following in the **Main** section:
 
        * Enter the **location** of the file or click **Browse** and search for it.
-       * Optional: Check **First line as a Header** if the file includes a header, the first line will be skipped when importing the data.
+       * Optional: Check **First line as a header** if the file includes a header, the first line will be skipped during the import.
        * Select the **Delimiter Type** (for example a Comma delimiter).
        * Optional: If the file is an **Excel file**, select the **Worksheet Page** from the dropdown list.
        * Click **Fetch Data** to preview the imported file.
@@ -55,7 +55,7 @@ Import the data from the CSV file as follows:
  
 **After defining the Translation Schema, do the following:** 
 
-1.	Go to the **Translation Data** tab and click **Import Data**.
+1.	Go to **Translation Data tab** > **Import Data**.
 
 2.	Go to the **Import from DB Table** tab. 
 
@@ -75,7 +75,7 @@ Import the data from the CSV file as follows:
 ## How Can I Import Translation Data Using DB SQL?
  
 **After defining the Translation Schema do the following:** 
-1.	Go to the **Translation Data** tab, click **Import Data** and then click the **Import from DB SQL** tab.
+1.	Go to **Translation Data tab** > **Import Data** > **Import from DB SQL** tab.
 
 2.	Do the following in the **Database** section:
        * Choose the **DB Connection** from the dropdown list.
