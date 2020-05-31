@@ -63,21 +63,21 @@ To add a JOIN to the SQL query, do the following:
 
 ### 6. Union SQL Queries  
 1. Do either:
-* Right click in the **Main Window > Union > New Union Sub-query, Union / Copy Union Sub-Query**.
-* Click the + next to the **Q** of the query to add a UNION operator which combines the result-set of two or more SELECT statements. 
+* Right click in the **Main Window > Union > New Union Sub-query / Copy Union Sub-Query**.
+* Click the **+** next to the **Q** of the query to add a UNION operator which combines the result-set of two or more SELECT statements. 
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_7%20SELECT%20statements.png)
 
 Each SQL statement that is combined by the UNION operator has a **Q** icon in the **Main Window**. Clicking the **Q** icon of each SQL statement opens its Main Window where you can add DB objects and link them to each other to edit the SQL statement in the Union query. 
 2.	To modify the **Union query** do either:
-* Right click ![image] **Link** between the queries to edit the Union type.
+* Right click **Link** - ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_8%20icon%20link.png) -  between the queries to edit the Union type.
 
-![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_8%20icon%20link.png)
+
 
 * Right click the **Q** icon to change the order of the SQL statements in the Union SQL query.
 * Right click the **Q** icon to change the order of the SQL statements in the Union SQL query. 
-3.	To remove the **Union SQL** query do either:
-    a. Right click the **Q** icon of the removed query and select **Remove**.
+3.	To remove the **Union SQL** query do either:\
+    a. Right click the **Q** icon of the removed query and select **Remove**.\
     b. Right click the **Main Window**, select **Union > Remove**. 
 
 ## Table of Selected Columns - Edit the SQL Query
