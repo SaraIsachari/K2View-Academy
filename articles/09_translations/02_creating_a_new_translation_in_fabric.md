@@ -30,7 +30,7 @@ A Translation is a Fabric Studio object that transforms data from one set of val
 
 ## Examples
 
-### Example of a Simple Translation table
+### Example of a Simple Translation Table
 
 The following Translation includes a list of Input and Output combinations where Input has unique values and Output values are repeated.  For example, the Billing and Collection values of a LEGACY_ORD_TYPE Input field return the same Output value of BLG.
 
