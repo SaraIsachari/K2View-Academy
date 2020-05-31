@@ -69,10 +69,11 @@ To add a JOIN to the SQL query, do the following:
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_7%20SELECT%20statements.png)
 
 Each SQL statement that is combined by the UNION operator has a **Q** icon in the **Main Window**. Clicking the **Q** icon of each SQL statement opens its Main Window where you can add DB objects and link them to each other to edit the SQL statement in the Union query. 
+
 2.	To modify the **Union query** do either:
 * Right click **Link** - ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_8%20icon%20link.png) -  between the queries to edit the Union type.
 
-
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/Union_type.png)
 
 * Right click the **Q** icon to change the order of the SQL statements in the Union SQL query.
 * Right click the **Q** icon to change the order of the SQL statements in the Union SQL query. 
