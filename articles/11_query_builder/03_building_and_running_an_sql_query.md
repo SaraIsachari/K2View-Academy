@@ -31,7 +31,7 @@ Note that the removal of a DB object automatically updates the SQL Query in the 
 ### 3. Selecting the Columns in a DB Object 
 To select columns from a DB object, do either:
 * Check specific **columns** in the **DB object** to include them in the SELECT statement.
-* Click the **asterisk** in the **DB object** to generate the following SQL syntax: Select * from <Table Name>;
+* Click the **asterisk** in the **DB object** to generate the following SQL syntax: <pre><code> Select * from [Table Name]; </code></pre>
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_2%20Table%20Name.png)
 
