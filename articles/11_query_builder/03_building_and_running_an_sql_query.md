@@ -66,7 +66,7 @@ To add a JOIN to the SQL query, do the following:
 * Right click in the **Main window > Union > New Union Sub-query / Copy Union Sub-Query**.
 * Click the **+** next to the **Q** of the query to add a UNION operator which combines the result-set of two or more SELECT statements. 
 
-![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_7%20SELECT%20statements.png)
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/06_01.PNG)
 
 Each SQL statement that is combined by the UNION operator has a **Q** icon in the **Main Window**. Clicking the **Q** icon of each SQL statement opens its Main Window where you can add DB objects and link them to each other to edit the SQL statement in the Union query. 
 
