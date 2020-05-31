@@ -15,18 +15,18 @@ Note that the Insert, Update and Delete statements performed by the DB Query, mi
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_1%20objects%20list.png)
 
-## Main Window - Editing an SQL Query MAIN 
+## Main Window - Editing an SQL Query  
 
 ### 1. Adding a DB Object to the Main Window
 Select the **DB object** (Table, View, or Synonym) from the **DB Tree** and do either:
 * Double click the **DB object**.
 * Select the **DB objects** and drag them to the **Main** window.
 * Select the **DB objects** and click **Add Selected**.
-The selected DB objects are added to the Main window and their SQL statement is displayed in the Query window.
+The selected DB objects are added to the Main window and their SQL statement is displayed in the **Query window**.
 
 ### 2. Removing a DB object from the Main Window
 Either click the **DB object** and press **Delete** on your keyboard or right click the **DB object** > **Remove**. 
-Note that the removal of a DB object automatically updates the SQL Query in the Query Builder window.
+Note that the removal of a DB object automatically updates the SQL Query in the **Query Builder** window.
 
 ### 3. Selecting the Columns in a DB Object 
 To select columns from a DB object, do either:
