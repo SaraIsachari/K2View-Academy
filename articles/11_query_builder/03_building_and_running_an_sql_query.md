@@ -90,7 +90,7 @@ This table is displayed on the bottom right of the main window and enables editi
 
 2.	Select the **Function** and the **DB object** column to add to the **SQL Query**.
 
-![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_10%20Expression%20Editor.png)
+![image](/articles/11_query_builder/images/06_03.png)
 
 3.	Populate the **Column Name** column to add an **alias** to the selected DB object column.
 4.	Populate the **Sort Type** and **Sort Order** columns to add an **Order by** to the SQL query.
@@ -101,7 +101,7 @@ This table is displayed on the bottom right of the main window and enables editi
 The **Enable Pre-Execution Commands** checkbox enables running commands on the selected DB before running the SQL query. When this checkbox is checked, the Pre-Execution Commands window is opened.
 Note that when running the Query Builder on a Fabric interface, you must run the [Get Instance] command in the Pre-Execution Commands window since the SQL query must run on an [LU Instance](/articles/01_fabric_overview/02_fabric_glossary.md#lui) level.
 
-![image]
+![image](/articles/11_query_builder/images/06_04.png)
 
 The **Max rows** setting is used to set the maximum number of rows returned by the SQL query. The default value is 10,000 rows. You can set a different number of rows to be returned by the SQL query
 
