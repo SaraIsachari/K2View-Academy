@@ -13,7 +13,7 @@ Note that the Insert, Update and Delete statements performed by the DB Query, mi
 * Click **Options** and check / uncheck the **Include Synonyms** options to include or exclude the DB Synonyms from the DB objects list.
 
 
-![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_1%20objects%20list.png)
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/01_querytab.PNG)
 
 ## Main Window - Editing an SQL Query  
 
