@@ -48,24 +48,24 @@ To remove columns from a DB object, do either:
 
 ### 5. Joining the Selected Tables 
 To add a JOIN to the SQL query, do the following: 
-1.	Click the **DB object column** and drag it to the linked **DB object** and column to add an INNER JOIN to the SQL query.
-
-![image]
-
-2.	Right click the **link’s line** and select one or both **Select all rows from** … options to edit the link and update the JOIN to LEFT OUTER JOIN, RIGHT OUTER JOIN, or FULL OUTER JOIN.
+    * Click the **DB object column** and drag it to the linked **DB object** and column to add an INNER JOIN to the SQL query.
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_4%20DB%20object%20column.png)
 
-3.	Right click the **link’s line** > **Properties** to edit the Join properties.
+    * Right click the **link’s line** and select one or both **Select all rows from** … options to edit the link and update the JOIN to LEFT OUTER JOIN, RIGHT OUTER JOIN, or FULL OUTER JOIN.
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_5%20Select%20all%20rows%20from.png)
+
+    * Right click the **link’s line** > **Properties** to edit the Join properties.
+
+![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_6%20link%E2%80%99s%20line%20%20Properties.png)
 
 ### 6. Union SQL Queries  
 1.	Do either:
     a. Right click in the **Main Window > Union > New Union Sub-query, Union / Copy Union Sub-Query**.
     b. Click the + next to the **Q** of the query to add a UNION operator which combines the result-set of two or more SELECT statements. 
 
-![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_6%20link%E2%80%99s%20line%20%20Properties.png)
+![image]
 
 Each SQL statement that is combined by the UNION operator has a **Q** icon in the **Main Window**. Clicking the **Q** icon of each SQL statement opens its Main Window where you can add DB objects and link them to each other to edit the SQL statement in the Union query. 
 2.	To modify the **Union query** do either:
