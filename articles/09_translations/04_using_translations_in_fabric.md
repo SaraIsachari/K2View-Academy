@@ -4,10 +4,10 @@ Translations can be used in the [Table Population](/articles/07_table_population
 
 [Click for more information about Translations – Code Examples.](/articles/09_translations/05_translations_code_examples.md)
 
-### How do I Add a Translation to a Table Population?
+### How Do I Add a Translation to a Table Population?
  
-1.	Go to the **Project Tree**, click **Logical Units** and then click the **[LU Name]**. 
-2.	Click **Tables** and the **[Table Name]** and then click **[Table Population]**
+1.	Go to **Project Tree** > **Logical Units** > **[LU Name]**. 
+2.	Click **Tables** > **[Table Name]** > **[Table Population]**
 3.	Click the **Objects** tab in the right panel of the **Table Population** working area.
 4.	Click **Translations** and then click the **Translation** in the list. The list includes the Translation objects defined under the selected LU and under the Shared Objects.
 5.	Drag the **Translation** to the working area.
@@ -21,10 +21,10 @@ Translations can be used in the [Table Population](/articles/07_table_population
 [Click for more information about Table Population Transformation Objects.](/articles/07_table_population/06_table_population_transformation_rules.md)
 
 
-## How do I Add A Translation to a Parser Map?
+## How Do I Add A Translation to a Parser Map?
  
-1.	Go to the **Project Tree**, click **Logical Units** and then click the **[LU Name]**. 
-2.	Click **Parsers** and then click **[Parser Map]**.
+1.	Go to **Project Tree** > **Logical Units** > **[LU Name]**. 
+2.	Click **Parsers** > **[Parser Map]**.
 3.	Click the **Objects** tab in the right panel of the **Parser Map** working area.
 4.	Click **Translations** and then click the **Translation** in the list.
 5.	Drag the **Translation** into the working area.
@@ -33,7 +33,7 @@ Translations can be used in the [Table Population](/articles/07_table_population
        * Translation **Output** fields can be connected either to the **Target Object,** other Fabric objects or attached to the **map** like functions or Lookups. 
 
 
-## How do I Use a Translation in a Java File in Fabric?
+## How Do I Use a Translation in a Java File in Fabric?
  
 Translations can be used in any [Project functions](/articles/07_table_population/08_project_functions.md) defined in Fabric. 
 * Translations used in an LU function can be defined either on an LU level or on a Shared Objects level.
