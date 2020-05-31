@@ -48,16 +48,15 @@ To remove columns from a DB object, do either:
 
 ### 5. Joining the Selected Tables 
 To add a JOIN to the SQL query, do the following:
-
-    * Click the **DB object column** and drag it to the linked **DB object** and column to add an INNER JOIN to the SQL query.
+       * Click the **DB object column** and drag it to the linked **DB object** and column to add an INNER JOIN to the SQL query.
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_4%20DB%20object%20column.png)
 
-    * Right click the **link’s line** and select one or both **Select all rows from** … options to edit the link and update the JOIN to LEFT OUTER JOIN, RIGHT OUTER JOIN, or FULL OUTER JOIN.
+       * Right click the **link’s line** and select one or both **Select all rows from** … options to edit the link and update the JOIN to LEFT OUTER JOIN, RIGHT OUTER JOIN, or FULL OUTER JOIN.
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_5%20Select%20all%20rows%20from.png)
 
-    * Right click the **link’s line** > **Properties** to edit the Join properties.
+       * Right click the **link’s line** > **Properties** to edit the Join properties.
 
 ![image](https://github.com/k2view-academy/K2View-Academy/blob/master/articles/11_query_builder/images/12_3_6%20link%E2%80%99s%20line%20%20Properties.png)
 
