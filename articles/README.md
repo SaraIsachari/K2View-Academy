@@ -1,7 +1,7 @@
 ![image](/articles/images/welcome_to_wiki.png)
 
 <details>
-<summary markdown="span"><strong>Fabric Overview<strong></summary>[![image](/articles/images/Next.png)](/articles/03_logical_units/03_LU_schema_window.md)
+<summary markdown="span"><strong>Fabric Overview<strong></summary>[(/articles/images/Next.png)](/articles/03_logical_units/03_LU_schema_window.md)
        
 <ul>
         <li><a href="/articles/01_fabric_overview/README.md">Fabric Overview</a></li>
