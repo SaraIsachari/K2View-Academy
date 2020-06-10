@@ -1,7 +1,7 @@
 ![image](/articles/images/welcome_to_wiki.png)
 
 <details>
-<summary markdown="span"><strong>Fabric Overview<strong>[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/03_logical_units/05_create_a_new_LU_object.md)</summary>
+<summary markdown="span"><strong>Fabric Overview<strong></summary>![<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/03_logical_units/05_create_a_new_LU_object.md)
        
 <ul>
         <li><a href="/articles/01_fabric_overview/README.md">Fabric Overview</a></li>
