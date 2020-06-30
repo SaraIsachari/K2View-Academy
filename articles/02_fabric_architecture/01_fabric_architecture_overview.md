@@ -74,8 +74,7 @@ Fabric uses Cassandra for three main purposes:
 
 
 ### Fabric Business Logic
-
-Responsible for all transformations and data manipulations and where Fabric solves business functions to be applied on the data imported from external sources and stored locally.
+This module is responsible for all transformations and data manipulations and is where Fabric handles the execution of the business functions that are applied on the data imported from external sources and saved locally.
 
 
 ### Fabric Studio
