@@ -2,7 +2,7 @@
 
 The Node type options, define the way the content is constructed and the presentation  of the respective tag in the output document. By default, the created nodes are not assigned any type or property.
 
-Following are the available  Node types:
+Following are the available Node types:
 
 #### Field
 
