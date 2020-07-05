@@ -1,6 +1,8 @@
 # Graphit Overview
 
-A Fabric tool, Graphit is used create dynamic CSV, XML and JSON documents. Graphit is very useful for generating Fabric [Web Service](/articles/15_web_services/01_web_services_overview.md) responses whereby response content is defined at execution time, according to specific parameters relevant to each Web Service call and the employed [LUI](/articles/01_fabric_overview/02_fabric_glossary.md#lui), or by retrieving dynamic information from other databases or interfaces.
+A Fabric tool, Graphit is used create dynamic CSV, XML and JSON documents and is very useful for generating Fabric [Web Service](/articles/15_web_services/01_web_services_overview.md) responses.
+
+whereby response content is defined at execution time, according to specific parameters relevant to each Web Service call and the employed [LUI](/articles/01_fabric_overview/02_fabric_glossary.md#lui), or by retrieving dynamic information from other databases or interfaces.
 
 ### Graphit Main Features
 
