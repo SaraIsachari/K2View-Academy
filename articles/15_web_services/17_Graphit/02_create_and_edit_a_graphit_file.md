@@ -2,15 +2,13 @@
 
 ### How Do I Create a New Graphit File?
 
-The following are the steps to create a new Graphit Files:
+Do the following to create a new Graphit file:
 
-1. Go to **Project Tree**,  click **Web Services**  > **Resource Files**
-2. Right-click **Resource Files** and select **New Graphit File** from the context menu
-
+1. Go to **Project Tree**, click **Web Services** > **Resource Files**. 
+2. Right click **Resource Files** and select **New Graphit File**.  
 ![](/articles/15_web_services/Graphit/images/01_new_graphit_file.png)
 
-3. The new file is opened , assign a name to the New Graphit File and Save it. **Note**: The file name must start with **gr%** and contain alpha-numeric characters
-4. Once the file is saved, it is displayed under as part of the Resources Files under the Project's Web Services componenet
+3. Assign a **name** to the New Graphit File and Save it. Note that the filename must have a **gr%** prefix and contain alpha-numeric characters. Once the file is saved, it is displayed under Resources Files under the Project's Web Services.
 
 ![](/articles/15_web_services/Graphit/images/02_graphit_resource_file.png)
 
