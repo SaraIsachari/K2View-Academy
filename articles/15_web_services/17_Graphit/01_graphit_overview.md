@@ -2,13 +2,11 @@
 
 A Fabric tool, Graphit is used create dynamic CSV, XML and JSON documents and is very useful for generating Fabric [Web Service](/articles/15_web_services/01_web_services_overview.md) responses. The content of a response is defined during its execution, either according to specific parameters relevant to the specific Web Service call and the employed [LUI](/articles/01_fabric_overview/02_fabric_glossary.md#lui), or by retrieving dynamic information from other databases or interfaces.
 
-### Graphit Main Features
-
-Graphit has the following main features: 
-- Supports the creation of dynamic CSV, XML and JSON documents. 
+### Main Features
+- Creation of dynamic CSV, XML and JSON documents. 
 - Accepts external input as variables. 
 - Usage of variables in queries.
-- Executes queries on an LUDB, iterates over the results and uses the returned values to create the response document.
+- Ability to execute queries on LUDB, iterate over the results and use the returned values to create the response document.
 - Executes queries on interfaces other than Fabric.
 - Supports prepared statements.
 - Supports XML and JSON hierarchy, including queries in inner hierarchy levels. Usage of outer level query result as an argument. 
