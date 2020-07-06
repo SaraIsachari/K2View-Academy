@@ -30,7 +30,7 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 </tr>
 <tr>
 <td valign="top" width="300pxl">Run</td>
-<td valign="top" width="600pxl">Click to Debug the Graphit file. Debug results are displayed in the right corner of the window.&nbsp;</td>
+<td valign="top" width="600pxl">Click to debug the Graphit file. Debug results are displayed in the right corner of the window.</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Output</td>
