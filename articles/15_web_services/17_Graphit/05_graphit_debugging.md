@@ -20,7 +20,8 @@ In order to debug Graphit, let's understand what are  the Graphit top menu bar c
 </tr>
 <tr>
 <td valign="top" width="300pxl">Parameters&nbsp;</td>
-<td valign="top" width="600pxl">&nbsp;Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked&nbsp;[swagger](/articles/15_web_services/09_swagger.md)</td>
+<td valign="top" width="600pxl">Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked by [Swagger](/articles/15_web_services/09_swagger.md). 
+  
 </tr>
 <tr>
 <td valign="top" width="300pxl">Server</td>
@@ -40,7 +41,7 @@ In order to debug Graphit, let's understand what are  the Graphit top menu bar c
 -  CSV  
 
 -  XML  
--  Profiler, profiles the performance of the Graphic code and sets the run time of each Graphit section. Note that after the Profiler is selected for the first time, it automatically runs and the option is disabled.&nbsp;</p>
+-  Profiler, profiles the performance of the Graphic code and sets the run time of each Graphit section. Note that after the Profiler is selected for the first time, it automatically runs.</p>
 </td>
 </tr>
 </tbody>
