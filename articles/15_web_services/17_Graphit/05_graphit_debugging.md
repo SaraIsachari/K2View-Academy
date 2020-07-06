@@ -50,8 +50,6 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 <p><a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/18_node_type_raw.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/k2view-academy/K2View-Academy/raw/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/18_node_type_raw.png" alt="" /></a></p>
 
 
-- **Parameters**  - The Parameters window tab , is used for populating the parameters that are used at debugging. The defined parameters will be also used when invoking Garphit by [swagger](/articles/15_web_services/09_swagger.md). 
-
   ![](/articles/15_web_services/Graphit/images/31_input_parameters.png)
 
 - 
