@@ -10,7 +10,7 @@ Note that there is a short description of each property in the dropdown menu.
 
 ![](/articles/15_web_services/Graphit/images/19_node_properties_menu.png)
 
-### Node Properties 
+### Node Properties Options 
 
 #### Session Provider
 
