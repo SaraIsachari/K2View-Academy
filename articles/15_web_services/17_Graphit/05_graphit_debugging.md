@@ -54,22 +54,7 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 
   ![](/articles/15_web_services/Graphit/images/31_input_parameters.png)
 
--  **Server** - A user can select the server which the simulation is executed on :the [user configuration](/articles/04_fabric_studio/04_user_preferences.md#What Is the Purpose of the Server Configuration Tab?) server list  from the frop down menu or LOCAL for using the latest ludb files 
-
-  ![](/articles/15_web_services/Graphit/images/32_servers.png)
-
--  **RUN** - The Run button is used to debug the Graphit. The result will be shown on the right corner white window area:
-
-  ![](/articles/15_web_services/Graphit/images/33_run.png)
-
-- **Output**  - Following are the outputs that can be selected:
-
-  - JSON  
-  - CSV
-  - XML 
-  - **Profiler** - This option is used, in order to profile the performance of the Graphit code and to provide running time for each one of the Graphit sections.  Note, once the profiler is selected for the first time, the execution start automatically (Run option is greyed out)
-
-![](/articles/15_web_services/Graphit/images/34_profiler.png)
+- 
 
 
 
