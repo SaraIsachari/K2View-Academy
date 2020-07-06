@@ -8,7 +8,7 @@ Do the following to create a new Graphit file:
 2. Right click **Resource Files** and select **New Graphit File**.  
 ![](/articles/15_web_services/Graphit/images/01_new_graphit_file.png)
 
-3. Assign a **name** to the New Graphit File and Save it. Note that the filename must have a **gr%** prefix and contain alpha-numeric characters. Once the file is saved, it is displayed under Resources Files under the Project's Web Services.
+3. Assign a **name** to the new Graphit file and **Save** it. Note that the filename must have a **gr%** prefix and contain alpha-numeric characters. Once the file is saved, it is displayed under Resources Files under the project's Web Services.
 
 ![](/articles/15_web_services/Graphit/images/02_graphit_resource_file.png)
 
@@ -16,13 +16,9 @@ Do the following to create a new Graphit file:
 
 ### How Do I Edit a Graphit File?
 
-Once a new Graphit file is created, you can edit it in order to create the required CSV/XML/JSON document structure. 
+Once a new Graphit file is created, you can edit it to create the required CSV / XML / JSON document structure. A Graphit file is structured as a hierarchical representation of nodes, where each node defines a tag or condition in the structure of the CSV, XML or JSON document. 
 
-The Graphit file is structured as a hierarchical representation of nodes, where each node defines a tag or condition in the structure of the resulted CSV, XML or JSON document. 
-
-Each of the nodes can have child nodes and the child nodes can also have child nodes, thus creating nested tags in the resulted document. 
-
-For each of the nodes, node Name, Type and properties can be defined in order to instruct how to generate the result. 
+Nodes can have child nodes, and child node can have child nodes, whereby creating nested tags in the resulting document. When creating a document the Node Name, Type and Properties can be defined for  each node. 
 
 ![](/articles/15_web_services/Graphit/images/03_edit_graphit_file.png)
 
