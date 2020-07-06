@@ -5,29 +5,26 @@ Node Type options define how content is structured and how a tag is presented in
 **Node Types Options**
 
 #### Field
-
 The basic node type that defines the node as a tag in XML / JSON format![](/articles/15_web_services/Graphit/images/08_node_type_field.png).
 
 #### Function
-
 Runs the code to determine the value of the node. Note that the code must be written in JavaScript. ![](/articles/15_web_services/Graphit/images/09_node_type_function.png)
 
 #### SQL and SQL Non-prepared
+Defines how an SQL statement is created to retrieve information from either a Fabric or another database interface. Note that if the interface is not Fabric, the Interface Name must be specified as a Node Property, as described in the [Node Properties](/articles/15_web_services/Graphit/04_graphit_node_properties.md) section. 
+![](/articles/15_web_services/Graphit/images/12_node_type_sql.png) 
 
-Define how to write an SQL statement to retrieve information from either Fabric or from any other database interface. Note that if the interface is not Fabric, the Interface Name should be specified as a Node Property, as described in the [Node Properties](/articles/15_web_services/Graphit/04_graphit_node_properties.md) section. 
-![](/articles/15_web_services/Graphit/images/12_node_type_sql.png). 
-
-Either enter the SQL statement manually or hover over **Sql** or  **sql non-prepared** and click ![](/articles/15_web_services/Graphit/images/10_DB.png).   
+Either enter the **SQL Statement** manually or hover over the **SQL** or **sql Non-prepared** fields and click ![](/articles/15_web_services/Graphit/images/10_DB.png).   
 
 If you have selected the Query Buider option:
 
-- The executed query on the query builder is than copied into the Graphit implementation 
+- The executed query on the Query Builder is copied into the Graphit implementation. 
 
-- Fields can be expanded automatically according to the sql statement defined in the Query Builder. ( required the you approval upon a message). 
+- Fields can be expanded automatically according to the SQL Statement defined in the Query Builder. ( required the you approval upon a message). 
 
   ![](/articles/15_web_services/Graphit/images/11_create_fields.png)
 
-At run time, the SQL will be executed and the results can be used in the nested nodes. SQL type, also allows looping on all results and execution of nested nodes for each of the returned rows:
+During runtime, the SQL is executed and the results can be used in the nested nodes. The SQL type also enables looping results and executing nested nodes on each returned row:
 
 ![](/articles/15_web_services/Graphit/images/13_node_type_sql2.png)
 
