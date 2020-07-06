@@ -15,7 +15,7 @@
 ### How Do I Edit a Graphit File?
 
 Once a new Graphit file is created, you can edit it to create the required CSV / XML / JSON document structure. A Graphit file is structured as a hierarchical representation of nodes, where each node defines a tag or condition in the structure of the CSV, XML or JSON document. 
-Nodes can have child nodes, and child node can have child nodes, whereby creating nested tags in the resulting document. When creating a document the Node Name, Type and Properties can be defined for  each node. 
+Nodes can have child nodes, and child node can have child nodes, whereby creating nested tags in the output document. When creating a document the Node Name, Type and Properties can be defined for  each node. 
 
 ![](/articles/15_web_services/Graphit/images/03_edit_graphit_file.png)
 
@@ -27,7 +27,7 @@ Nodes can have child nodes, and child node can have child nodes, whereby creatin
 - Click ![](/articles/15_web_services/Graphit/images/07_hamburger.png icon) and drag a node to another location in the hierarchy.
 
 ### Assigning a Name to a Node
-Only nodes with a Tag Name are displayed in the generated document. Nodes without tag names can be used for internal purposes.
+Only nodes with a Tag Name are displayed in the output document. Nodes without tag names can be used for internal purposes.
 To assign a **Tag Name** to a **node**, place your mouse on the **left side** of the **node's frame** and type it in.  
 
 [![Previous](/articles/images/Previous.png)](/articles/15_web_services/Graphit/01_graphit_overview.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/03_graphit_node_types_.md)
