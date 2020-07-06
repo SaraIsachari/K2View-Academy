@@ -23,7 +23,14 @@ Node Type options define how content is structured and how a tag is presented in
 </tr>
 <tr>
 <td valign="top" width="300pxl">SQL and Non-prepared SQL</td>
-<td valign="top" width="600pxl">Defines how an SQL statement retrieves information from Fabric or other database interfaces.&nbsp;<br />Enter the SQL statement manually or, hover over SQL or Non-prepared SQL fields and click&nbsp; .&nbsp;<br />Note that if the database is not a Fabric database, the Interface Name must be defined as a Node Property the&nbsp;<a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/04_graphit_node_properties.md">Node Properties</a>.<br />If the Query Builder option is selected, the executed query is copied into the Graphit implmentation. Fields can be expanded automatically according to the SQL statement defined in the Query Builder.&nbsp;<br />During runtime, the SQL query is executed and the results can be used in the nested nodes. The SQL Type also enables looping results and executing nested codes on each returned row.&nbsp;&nbsp;<br />Note that it is recommended to set the SQL Statement Type to SQL to use a prepared statement and prepared binding.&nbsp;<br />To build an SQL statement for every call, set the query Type to Non-prepared SQL. For example, to build dynamic SQL, Select X,Y from $table name.</td>
+<td valign="top" width="600pxl">Defines how an SQL statement retrieves information from Fabric or other database interfaces.&nbsp;<br />Enter the SQL statement manually or, hover over SQL or Non-prepared SQL fields and click&nbsp; .&nbsp;<br />Note that if the database is not a Fabric database, the Interface Name must be defined as a Node Property the&nbsp;<a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/04_graphit_node_properties.md">Node Properties</a>.<br />
+-  If the Query Builder option is selected, the executed query is copied into the Graphit implmentation. 
+
+-  Fields can be expanded automatically according to the SQL statement defined in the Query Builder.&nbsp;<br />
+  
+During runtime, the SQL query is executed and the results can be used in the nested nodes. The SQL Type also enables looping results and executing nested codes on each returned row.&nbsp;&nbsp;<br />
+
+Note that it is recommended to set the SQL Statement Type to SQL to use a prepared statement and prepared binding.&nbsp;<br />To build an SQL statement for every call, set the query Type to Non-prepared SQL. For example, to build dynamic SQL, Select X,Y from $table name.</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">String</td>
