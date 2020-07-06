@@ -34,8 +34,11 @@ In order to debug Graphit, let's understand what are  the Graphit top menu bar c
 <td valign="top" width="300pxl">Output</td>
 <td valign="top" width="600pxl">
 <p>The following Output types can be selected:  
+
 -  JSON</p>
+
 -  CSV  
+
 -  XML  
 -  Profiler, profiles the performance of the Graphic code and provides run time for each Graphit section. Note that after the Profiler is selected for the first time, it automatically runs and the option is disabled.&nbsp;</p>
 </td>
