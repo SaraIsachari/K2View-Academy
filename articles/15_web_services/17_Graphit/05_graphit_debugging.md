@@ -1,8 +1,7 @@
 # Graphit Debugging
 
-Graphit provides  a debug option that allows you to test the ouput  JSON, XML, CSV  without having to deploy the implementation. 
-
-The debug can be done using an LUDB file that was generated previously in the Fabric LUDB viewer, or it can be executed by pointing to either the local Fabric or  the  Fabric server that is defined for the project deployment. 
+The Graphit **Debug** option can be used to test JSON, XML or CSV output without deploying an implementation. 
+A Debug process can be run on an LUBD file that has been generated in the Fabric LUBD viewer or by pointing to either the local Fabric or the Fabric server that is defined for the project deployment. 
 
 In both cases, you can set input parameters values of any use case by clicking the Parameters option on the top left side of the Graphit window. [Click here ro learn about Graphit Input parameters](https://github.com/k2view-academy/K2View-Academy/tree/master/articles/demo_project)
 
