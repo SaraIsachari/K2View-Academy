@@ -40,7 +40,7 @@ In order to debug Graphit, let's understand what are  the Graphit top menu bar c
 -  CSV  
 
 -  XML  
--  Profiler, profiles the performance of the Graphic code and provides run time for each Graphit section. Note that after the Profiler is selected for the first time, it automatically runs and the option is disabled.&nbsp;</p>
+-  Profiler, profiles the performance of the Graphic code and sets the run time of each Graphit section. Note that after the Profiler is selected for the first time, it automatically runs and the option is disabled.&nbsp;</p>
 </td>
 </tr>
 </tbody>
