@@ -2,29 +2,22 @@
 
 Node Type options define how content is structured and how a tag is presented in an output document. By default, when created, nodes are not assigned a Type or Property.
 
-Following are the available Node types:
+**Node Types Options**
 
 #### Field
 
-Node type **Field** is the simplest type of a node – it turns the node to a tag in the XML/JSON
-
-![](/articles/15_web_services/Graphit/images/08_node_type_field.png)
+The basic node type that defines the node as a tag in XML / JSON format![](/articles/15_web_services/Graphit/images/08_node_type_field.png).
 
 #### Function
 
-Node type **Function** is used to run code in order to determine the value of the node. **Note**, The code should be written in java script
+Runs the code to determine the value of the node. Note that the code must be written in JavaScript. ![](/articles/15_web_services/Graphit/images/09_node_type_function.png)
 
-![](/articles/15_web_services/Graphit/images/09_node_type_function.png)
+#### SQL and SQL Non-prepared
 
-#### SQL and SQL non-prepared
+Define how to write an SQL statement to retrieve information from either Fabric or from any other database interface. Note that if the interface is not Fabric, the Interface Name should be specified as a Node Property, as described in the [Node Properties](/articles/15_web_services/Graphit/04_graphit_node_properties.md) section. 
+![](/articles/15_web_services/Graphit/images/12_node_type_sql.png). 
 
-Node types **sql** and **sql non-prepared** provide a way to write an SQL statement to retrieve information from either Fabric or from any other database interface. 
-
-**Note**, If the interface is other than Fabric, the interface name should be specified as a node property, as described in the [Node Properties](/articles/15_web_services/Graphit/04_graphit_node_properties.md) section. 
-
-![](/articles/15_web_services/Graphit/images/12_node_type_sql.png)
-
-You can either enter the SQL statement manually or by selecting the ![](/articles/15_web_services/Graphit/images/10_DB.png)  icon (appear when hovering on the **sql** or  **sql** non-prepared ). 
+Either enter the SQL statement manually or hover over **Sql** or  **sql non-prepared** and click ![](/articles/15_web_services/Graphit/images/10_DB.png).   
 
 If you have selected the Query Buider option:
 
