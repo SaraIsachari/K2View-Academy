@@ -57,7 +57,7 @@ Note that it is recommended to set the SQL Statement Type to SQL to use a prepar
 </tr>
 </tbody>
 </table>
-
+ 
 #### Field
 The basic node type that defines the node as a tag in XML / JSON format![](/articles/15_web_services/Graphit/images/08_node_type_field.png).
 
