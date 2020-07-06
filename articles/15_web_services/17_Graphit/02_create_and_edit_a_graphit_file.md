@@ -21,18 +21,14 @@ Nodes can have child nodes, and child node can have child nodes, whereby creatin
 
 **Hierarchical Structure Options**
 
-- Click ![](/articles/15_web_services/Graphit/images/04_plus.png)  **Parent Node** to create a new parent node under the same level as the original node.
+- Click ![](/articles/15_web_services/Graphit/images/04_plus.png)  **Parent Node** to create a new parent node under the original node on the same level.
 - Click ![](/articles/15_web_services/Graphit/images/05_arrow.png)  **Child Node** to create a new child node under the parent node.
 - Click ![](/articles/15_web_services/Graphit/images/06_trash_bin.png) **Delete** to delete a node on the node level.  
-- To change the node location inside the hierarchy, **click** and **drag** the desired node (using the ![](/articles/15_web_services/Graphit/images/07_hamburger.png icon) to another location.
+- Click ![](/articles/15_web_services/Graphit/images/07_hamburger.png icon) and drag a node to another location in the hierarchy.
 
-### Assigning Name to a Node
-
-Every node must be assigned a name in order to appear in the output document.
-
-If no name is assigned, the node will not appear in the output. Node without name may be used for internal purposes.
-
-To assign name to a node, set your mouse on the left side of the frame created for the node, and write the node name. This name will be the tag name, if this node is presented in the output document
+### Assigning a Name to a Node
+Only nodes that have a tag name appear in the generated document. Nodes without tag names can be used for internal purposes.
+To assign a tag name to a node, place your mouse on the left side of the node's frame and enter the Name.  
 
 [![Previous](/articles/images/Previous.png)](/articles/15_web_services/Graphit/01_graphit_overview.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/03_graphit_node_types_.md)
 
