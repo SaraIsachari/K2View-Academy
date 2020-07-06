@@ -2,11 +2,11 @@
 
 ### What are Node Properties?
 
-Node Properties are additional instructions that can be given for each node, for example, how to format a number, what database to query, or if the node is active or disabled. 
+Node Properties are additional instructions that can be given to a node. For example, how to format a number, which database to query, or if the node is active or disabled. 
 
-To assign a property to a node, Click the right side  **(+)** sign . Assign the required property from the drop down menu. 
+To assign a property to a node, click the **(+)** adjacent to the node and select the  property from the dropdown menu. 
 
-**Note**, for each of the listed properties, there is a short description associated to it in the drop down menu:
+Note that there is a short description of each property in the dropdown menu.
 
 ![](/articles/15_web_services/Graphit/images/19_node_properties_menu.png)
 
