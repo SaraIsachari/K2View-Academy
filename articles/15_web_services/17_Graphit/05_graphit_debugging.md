@@ -1,13 +1,49 @@
 # Graphit Debugging
 
 The Graphit **Debug** option can be used to test JSON, XML or CSV output without deploying an implementation. 
-A Debug process can be run on an LUBD file that has been generated in the Fabric LUBD viewer or by pointing to either the local Fabric or the Fabric server that is defined for the project deployment. 
-
-In both cases, you can set input parameters values of any use case by clicking the Parameters option on the top left side of the Graphit window. [Click here ro learn about Graphit Input parameters](https://github.com/k2view-academy/K2View-Academy/tree/master/articles/demo_project)
+A Debug process can be run on an LUBD file that has been generated in the Fabric LUBD viewer or by pointing to either the local Fabric or the Fabric server that is defined for the project's deployment. 
+To define input parameter values, click Parameters on the top left side of the Graphit window.
+[Click here ro learn about Graphit Input parameters](https://github.com/k2view-academy/K2View-Academy/tree/master/articles/demo_project)
 
 ### What are the Graphit Debug Options ? 
 
 In order to debug Graphit, let's understand what are  the Graphit top menu bar components :
+<table>
+<tbody>
+<tr>
+<td valign="top" width="300pxl">
+<p><strong>Debug Option</strong></p>
+</td>
+<td valign="top" width="600pxl">
+<p><strong>Description</strong></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="300pxl">Parameters&nbsp;</td>
+<td valign="top" width="600pxl">&nbsp;Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked&nbsp;[swagger](/articles/15_web_services/09_swagger.md)</td>
+</tr>
+<tr>
+<td valign="top" width="300pxl">Server</td>
+<td valign="top" width="600pxl">Select the server used during the simulation. See [User Configuration] (/articles/04_fabric_studio/04_user_preferences.md#).<br />What Is the Purpose of the Server Configuration Tab?) server list from the frop down menu or LOCAL for using the latest ludb files</td>
+</tr>
+<tr>
+<td valign="top" width="300pxl">Run</td>
+<td valign="top" width="600pxl">Click to Debug the Graphit file. Debug results are displayed in the right corner of the window.&nbsp;</td>
+</tr>
+<tr>
+<td valign="top" width="300pxl">Output</td>
+<td valign="top" width="600pxl">
+<p>The following Output types can be selected:  
+-  JSON</p>
+-  CSV  
+-  XML  
+-  Profiler, profiles the performance of the Graphic code and provides run time for each Graphit section. Note that after the Profiler is selected for the first time, it automatically runs and the option is disabled.&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/18_node_type_raw.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/k2view-academy/K2View-Academy/raw/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/18_node_type_raw.png" alt="" /></a></p>
+
 
 - **Parameters**  - The Parameters window tab , is used for populating the parameters that are used at debugging. The defined parameters will be also used when invoking Garphit by [swagger](/articles/15_web_services/09_swagger.md). 
 
