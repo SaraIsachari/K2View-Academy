@@ -26,7 +26,7 @@ Nodes can have child nodes, and a child node can have child nodes, whereby creat
 - Click ![](/articles/15_web_services/Graphit/images/07_hamburger.png icon) and drag a node to another location in the hierarchy.
 
 ### Assigning a Name to a Node
-To assign a **Tag Name** to a **node**, hover over the **left side** of the **node's frame** and type the **Name**.  
+To assign a **Tag Name** to a **node**, hover over the left side of the node to display its frame and then type in the **name**.   
 -  Only nodes with a Tag Name are displayed in the generated document. 
 -  Nodes without tag names can be used for internal purposes.
 
