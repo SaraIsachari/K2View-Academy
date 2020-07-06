@@ -42,7 +42,7 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 -  CSV  
 
 -  XML  
--  Profiler, profiles the performance of the Graphic code and sets the run time of each Graphit section. Note that after the Profiler is selected for the first time, it automatically runs.</p>
+-  Profiler, profiles the performance of the Graphic code and sets the run time of each Graphit section. Note that after the Profiler is selected for the first time, it runs automatically.</p>
 </td>
 </tr>
 </tbody>
