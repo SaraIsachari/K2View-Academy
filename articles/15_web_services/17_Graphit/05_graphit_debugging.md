@@ -26,7 +26,7 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 </tr>
 <tr>
 <td valign="top" width="300pxl">Server</td>
-<td valign="top" width="600pxl">Select the server used during the simulation. See [User Configuration] (/articles/04_fabric_studio/04_user_preferences.md#).<br />What Is the Purpose of the Server Configuration Tab?) server list from the frop down menu or LOCAL for using the latest ludb files</td>
+<td valign="top" width="600pxl">Select the server used during the simulation. See [User Configuration] (/articles/04_fabric_studio/04_user_preferences.md#).</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Run</td>
