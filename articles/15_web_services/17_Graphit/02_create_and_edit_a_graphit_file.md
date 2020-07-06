@@ -19,11 +19,11 @@ Nodes can have child nodes, and child node can have child nodes, whereby creatin
 
 ![](/articles/15_web_services/Graphit/images/03_edit_graphit_file.png)
 
-Following are the hierarchical structure options:
+**Hierarchical Structure Options**
 
-- To create a **parent node**, click the ![](/articles/15_web_services/Graphit/images/04_plus.png)  button. A new node at the same level is created under the original node.
-- To create a **child node**, click the ![](/articles/15_web_services/Graphit/images/05_arrow.png) button. A new child node is created under the parent node.
-- To delete a node, click the ![](/articles/15_web_services/Graphit/images/06_trash_bin.png) icon on the node level. The node is deleted.
+- Click ![](/articles/15_web_services/Graphit/images/04_plus.png)  **Parent Node** to create a new parent node under the same level as the original node.
+- Click ![](/articles/15_web_services/Graphit/images/05_arrow.png)  **Child Node** to create a new child node under the parent node.
+- Click ![](/articles/15_web_services/Graphit/images/06_trash_bin.png) **Delete** to delete a node on the node level.  
 - To change the node location inside the hierarchy, **click** and **drag** the desired node (using the ![](/articles/15_web_services/Graphit/images/07_hamburger.png icon) to another location.
 
 ### Assigning Name to a Node
