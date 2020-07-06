@@ -52,7 +52,6 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 
   ![](/articles/15_web_services/Graphit/images/31_input_parameters.png)
 
-- 
 
 
 
