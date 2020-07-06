@@ -27,7 +27,7 @@ Nodes can have child nodes, and a child node can have child nodes, whereby creat
 
 ### Assigning a Name to a Node
 To assign a **Tag Name** to a **node**, hover over the left side of the node to display its frame and then type in the **name**.   
--  Only nodes with a Tag Name are displayed in the generated document. 
+-  Only nodes with a tag name are displayed in the generated document. 
 -  Nodes without tag names can be used for internal purposes.
 
 [![Previous](/articles/images/Previous.png)](/articles/15_web_services/Graphit/01_graphit_overview.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/03_graphit_node_types_.md)
