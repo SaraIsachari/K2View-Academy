@@ -23,7 +23,10 @@ Node Type options define how content is structured and how a tag is presented in
 </tr>
 <tr>
 <td valign="top" width="300pxl">SQL and Non-prepared SQL</td>
-<td valign="top" width="600pxl">Defines how an SQL statement retrieves information from Fabric or other database interfaces.&nbsp;<br />Enter the SQL statement manually or, hover over SQL or Non-prepared SQL fields and click&nbsp; .&nbsp;<br />Note that if the database is not a Fabric database, the Interface Name must be defined as [Node Property](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md#graphit-node-properties)
+<td valign="top" width="600pxl">Defines how an SQL statement retrieves information from Fabric or other database interfaces.
+    <br />Enter the SQL statement manually or, hover over SQL or Non-prepared SQL fields and click  &nbsp;&nbsp;. Note that if the database is not a Fabric database, the Interface Name must be defined as a Node Property. 
+For more information click [Node Properties](/articles/15_web_services/Graphit/04_graphit_node_properties.md).
+![](/articles/15_web_services/Graphit/images/12_node_type_sql.png)  
 -  If the Query Builder option is selected, the executed query is copied into the Graphit implmentation.
 -  Fields can be expanded automatically according to the SQL statement defined in the Query Builder.&nbsp;<br />
   
