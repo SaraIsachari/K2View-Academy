@@ -7,7 +7,7 @@ Using Graphit you can do the following:
 - Create dynamic CSV, XML and JSON documents. 
 - Accept external input as variables. 
 - Use variables in queries.
-- Execute queries on an LUDB, iterates over the results and uses the returned values to create the response document.
+- Execute queries on an LUDB, iterate over the results and use the returned values to create the response document.
 - Execute queries on interfaces other than Fabric.
 - Use prepared statements.
 - Implement XML and JSON hierarchy, including queries in inner hierarchy levels. 
