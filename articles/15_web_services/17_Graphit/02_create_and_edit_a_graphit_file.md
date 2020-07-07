@@ -6,7 +6,7 @@
 2. Right click **New Resource Files** and select **New Graphit File**.  
 ![](/articles/15_web_services/Graphit/images/01_new_graphit_file.png)
 
-3. Assign a **name** to the new Graphit file and **Save** it. Note that the filename must have a **gr%** prefix and contain alpha-numeric characters. Once the file is saved, it is displayed under the project's Web Services folder under Resources.
+3. Assign a **Name** to the new Graphit file and **Save** it. Note that the filename must have a **gr%** prefix and contain alpha-numeric characters. Once the file is saved, it is displayed under the project's Web Services folder under Resources.
 
 ![](/articles/15_web_services/Graphit/images/02_graphit_resource_file.png)
 
@@ -14,11 +14,11 @@
 ### How Do I Edit a Graphit File?
 
 Once a new Graphit file is created, you can edit it to create the required CSV / XML / JSON document structure. A Graphit file is structured as a hierarchical representation of nodes, where each node defines a tag or condition in the structure of the CSV, XML or JSON document. 
-Nodes can have child nodes, and a child node can have child nodes, whereby creating nested tags in the generated document. When creating a document the Node Name, Type and Properties can be defined for  each node. 
+Nodes can have child nodes, and a child node can have child nodes, whereby creating nested tags in the generated document. When creating a document, the Node Name, Type and Properties can be defined for  each node. 
 
 ![](/articles/15_web_services/Graphit/images/03_edit_graphit_file.png)
 
-**Hierarchical Structure Options**
+### Hierarchical Structure Options 
 
 - Click ![](/articles/15_web_services/Graphit/images/04_plus.png)  **Parent Node** to create a new parent node under the original node on the same level.
 - Click ![](/articles/15_web_services/Graphit/images/05_arrow.png)  **Child Node** to create a new child node under the parent node.
