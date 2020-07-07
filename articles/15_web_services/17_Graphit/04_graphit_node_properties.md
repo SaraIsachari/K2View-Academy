@@ -1,6 +1,6 @@
 # Graphit Node Properties
 
-### What are Node Properties?
+### What Are Node Properties?
 
 Node Properties are additional instructions that can be given to a node. For example, how to format a number, which database to query, or if the node is active or disabled. 
 
@@ -10,7 +10,7 @@ Note that there is a short description of each property in the dropdown menu.
 
 ![](/articles/15_web_services/Graphit/images/19_node_properties_menu.png)
 
-### Node Properties Options 
+### What Are the Node Properties Options? 
 <table>
 <tbody>
 <tr>
