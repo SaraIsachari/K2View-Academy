@@ -28,5 +28,5 @@ To assign a **Tag Name** to a **node**, hover over the left side of the node to 
 -  Only nodes with a tag name are displayed in the output document. 
 -  Nodes without tag names can be used for internal purposes.
 
-[![Previous](/articles/images/Previous.png)](/articles/15_web_services/Graphit/01_graphit_overview.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/03_graphit_node_types_.md)
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/01_graphit_overview.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/03_graphit_node_types_.md)
 
