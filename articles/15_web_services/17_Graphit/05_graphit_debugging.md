@@ -47,13 +47,13 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 </tr>
 </tbody>
 </table>
-<p><a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/18_node_type_raw.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/k2view-academy/K2View-Academy/raw/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/18_node_type_raw.png" alt="" /></a></p>
+<p><a href="/articles/15_web_services/Graphit/images/18_node_type_raw.png" target="_blank" rel="noopener noreferrer"><img src="/articles/15_web_services/17_Graphit/images/18_node_type_raw.png" alt="" /></a></p>
 
 
-  ![](/articles/15_web_services/Graphit/images/31_input_parameters.png)
+  ![](/articles/15_web_services/17_Graphit/images/31_input_parameters.png)
 
 
 
 
-[![Previous](/articles/images/Previous.png)](/articles/15_web_services/Graphit/04_graphit_node_properties.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/06_.md)
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/06_.md)
 
