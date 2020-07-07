@@ -18,5 +18,5 @@ Using Graphit you can do the following:
 
 
 
-[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/02_create_and_edit_a_graphit_file.md)
+[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
 
