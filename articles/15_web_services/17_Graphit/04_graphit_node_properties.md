@@ -27,11 +27,11 @@ Note that there is a short description of each property in the dropdown menu.
 </tr>
 <tr>
 <td valign="top" width="300pxl">Nice</td>
-<td valign="top" width="600pxl">Defines the layout of the output format. True defines that each tag is printed in a new line and is indented.&nbsp;<br />Note that this property affects the node and its child nodes</td>
+<td valign="top" width="600pxl">Defines the layout of the output format. True defines that each tag is printed in a new line and is indented.&nbsp;<br />Note that this property affects the node and its child nodes.</td> 
 </tr>
 <tr>
 <td valign="top" width="300pxl">One</td>
-<td valign="top" width="600pxl">Defines whether the node is handled as an array or single value. True defines that the result is always a single entry also if the query it is based on returns multiple rows.</td>
+<td valign="top" width="600pxl">Defines whether the node is handled as an array or a single value. True defines that the result is always a single entry also if the query it is based on returns multiple rows.</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Entry Tag</td>
@@ -43,7 +43,7 @@ Note that there is a short description of each property in the dropdown menu.
 </tr>
 <tr>
 <td valign="top" width="300pxl">Format</td>
-<td valign="top" width="600pxl">When defined the node is evaluated and added when the output format matches the format's JSON, XML or CSV value. Note that this property only affects the node where it is defined.&nbsp;</td>
+<td valign="top" width="600pxl">When defined, the node is evaluated and added when the output format matches the format's JSON, XML or CSV value. Note that this property only affects the node where it is defined.&nbsp;</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Show Empty</td>
