@@ -34,7 +34,7 @@ Note that if the database is not a Fabric database, the Interface Name must be d
 
 The SQL Type also enables looping results and executing nested codes on each returned row.&nbsp;&nbsp;<br />
 
-Note that it is recommended to set the SQL Statement Type to SQL to use a prepared statement and prepared binding.&nbsp;<br />
+Note that it is recommended to set the SQL statement type to SQL to use a prepared statement and prepared binding.&nbsp;<br />
 
 To build an SQL statement for each call, set the query Type to Non-prepared SQL. For example, to build dynamic SQL, select X,Y from $table name.</td>
 </tr>
