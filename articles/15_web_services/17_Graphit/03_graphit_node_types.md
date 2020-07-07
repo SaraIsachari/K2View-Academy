@@ -14,7 +14,7 @@ Node Type options define how content is structured and how a tag is presented in
 </tr>
 <tr>
 <td valign="top" width="300pxl">Field</td>
-<td valign="top" width="600pxl">Basic node type. Defines the node as a tag in XML / JSON format<a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/17_Graphit/images/08_node_type_field.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/k2view-academy/K2View-Academy/raw/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/17_Graphit/images/08_node_type_field.png" alt="" /></a>.</td>
+<td valign="top" width="600pxl">Basic node type. Defines the node as a tag in XML / JSON format<a href="/articles/15_web_services/17_Graphit/images/08_node_type_field.png" target="_blank" rel="noopener noreferrer"><img src="/articles/15_web_services/17_Graphit/images/08_node_type_field.png" alt="" /></a>.</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Function</td>
