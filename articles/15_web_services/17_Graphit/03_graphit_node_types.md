@@ -14,7 +14,7 @@ Node Type options define how content is structured and how a tag is presented in
 </tr>
 <tr>
 <td valign="top" width="300pxl">Field</td>
-<td valign="top" width="600pxl">Basic node type. Defines the node as a tag in XML / JSON format<a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/08_node_type_field.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/k2view-academy/K2View-Academy/raw/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/Graphit/images/08_node_type_field.png" alt="" /></a>.</td>
+<td valign="top" width="600pxl">Basic node type. Defines the node as a tag in XML / JSON format<a href="https://github.com/k2view-academy/K2View-Academy/blob/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/17_Graphit/images/08_node_type_field.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/k2view-academy/K2View-Academy/raw/KB_DROP2_15a_Graphit_Merav/articles/15_web_services/17_Graphit/images/08_node_type_field.png" alt="" /></a>.</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Function</td>
@@ -25,7 +25,7 @@ Node Type options define how content is structured and how a tag is presented in
 <td valign="top" width="600pxl">Defines how an SQL statement retrieves information from Fabric or other database interfaces.
     <br />Enter the SQL statement manually or, hover over SQL or Non-prepared SQL fields and click  &nbsp;&nbsp;. 
 
-Note that if the database is not a Fabric database, the Interface Name must be defined as a Node Property as described in the [Node Properties](/articles/15_web_services/Graphit/04_graphit_node_properties.md) section. 
+Note that if the database is not a Fabric database, the Interface Name must be defined as a Node Property as described in the [Node Properties](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md) section. 
   
 
 -  If the Query Builder option is selected, the executed query is copied into the Graphit implmentation.
@@ -61,7 +61,7 @@ To build an SQL statement for each call, set the query Type to Non-prepared SQL.
 </table>
 
 
-![](/articles/15_web_services/Graphit/images/18_node_type_raw.png)
+![](/articles/15_web_services/17_Graphit/images/18_node_type_raw.png)
 
-[![Previous](/articles/images/Previous.png)](/articles/15_web_services/Graphit/02_create_and_edit_a_graphit_file.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/04_graphit_node_properties.md)
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md)
 
