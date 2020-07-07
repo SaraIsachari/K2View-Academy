@@ -8,7 +8,7 @@ To define input parameter values, click **Parameters** on the top left side of t
 
 Click for more information about [Graphit Input parameters](https://github.com/k2view-academy/K2View-Academy/tree/master/articles/demo_project).
 
-### Graphit Debug Options   
+### What Are the Graphit Debug Options?   
 <table>
 <tbody>
 <tr>
