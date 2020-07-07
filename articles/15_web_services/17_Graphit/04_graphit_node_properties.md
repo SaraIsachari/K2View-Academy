@@ -8,7 +8,7 @@ To assign a property to a node, click the **(+)** adjacent to the node and selec
 
 Note that there is a short description of each property in the dropdown menu.
 
-![](/articles/15_web_services/Graphit/images/19_node_properties_menu.png)
+![](/articles/15_web_services/17_Graphit/images/19_node_properties_menu.png)
 
 ### What Are the Node Properties Options? 
 <table>
@@ -92,5 +92,5 @@ Note that this property affects the node and its child nodes.&nbsp;</td>
 
 
 
-[![Previous](/articles/images/Previous.png)](/articles/15_web_services/Graphit/03_graphit_node_types.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/Graphit/05_graphit_debugging.md)
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/03_graphit_node_types.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/05_graphit_debugging.md)
 
