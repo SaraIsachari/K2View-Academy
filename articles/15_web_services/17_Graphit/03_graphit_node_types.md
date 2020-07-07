@@ -1,8 +1,7 @@
 # Graphit Node Types
 
 Node Type options define how content is structured and how a tag is presented in an output document. By default, when created, nodes are not assigned a Type or Property.
-
-**Node Types Options**
+### What Are the Node Type Options?
 <table>
 <tbody>
 <tr>
