@@ -6,7 +6,7 @@ A Debug process can be run on an LUBD file that has been generated in the Fabric
 
 To define input parameter values, click **Parameters** on the top left side of the Graphit window.
 
-Click for more information about <a href="/articles/demo_project"></a> Graphit Input parameters.
+Click for more information about Graphit Input parameters [<a href="/articles/demo_project"></a>].
 
 ### What Are the Graphit Debug Options?   
 <table>
