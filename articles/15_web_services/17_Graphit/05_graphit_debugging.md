@@ -6,7 +6,7 @@ A Debug process can be run on an LUBD file that has been generated in the Fabric
 
 To define input parameter values, click **Parameters** on the top left side of the Graphit window.
 
-Click for more information about [Graphit Input parameters](https://github.com/k2view-academy/K2View-Academy/tree/master/articles/demo_project).
+Click for more information about [Graphit Input parameters](<a href = "/articles/demo_project"></a>).
 
 ### What Are the Graphit Debug Options?   
 <table>
@@ -21,7 +21,7 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 </tr>
 <tr>
 <td valign="top" width="300pxl">Parameters</td>
-<td valign="top" width="600pxl">Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked by [Swagger](articles/15_web_services/09_swagger.md).
+<td valign="top" width="600pxl">Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked by [Swagger](/articles/15_web_services/09_swagger.md).
   
 </tr>
 <tr>
@@ -50,7 +50,7 @@ Click for more information about [Graphit Input parameters](https://github.com/k
 <p><a href="/articles/15_web_services/Graphit/images/18_node_type_raw.png" target="_blank" rel="noopener noreferrer"><img src="/articles/15_web_services/17_Graphit/images/18_node_type_raw.png" alt="" /></a></p>
 
 
-  ![](/articles/15_web_services/17_Graphit/images/31_input_parameters.png)
+ ![](/articles/15_web_services/17_Graphit/images/31_input_parameters.png)
 
 
 
