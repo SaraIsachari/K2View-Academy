@@ -25,10 +25,10 @@ Below the full graphit file:
 
 Before running the file, we need to set the parameters. This is usually used for debugging, so you will need to set the Server value to debug in the menu on the left side of the Run command:
 
-![](/articles/15_web_services/17_Graphit/images/36_graphit_with_parameters.png)
+![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.png)
 
 Click Run, and view the result on the right side in the output window:
-![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.png)
+![](/articles/15_web_services/17_Graphit/images/39_graphit_with_parameters.png)
 
 
 
