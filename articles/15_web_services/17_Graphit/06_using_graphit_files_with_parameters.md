@@ -1,6 +1,6 @@
 # Graphit Parameters
 
-Graphit allows users to define input parameters so the any generated document can be applied to different LU Instances or fields within tables. 
+Graphit allows users to define input parameters so any generated document can be executed with different parameters such as LU Instances or fields within LU tables. 
 Graphit can also takes maps objects as input parameters to enable key-value inputs. It is also possible to pass a list of arguments as parameters, into which Graphit will be looping through.
 You can then invoke your Graphit file from a web-service (java file) in which the parameters will be parsed as a map object in the graphit execution statement 
 
@@ -25,6 +25,10 @@ Below the full graphit file:
 
 Before running the file, we need to set the parameters. This is usually used for debugging, so you will need to set the Server value to debug in the menu on the left side of the Run command:
 
+
+![](/articles/15_web_services/17_Graphit/images/36_graphit_with_parameters.png)
+
+Let's assigna debug value to the input parameters
 ![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.png)
 
 Click Run, and view the result on the right side in the output window:
