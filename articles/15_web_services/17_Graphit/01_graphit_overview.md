@@ -13,7 +13,7 @@ Using Graphit you can do the following:
 - Implement XML and JSON hierarchy, including queries in inner hierarchy levels. 
 - Use outer level query results as arguments. 
 - Recursively generate nested tags and structures.
-- Customize the format of a value and defines whether to generate a tag when the values are null or empty.
+- Customize the format of a value and define whether to generate a tag when the values are null or empty.
  
 
 
