@@ -20,18 +20,20 @@ The corresponding queries for the select statements will be as follow:
 select  customer_id,ssn,first_name,last_name From Customer.CUSTOMER where CUSTOMER_ID = ${customer_id}
 select * from CASE_NOTE where case_id = ${case_id}
 
-Below the full graphit file:
-![](/articles/15_web_services/17_Graphit/images/35_graphit_with_parameters.png)
+See below the full graphit file:
+![](/articles/15_web_services/17_Graphit/images/35_graphit_with_parameters.PNG)
+
 
 Before running the file, we need to set the parameters. This is usually used for debugging, so you will need to set the Server value to debug in the menu on the left side of the Run command:
-
 ![](/articles/15_web_services/17_Graphit/images/36_graphit_with_parameters.png)
 
-Let's assigna debug value to the input parameters
-![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.png)
+
+Let's now assign a debug value to the input parameters: ${customer_id} and ${case_id}
+![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.PNG)
+
 
 Click Run, and view the result on the right side in the output window:
-![](/articles/15_web_services/17_Graphit/images/39_graphit_with_parameters.png)
+![](/articles/15_web_services/17_Graphit/images/39_graphit_with_parameters.PNG)
 
 
 
