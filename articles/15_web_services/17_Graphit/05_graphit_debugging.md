@@ -21,12 +21,12 @@ Click for more information about Graphit Input parameters [<a href="/articles/de
 </tr>
 <tr>
 <td valign="top" width="300pxl">Parameters</td>
-<td valign="top" width="600pxl">Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked by [Swagger](/articles/15_web_services/09_swagger.md).
+<td valign="top" width="600pxl">Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked by <a href="/articles/15_web_services/09_swagger.md">Swagger</a>.
   
 </tr>
 <tr>
 <td valign="top" width="300pxl">Server</td>
-<td valign="top" width="600pxl">Select the server used during the simulation. See [User Configuration] (/articles/04_fabric_studio/04_user_preferences.md#).</td>
+<td valign="top" width="600pxl">Select the server used during the simulation. See <a href="/articles/04_fabric_studio/04_user_preferences.md#">User Configuration</a>.</td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Run</td>
