@@ -4,7 +4,18 @@ Graphit allows users to define input parameters so any generated document can be
 Parameters can be set in the following case:
 - when running Graphit in debug mode within the Fabric studio
 - when invoking Graphit directly from swagger or any http link
-- when calling Graphit from a webservice in which case parameters will be parsed as a map object 
+- when calling Graphit from a Web-Service in which case parameters will be parsed as a map object 
+
+## Graphit Window- Parameters Setup
+
+Click the Parameters in the Graphit window. A popup window is opened:
+![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.PNG)
+
+You need to add Graphit parameters to the parameters window to support the following:
+
+- Run the Graphit from the Fabric Studio in a debug mode.
+- Run a GET request for the Graphit file- the prameters, defined in the Parameters popup window. The parameters are added to the [URL](/articles/15_web_services/12_Supported_Verbs_Get.md#get-based-on-graphit-file). In addition the input parameters are dispayed when invoking the Graphit file using [Swagger](/articles/15_web_services/09_swagger.md).
+  Note that even if you do not add the parameters to the parameters window, you can still create a POST request for the Graphit file and add the parameters in the Request body. Alternatively- you can wrap the Graphit by a Web-Service and send the parameters to the Graphit file by the Web-Service. 
 
 ## Parameters setup when running Graphit from Fabric studio
 When creating a Graphit file, parameters can be defined using the ${} symbols to refer to the value that will be parametered from the Parameter window.
@@ -19,14 +30,16 @@ Generation of a JSON file that will return the values of the following fields:
 First lets write the generic select statement to retrieve instance 547:
 get Customer.${customer_id}
 
+<!-- Tali- please fix the Graphit file + the queries. We do not need to add the where customer = ${customer_id} when running the query on Fabric, since the customer id is the LUI. In addition- please test if indeed the response is returned for the input customer id if we set the get inside the Graphit --> 
+
 The corresponding queries for the select statements will be as follow:
-select  customer_id,ssn,first_name,last_name From Customer.CUSTOMER where CUSTOMER_ID = ${customer_id}
-select * from CASE_NOTE where case_id = ${case_id}
+- select  customer_id,ssn,first_name,last_name From Customer.CUSTOMER where CUSTOMER_ID = ${customer_id}
+- select * from CASE_NOTE where case_id = ${case_id}
 
 See below the full graphit file:
 ![](/articles/15_web_services/17_Graphit/images/35_graphit_with_parameters.PNG)
 
-Before running the file, we need to set the parameters. This is usually used for debugging, so you will need to set the Server value to debug in the menu on the left side of the Run command:
+Before running the file, we need to set the parameters and their debug values. 
 ![](/articles/15_web_services/17_Graphit/images/36_graphit_with_parameters.png)
 
 Let's now assign a debug value to the input parameters: ${customer_id} and ${case_id}
@@ -37,7 +50,7 @@ Click Run, and view the result on the right side in the output window:
 
 
 ## Parameters setup when calling Graphit directly from swagger
-Graphit allows the parsing of parameters that will be interpreted by swagger. In this case the parameter needs to be refered to within the graphit file, but also explicitly added to the Parameter window. Please note that no debug value needs to be added there since Swagger will prompt you to add it within the parameter field of the Swagger GUI.
+You must add the parameters to the parameters window to allow creating a GET request for the Graphit file and populate the parameters in the Swagger. You must populate the parameter's value in the Swagger for the Graphit execution (the debug values are taken only when debugging the Graphit file).
 
 Example:
 Let's use the same graphit file used in the previous example: grSql.graphit
@@ -58,6 +71,8 @@ Note: When deleting the parameters from the Parameters box all together, you wil
 
 
 ## Parameters setup when invoking Graphit from a webservice 
+<!-- Tali- please include it in a separate KI- invoker Grpahit). I would only mention that a Graphit file an be invoked directly or be wrapped by a WS. If it is wrapped by the WS, then the WS sends the parameters to the Graphit. -->
+
 Let's invoke graphit using a basic web-service, containing the following command that parses Customer_Id as a parameter: 
 *Object response = graphit("grSql.graphit",Customer_Id);*
 
