@@ -1,4 +1,4 @@
-# Invoke Graphit files
+# Invokink Graphit files
 
 Graphit files can be invoked in 2 different ways, as a web-service itself, or embedded into an existing web-service.  
 
