@@ -38,8 +38,25 @@ Click Run, and view the result on the right side in the output window:
 
 ## Parameters setup when calling Graphit directly from swagger
 Graphit allows the parsing of parameters that will be interpreted by swagger. In this case the parameter needs to be refered to within the graphit file, but also explicitly added to the Parameter window. Please note that no debug value needs to be added there since Swagger will prompt you to add it within the parameter field of the Swagger GUI.
+
 Example:
 Let's use the same graphit file used in the previous example: grSql.graphit
+As you can see in the picture below, one of the 2 debug value (customer_id) has been left intentionaly empty.
+![](/articles/15_web_services/17_Graphit/images/40_graphit_with_parameters.PNG)
+
+Let's now invoke this graphit file as a web service (after having deployed it first):
+![](/articles/15_web_services/17_Graphit/images/41_graphit_with_parameters.PNG)
+
+As indicated below, the 2 parameters fields are marked as required:
+![](/articles/15_web_services/17_Graphit/images/42_graphit_with_parameters.PNG)
+
+Let's now fill in the following values into the parameters fields: customer_id=547, and case_id=1394
+![](/articles/15_web_services/17_Graphit/images/43_graphit_with_parameters.PNG)
+
+Note: When deleting the parameters from the Parameters box all together, you will not be be able to specify the patrameters values in the GET section of the swagger GUI, yet the values can be injected in the POST section, with a succedful response upon execution:
+![](/articles/15_web_services/17_Graphit/images/44_graphit_with_parameters.PNG)
+
+
 
 
 
