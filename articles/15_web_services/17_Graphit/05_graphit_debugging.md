@@ -21,7 +21,7 @@ Click for more information about Graphit Input parameters [<a href="/articles/de
 </tr>
 <tr>
 <td valign="top" width="300pxl">Parameters</td>
-<td valign="top" width="600pxl">Click to open the Parameters window to populate the Debug parameters. These settings are also used when Graphit is invoked by <a href="/articles/15_web_services/09_swagger.md">Swagger</a>.
+<td valign="top" width="600pxl">Click to open the Parameters window to populate the Debug parameters. These parameters (and not their debug value) are also used when Graphit is invoked by <a href="/articles/15_web_services/09_swagger.md">Swagger</a>.
   
 </tr>
 <tr>
