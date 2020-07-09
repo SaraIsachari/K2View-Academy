@@ -6,14 +6,14 @@ Graphit files can be invoked in 2 different ways, as a web-service itself, or em
 Right-click on the graphit file located in the tree under Web Services -> Resources.
 Deploy it to the server you are using, and then select the Invoke as a Web Service option. 
 Refer to example in [Using Parameters]<a href="/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md"></a> to see how to deploy and invoke a graphit file as a web-service:
-![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.png)
+![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.PNG)
 
 ## Web-services Calls
 
 Graphit can also be invoked using a basic web-service, containing the following command (that parses Customer_Id as a parameter): 
 *Object response = graphit("grSql.graphit",Customer_Id);*
 
-![](/articles/15_web_services/17_Graphit/images/48_invoking_graphit_files.png)
+![](/articles/15_web_services/17_Graphit/images/48_invoking_graphit_files.PNG)
 
 
 After deploying and invoking the web-service deployed:
