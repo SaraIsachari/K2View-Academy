@@ -69,6 +69,8 @@ We will then, using swagger, observe that eh customer_id parameter has been succ
 
 Note, multiple parameters can be parsed to Graphit using either:
 - by passing a map as a parameter in which the parameters and their values will have been stored as key/value pairs
+- by passing a list of arguments and then loop over that list
+
 
 
 
