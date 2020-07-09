@@ -30,7 +30,6 @@ Generation of a JSON file that will return the values of the following fields:
 First lets write the generic select statement to retrieve instance 547:
 get Customer.${customer_id}
 
-<!-- Tali- please fix the Graphit file + the queries. We do not need to add the where customer = ${customer_id} when running the query on Fabric, since the customer id is the LUI. In addition- please test if indeed the response is returned for the input customer id if we set the get inside the Graphit --> 
 
 The corresponding queries for the select statements will be as follow:
 - select  customer_id,ssn,first_name,last_name From Customer.CUSTOMER where CUSTOMER_ID = ${customer_id}
