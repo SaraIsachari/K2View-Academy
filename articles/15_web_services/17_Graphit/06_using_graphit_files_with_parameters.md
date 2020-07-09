@@ -75,6 +75,10 @@ Note, multiple parameters can be parsed to Graphit using either:
 
 
 
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/0505_graphit_debugging.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/07_invoking_graphit_files.md)
+
+
+
 
 
 
