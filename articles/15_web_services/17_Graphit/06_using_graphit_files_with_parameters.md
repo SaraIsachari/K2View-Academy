@@ -17,7 +17,7 @@ You need to add Graphit parameters to the parameters window to support the follo
 - Run a GET request for the Graphit file- the prameters, defined in the Parameters popup window. The parameters are added to the [URL](/articles/15_web_services/12_Supported_Verbs_Get.md#get-based-on-graphit-file). In addition the input parameters are dispayed when invoking the Graphit file using [Swagger](/articles/15_web_services/09_swagger.md).
   Note that even if you do not add the parameters to the parameters window, you can still create a POST request for the Graphit file and add the parameters in the Request body. Alternatively- you can wrap the Graphit by a Web-Service and send the parameters to the Graphit file by the Web-Service. 
 
-## Parameters setup when running Graphit from Fabric studio
+## Parameters Setup When Running Graphit from Fabric Studio
 When creating a Graphit file, parameters can be defined using the ${} symbols to refer to the value that will be parametered from the Parameter window.
 In this particular case, a debug value will need to be set in the Parameter window as well, otherwise the response will be empty.
 
@@ -45,7 +45,7 @@ Click Run, and view the result on the right side in the output window:
 ![](/articles/15_web_services/17_Graphit/images/39_graphit_with_parameters.PNG)
 
 
-## Parameters setup when calling Graphit directly from swagger
+## Parameters Setup when Calling Graphit Directly from Swagger
 You must add the parameters to the parameters window to allow creating a GET request for the Graphit file and populate the parameters in the Swagger. You must populate the parameter's value in the Swagger for the Graphit execution (the debug values are taken only when debugging the Graphit file).
 
 Example:
@@ -66,7 +66,7 @@ Note: When deleting the parameters from the Parameters box all together, you wil
 ![](/articles/15_web_services/17_Graphit/images/44_graphit_with_parameters.PNG)
 
 
-## Parameters setup when invoking Graphit from a webservice 
+## Parameters Setup when Invoking Graphit from a Webservice 
 A Graphit file an be invoked directly or be wrapped by a WS. If it is wrapped by the WS, then the WS sends the parameters to the Graphit which then parses them accordingly when generating the XML, JSON or CSV documents
 
 
