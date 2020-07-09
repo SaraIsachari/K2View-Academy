@@ -55,5 +55,5 @@ Click for more information about Graphit Input parameters [<a href="/articles/de
 
 
 
-[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/06_.md)
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md)
 
