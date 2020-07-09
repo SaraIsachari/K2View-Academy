@@ -38,10 +38,7 @@ The corresponding queries for the select statements will be as follow:
 See below the full graphit file:
 ![](/articles/15_web_services/17_Graphit/images/35_graphit_with_parameters.PNG)
 
-Before running the file, we need to set the parameters and their debug values. 
-![](/articles/15_web_services/17_Graphit/images/36_graphit_with_parameters.png)
-
-Let's now assign a debug value to the input parameters: ${customer_id} and ${case_id}
+Before running the file, we need to assign a debug value to the input parameters: ${customer_id} and ${case_id}
 ![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.PNG)
 
 Click Run, and view the result on the right side in the output window:
