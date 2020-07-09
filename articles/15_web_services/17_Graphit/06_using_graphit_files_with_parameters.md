@@ -30,7 +30,6 @@ Generation of a JSON file that will return the values of the following fields:
 First lets write the generic select statement to retrieve instance 547:
 get Customer.${customer_id}
 
-<!-- Tali- please fix the Graphit file + the queries. We do not need to add the where customer = ${customer_id} when running the query on Fabric, since the customer id is the LUI. In addition- please test if indeed the response is returned for the input customer id if we set the get inside the Graphit --> 
 
 The corresponding queries for the select statements will be as follow:
 - select  customer_id,ssn,first_name,last_name From Customer.CUSTOMER where CUSTOMER_ID = ${customer_id}
@@ -39,10 +38,7 @@ The corresponding queries for the select statements will be as follow:
 See below the full graphit file:
 ![](/articles/15_web_services/17_Graphit/images/35_graphit_with_parameters.PNG)
 
-Before running the file, we need to set the parameters and their debug values. 
-![](/articles/15_web_services/17_Graphit/images/36_graphit_with_parameters.png)
-
-Let's now assign a debug value to the input parameters: ${customer_id} and ${case_id}
+Before running the file, we need to assign a debug value to the input parameters: ${customer_id} and ${case_id}
 ![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.PNG)
 
 Click Run, and view the result on the right side in the output window:
@@ -71,20 +67,9 @@ Note: When deleting the parameters from the Parameters box all together, you wil
 
 
 ## Parameters setup when invoking Graphit from a webservice 
-<!-- Tali- please include it in a separate KI- invoker Grpahit). I would only mention that a Graphit file an be invoked directly or be wrapped by a WS. If it is wrapped by the WS, then the WS sends the parameters to the Graphit. -->
+A Graphit file an be invoked directly or be wrapped by a WS. If it is wrapped by the WS, then the WS sends the parameters to the Graphit which then parses them accordingly when generating the XML, JSON or CSV documents
 
-Let's invoke graphit using a basic web-service, containing the following command that parses Customer_Id as a parameter: 
-*Object response = graphit("grSql.graphit",Customer_Id);*
 
-After deploying and invoking the web-service deployed:
-![](/articles/15_web_services/17_Graphit/images/45_graphit_with_parameters.PNG)
-
-We will then, using swagger, observe that eh customer_id parameter has been successfully parsed:
-![](/articles/15_web_services/17_Graphit/images/46_graphit_with_parameters.PNG)
-
-Note, multiple parameters can be parsed to Graphit using either:
-- by passing a map as a parameter in which the parameters and their values will have been stored as key/value pairs
-- by passing a list of arguments and then loop over that list
 
 
 
