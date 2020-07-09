@@ -79,7 +79,7 @@ Let's invoke graphit using a basic web-service, containing the following command
 After deploying and invoking the web-service deployed:
 ![](/articles/15_web_services/17_Graphit/images/45_graphit_with_parameters.PNG)
 
-We will then, using swagger, observe that eh customer_id parameter has been successfully parsed:
+We will then, using swagger, observe that the customer_id parameter has been successfully parsed:
 ![](/articles/15_web_services/17_Graphit/images/46_graphit_with_parameters.PNG)
 
 Note, multiple parameters can be parsed to Graphit using either:
