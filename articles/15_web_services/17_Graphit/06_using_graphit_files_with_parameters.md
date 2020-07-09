@@ -70,11 +70,6 @@ Note: When deleting the parameters from the Parameters box all together, you wil
 A Graphit file an be invoked directly or be wrapped by a WS. If it is wrapped by the WS, then the WS sends the parameters to the Graphit which then parses them accordingly when generating the XML, JSON or CSV documents
 
 
-
-
-
-
-
 [![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/05_graphit_debugging.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/07_invoking_graphit_files.md)
 
 
