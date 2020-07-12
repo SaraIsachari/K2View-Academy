@@ -25,19 +25,18 @@ Note the http link that has been generated to invoke the web-service for custome
 "http://10.21.1.76:3213/api/grSql?customer_id=1000&convGBP=false"
 
 
+
+
 ## Lambda Functions
 Java functions can be bound to the Graphit scope when using a web service. For this matter, a Lambda expression based on the Scripter.F functional interface needs to be created with the following signature:
+
   ▪ Object f(Object... var1);
+
 Limitation:
-  ▪ This cannot be debugged in the Graphit editor (as the functional parameters cannot be created in the studio). You can test your code by deploying to Fabric or debugging the web service code using the IntelliJ editor. 
+  ▪ This cannot be debugged in the Graphit editor (as the functional parameters cannot be created in the studio). 
+  Nevertheless, the code can be tested by deploying it to Fabric or by debugging the web service code using the the IntelliJ editor. 
   
  
-## Examples
 
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/07_invoking_graphit_files.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/09_invoke_graphit_from_outside_studio.md)
 
-
-
-
-
-Refer to example in [Using Parameters](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md) to see how to deploy and invoke a graphit file as a web-service:
-![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.PNG)
