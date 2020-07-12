@@ -1,8 +1,13 @@
 # Invoking Java code from Graphit
 
 
+### JavaScript Functions
+
+
+
+
 ## Lambda Functions
-You can bind java functions to the Graphit scope using a web service. You need to create a Lambda expression based on the Scripter.F functional interface which has the following signature:
+Java functions can be bound to the Graphit scope when using a web service. For this matter, a Lambda expression based on the Scripter.F functional interface needs to be created with the following signature:
   ▪ Object f(Object... var1);
 Limitation:
   ▪ This cannot be debugged in the Graphit editor (as the functional parameters cannot be created in the studio). You can test your code by deploying to Fabric or debugging the web service code using the IntelliJ editor. 
