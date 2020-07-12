@@ -37,7 +37,7 @@ Enter the following parameters inside the link of the browser's address field:
      http://10.21.1.76:3213/api/GraphitWS1?Customer_Id=1472&Case_Id=3707&token=test&graphitProfiler=true&format=json
 
 The response will be displayed within the browser tab:
-![](/articles/15_web_services/17_Graphit/images/49_graphit_with_parameters.PNG)
+![](/articles/15_web_services/17_Graphit/images/49_invoking_graphit_files.PNG)
 
 
 
