@@ -9,9 +9,15 @@ Refer to example in [Using Parameters](/articles/15_web_services/17_Graphit/06_u
 ![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.PNG)
 
 ## Web-services Calls
+The most frequent use of the Graphit file is within a web service, with the purpose of constructing the web service response. In order to use the Graphit file, include the following code in your web service implementation: New Object response = graphit(<file name> , <Input parameters>).
+The “response” variable will get the CSV, JSON or XML response string, and can then be returned as the web service output.
+  
+The function parameters are:
+  ▪ File_name = the name you assign the Graphit file that should generate the response document. If the web service name is the same as the Graphit file name, this parameter can be set to null.
+  ▪ Input parameters – comma separated list of the parameters expected by Graphit file, for example, the logical unit instance key:
 
-Graphit can also be invoked using a basic web-service, containing the following command (that parses Customer_Id as a parameter): 
-*Object response = graphit("grSql.graphit",Customer_Id);*
+Using grSQL graphit file and Customer_Id as input parameters: 
+Object response = graphit("grSql.graphit",Customer_Id);
 
 ![](/articles/15_web_services/17_Graphit/images/48_invoking_graphit_files.PNG)
 
@@ -27,8 +33,6 @@ Note, multiple parameters can be parsed to Graphit using either:
 - by passing a list of arguments and then loop over that list
 
 More over when designing your web-service you can rely on all [REST APIs and requests formats](/articles/15_web_services/12_Supported_Verbs_Get.md) generally supported by webservices. Complex requests schemes can be designed whereby different graphit files will be invoked depending on the data you are retrieving from your sources or LUI. 
-
-
 
 
 
