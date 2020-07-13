@@ -15,8 +15,7 @@ Refer to the following articles to consult the full [GET](/articles/15_web_servi
 
 ## How Do I Invoke a Call from WS Code?
 Graphit files are mainly used in a Web Servive to structure the Web Service's response. To use the Graphit file, include the following code in the Web Service implementation:
-
-<p><br />Object response = graphit(&lt;file name&gt;, &lt;Input parameters&gt;).</p>
+<p>Object response = graphit(&lt;file name&gt;, &lt;Input parameters&gt;).</p>
 
 ### Call from WS code
 The most frequent use of the Graphit file is within a web service, with the purpose of constructing the web service response. In order to use the Graphit file, include the following code in your web service implementation: New Object response = graphit(<file name> , <Input parameters>).
@@ -29,7 +28,7 @@ The function parameters are:
 The Response variable gets the CSV, JSON or XML response string which can then be returned as the Web Service output.
   
  Using the grSQL Graphit file and Customer_Id as input parameters:
- Object response = graphit("grSql.graphit",Customer_Id); 
+ - Object response = graphit("grSql.graphit",Customer_Id); 
 
 ![](/articles/15_web_services/17_Graphit/images/48_invoking_graphit_files.PNG)
 
