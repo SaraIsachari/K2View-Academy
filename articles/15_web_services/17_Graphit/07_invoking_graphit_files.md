@@ -1,6 +1,6 @@
 # Invoking Graphit files
 
-Graphit files can be invoked in 2 different ways, as a web-service itself, or embedded into an existing web-service.  
+Graphit files can be invoked in 2 different ways, as a web-service itself, or embedded into a web-service.  
 
 ## Direct Calls
 Right-click on the graphit file located in the tree under Web Services -> Resources.
