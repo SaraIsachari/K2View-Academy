@@ -11,7 +11,9 @@ Graphit files can be generated in 2 different ways:
 3.  Fill in your nodes as per described in previous [article](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
    ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG).
 
-4. Set up your parameters and token by clicking on the following icon: ![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG). 
+4. Set up your parameters and token by clicking on the following icon:
+![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG). 
+
    Add a value to your parameter in order to debug your graphit form.
    ![](/articles/15_web_services/17_Graphit/images/54_invoke_javacode_from_outside.PNG)
    
@@ -20,6 +22,13 @@ Graphit files can be generated in 2 different ways:
    - JSON - click on {:}
    - XML - click on </>
    - CSV - click on ![](/articles/15_web_services/17_Graphit/images/56_invoke_javacode_from_outside.PNG)
+   
+   
+   The response will be displayed on the white panel located on the right-side of the screen:
+   
+   ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG)
+   
+   
 
    
 
