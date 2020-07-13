@@ -34,11 +34,9 @@ The Response variable gets the CSV, JSON or XML response string which can then b
 
 
 After deploying and invoking the Web Service:
-
 ![](/articles/15_web_services/17_Graphit/images/45_graphit_with_parameters.PNG)
 
 Open Swagger and check that the Customer_id has been successfully parsed:
-
 ![](/articles/15_web_services/17_Graphit/images/46_graphit_with_parameters.PNG)
 
 
@@ -51,13 +49,11 @@ Enter the following parameters inside the link of the browser's address field:
 The response is displayed in the Vrowser tab:
 ![](/articles/15_web_services/17_Graphit/images/49_invoking_graphit_files.PNG)
 
-
 Note that multiple parameters can be parsed to Graphit by:
 - Passing a map as a parameter in which the parameters and their values will have been stored as key / value pairs.
 - Passing a list of arguments and then looping over the list.
 
 In addition when designing a Web Service you can rely on all [REST APIs and requests formats](/articles/15_web_services/12_Supported_Verbs_Get.md) generally supported by Web Services. Complex requests schemes can be designed whereby different Graphit files can be invoked depending on the data retrieved from its sources or LUI. 
-
 
 
 [![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/08_invoke_javacode_from_graphit.md)
