@@ -12,7 +12,7 @@ Graphit files can be generated in 2 different ways:
    ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG).
 
 4. Set up your parameters and token by clicking on the following icon:
-![](<img width="10" height="10" src="/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG">). 
+![](<img width="30" height="30" src="/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG">). 
 
    Add a value to your parameter in order to debug your graphit form.
    ![](/articles/15_web_services/17_Graphit/images/54_invoke_javacode_from_outside.PNG)
