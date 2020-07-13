@@ -30,6 +30,8 @@ Graphit files can be generated in 2 different ways:
    
    
 
+
+[![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/08_invoking_graphit_files.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/10_graphit_examples.md)
    
 
 
