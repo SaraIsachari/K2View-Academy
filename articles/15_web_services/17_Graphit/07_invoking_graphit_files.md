@@ -8,7 +8,7 @@ Deploy it to the server you are using, and then select the Invoke as a Web Servi
 Refer to example in [Using Parameters](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md) to see how to deploy and invoke a graphit file as a web-service.
 ![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.png)
 
-Note that the Graphit file can be invoked in both GET or POST mode, but you must set the parameters in the Graphit window to enable using a GET method. Consult this [article] (/articles/15_web_services/12_Supported_Verbs_Get.md) to refer to the full list of supported verbs.
+Note that the Graphit file can be invoked in both GET or POST mode, but you must set the parameters in the Graphit window to enable using a GET method. Consult the following articles for [GET verbose](/articles/15_web_services/12_Supported_Verbs_Get.md) and for [POST verbose](/articles/15_web_services/13_Supported_Verbs_Post.md).
 
 ## Web-services Calls
 
@@ -17,8 +17,8 @@ The most frequent use of the Graphit file is within a web service, with the purp
 The “response” variable will get the CSV, JSON or XML response string, and can then be returned as the web service output.
   
 The function parameters are:
-###### File_name: the name you assign the Graphit file that should generate the response document. If the web service name is the same as the Graphit file name, this parameter can be set to null.
-###### Input parameters: comma separated list of the parameters expected by Graphit file, for example, the logical unit instance key:
+##### File_name: the name you assign the Graphit file that should generate the response document. If the web service name is the same as the Graphit file name, this parameter can be set to null.
+##### Input parameters: comma separated list of the parameters expected by Graphit file, for example, the logical unit instance key:
 
 Using grSQL graphit file and Customer_Id as input parameters: 
 Object response = graphit("grSql.graphit",Customer_Id);
