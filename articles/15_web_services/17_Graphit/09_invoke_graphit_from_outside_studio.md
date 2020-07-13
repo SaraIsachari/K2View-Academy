@@ -10,7 +10,7 @@ Graphit files can be generated in 2 different ways:
 2.  Enter the following address:**http://localhost:3213/static/graphit/graphit.html**
 3.  Fill in your nodes as per described in previous [article](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
 
-![](/articles/15_web_services/17_Graphit/images/52_invoke_javacode_from_graphit.PNG).
+![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_graphit.PNG).
 
 4. Set up your parameters and token by clicking on the following icon: ![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_graphit.PNG). (Add a value to your parameter in order to debug your graphit form)
 
