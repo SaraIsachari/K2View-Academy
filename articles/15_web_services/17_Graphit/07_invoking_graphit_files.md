@@ -10,7 +10,7 @@ For more information refer to the example in [Using Parameters](/articles/15_web
 
 Note that the Graphit file can be invoked in both GET or POST mode, but you must set the parameters in the Graphit parameter window to enable using a GET method. (debug value does not need to be added as the values can be added from the swagger GUI)
 
-Consult this [article] (/articles/15_web_services/12_Supported_Verbs_Get.md In ) to refer to the full list of supported verbs.
+Refer to the following articles to consult the full [GET](/articles/15_web_services/12_Supported_Verbs_Get.md) or [POST](/articles/15_web_services/12_Supported_Verbs_Post.md) verbose.
 
 ## How Do I Invoke a Call from WS Code?
 Graphit files are mainly used in a Web Servive to structure the Web Service's response. To use the Graphit file, include the following code in the Web Service implementation:
