@@ -17,8 +17,8 @@ The most frequent use of the Graphit file is within a web service, with the purp
 The “response” variable will get the CSV, JSON or XML response string, and can then be returned as the web service output.
   
 The function parameters are:
-  ▪ File_name = the name you assign the Graphit file that should generate the response document. If the web service name is the same as the Graphit file name, this parameter can be set to null.
-  ▪ Input parameters – comma separated list of the parameters expected by Graphit file, for example, the logical unit instance key:
+######File_name: the name you assign the Graphit file that should generate the response document. If the web service name is the same as the Graphit file name, this parameter can be set to null.
+######Input parameters: comma separated list of the parameters expected by Graphit file, for example, the logical unit instance key:
 
 Using grSQL graphit file and Customer_Id as input parameters: 
 Object response = graphit("grSql.graphit",Customer_Id);
