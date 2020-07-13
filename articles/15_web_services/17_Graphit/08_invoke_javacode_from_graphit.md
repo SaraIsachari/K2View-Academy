@@ -1,12 +1,12 @@
-# Invoking Java code from Graphit
+# Invoking Java Code from Graphit
 
 
 ## JavaScript Functions
-Javascript functions can be added to the graphit file using the graphit editor in Fabric studio. To do so, add a new node to any already-defined root, and define it as a function used to run a code in order to determine the value of the node. Values extracted from datasets in parent nodes can be parsed down to the Javascript function.
+Javascript functions can be added to the Graphit file using the graphit editor in Fabric studio. To do so, add a new node to any already-defined root, and define it as a function used to run a code in order to determine the value of the node. Values extracted from datasets in parent nodes can be parsed down to the Javascript function.
 Note: You can refer to parameters, using directly the name they have been defined in the Parameters Window.
 
 ### Example
-In the example below, we define a graphit web-service that retrieves the sum of all payments made by a customer from all the received invoices.
+In the example below, we define a Graphit Web-Service that retrieves the sum of all payments made by a customer from all the received invoices.
 We then decide whether to convert this amount to GBP or EUR currency depending on the value of a parameter called convGBP (set to True to display the amount in GBP, and False to display the amount in EUR):
 
 Defining the datasets nodes and Javascript node as a child of the Balance node:
