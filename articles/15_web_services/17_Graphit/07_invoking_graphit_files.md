@@ -1,9 +1,10 @@
 # Invoking Graphit files
-Graphit files can be invoked either directly as a Web Service or embedded into a Web Service.  
+Graphit files can be invoked either directly as a Web Service or embedded into a Web Service. 
+Note that the Graphit files must be deployed to Fabric server in advance. 
 
 ## How Do I Invoke Direct Calls?
-1.  Go to **Web Sources** > **Resources** and right click the **Graphit file**. 
-2.  Deploy the **Graphit file** to the **server** and then select **Invoke as a Web Service**.
+- Go the the **Project Tree**, click the **Resources** under the **Web Services**. Right click the selected Graphit file > Invoke Graphit Web Service > Fabric server.
+Note that the Fabric server must be defined in advance in the [Server Configuration Tab](/articles/04_fabric_studio/04_user_preferences.md#what-is-the-purpose-of-the-server-configuration-tab) of the User Configuration.
 
 For more information refer to the example in [Using Parameters](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md) to see how to deploy and invoke a Graphit file as a Web Service
 ![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.png).
