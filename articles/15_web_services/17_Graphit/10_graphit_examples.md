@@ -34,7 +34,7 @@ else{
 
 
 Graphit file 1: grSQLGldPlus.graphit
-![](/articles/15_web_services/17_Graphit/images/61_graphit_examples.PNG)
+![](/articles/15_web_services/17_Graphit/images/60_graphit_examples.PNG)
 
 
 Graphit file 2: grSQLBrz.graphit
@@ -42,7 +42,7 @@ Graphit file 2: grSQLBrz.graphit
 
 
 Output from Swagger GUI:
-![](/articles/15_web_services/17_Graphit/images/60_graphit_examples.PNG)
+![](/articles/15_web_services/17_Graphit/images/61_graphit_examples.PNG)
 
 
 
