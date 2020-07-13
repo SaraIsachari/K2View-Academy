@@ -65,15 +65,14 @@ Note that when deleting all parameters in the Parameters dialog box together, th
 
 
 ## Parameters Setup When Invoking Graphit From a Web Service 
-A Graphit file can be invoked directly or be wrapped by a WS. When wrapped by the WS, the WS sends the parameters to Graphit which then parses them accordingly when generating the XML, JSON or CSV documents.
+A Graphit file can be invoked directly or be wrapped by a WS. When wrapped by the WS, the WS sends the parameters to Graphit which then parses them accordingly when generating the XML, JSON or CSV documents. The input parameters for the Graphit file can be populated by a parameter name or by a Map object.
 
-Parameters can be parsed using a map objects as illustrated in the java web-service below:
+Example:
 
-
-Map<String, Object> temp = new HashMap<>();
+<pre><code>Map&lt;String, Object&gt; temp = new HashMap&lt;&gt;();
 temp.put("input1",1000);
 temp.put("input2",2463);
-return graphit("grSql2.graphit", temp);
+return graphit("grSql2.graphit", temp);</code></pre>
 
 
 This code calls the following graphit file which uses ${input1} and ${input2} as parameters respectively for customer_id and subscriber_id to populate the JSON with relevant invoices:
