@@ -6,7 +6,7 @@ Note that the Graphit files must be deployed to Fabric server in advance.
 - Go the the **Project Tree**, click the **Resources** under the **Web Services**. Right click the selected Graphit file > Invoke Graphit Web Service > Fabric server.
 Note that the Fabric server must be defined in advance in the [Server Configuration Tab](/articles/04_fabric_studio/04_user_preferences.md#what-is-the-purpose-of-the-server-configuration-tab) of the User Configuration.
 
-For more information refer to the example in [Using Parameters](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md) to see how to deploy and invoke a Graphit file as a Web Service
+For more information refer to the example in [Using Parameters](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md#parameters-setup-when-calling-graphit-directly-from-swagger) to see how to deploy and invoke a Graphit file as a Web Service
 ![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.png).
 
 Note that the Graphit file can be invoked in both GET or POST mode, but you must set the parameters in the Graphit parameter window to enable using a GET method. (debug value does not need to be added as the values can be added from the swagger GUI)
@@ -16,7 +16,7 @@ Refer to the following articles to consult the full [GET](/articles/15_web_servi
 ## How Do I Invoke a Call from WS Code?
 Graphit files are mainly used in a Web Servive to structure the Web Service's response. To use the Graphit file, include the following code in the Web Service implementation:
 
-New Object response = graphit(<file name>, <Input parameters>).
+<p><br />Object response = graphit(&lt;file name&gt;, &lt;Input parameters&gt;).</p>
 
 ### Call from WS code
 The most frequent use of the Graphit file is within a web service, with the purpose of constructing the web service response. In order to use the Graphit file, include the following code in your web service implementation: New Object response = graphit(<file name> , <Input parameters>).
