@@ -4,10 +4,10 @@
 The following Graphit Web Service gets an input LUI for the CUSTOMER LU and returns data from the CUSTOMER table and balance table in the CUSTOMER LU. 
 Output data is returned in JSON structure and adds information on whether the customer is a VIP member (total balance of over USD 10,000), or a Gold member(total balance of over USD 1,000) 
 
-![](/articles/15_web_services/17_Graphit/images/58_graphit_examples.md)
+![](/articles/15_web_services/17_Graphit/images/58_graphit_examples.PNG)
 
 After deploying and running the graphit file as a web-service:
-![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.md)
+![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG)
 
 
 ###  Example of a wsGraphitExample2 Web Service that invokes a different graphit file depending on a specific condition    
@@ -34,15 +34,15 @@ else{
 
 
 Graphit file 1: grSQLGldPlus.graphit
-![](/articles/15_web_services/17_Graphit/images/61_graphit_examples.md)
+![](/articles/15_web_services/17_Graphit/images/61_graphit_examples.PNG)
 
 
 Graphit file 2: grSQLBrz.graphit
-![](/articles/15_web_services/17_Graphit/images/62_graphit_examples.md)
+![](/articles/15_web_services/17_Graphit/images/62_graphit_examples.PNG)
 
 
 Output from Swagger GUI:
-![](/articles/15_web_services/17_Graphit/images/60_graphit_examples.md)
+![](/articles/15_web_services/17_Graphit/images/60_graphit_examples.PNG)
 
 
 
