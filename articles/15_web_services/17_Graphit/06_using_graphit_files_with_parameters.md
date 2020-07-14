@@ -1,6 +1,6 @@
 # Graphit Parameters
 
-Graphit allows you to define input parameters whereby the generated documents are executed using various settings like LUIs, LU table fields and other specific parameters that require processing.
+Graphit allows you to define input parameters whereby the generated documents are executed using various settings like LUIs, LU table columns and other specific parameters that require processing.
 
 Parameters can be set when:
 - Running Graphit in Debug mode in the Fabric Studio.
@@ -22,9 +22,9 @@ Note that if the parameters have not been added to the Graphit Parameters dialog
 When creating a Graphit file, parameters can be defined using the ${} symbols to refer to the value that is set in the Parameters window. In this specific case, you must also define a debug value in the Parameter window. If not, the response is empty.
 
 
-**Example using grSql.graphit**
+**Example**: 
  
- Generation of a JSON file that returns the values of the following fields:
+ grSql.graphit file geberates a JSON file that returns the values of the following fields:
 - Customer_ID, SSN, first_name and last_name for a customer whose Instance ID = 547.  
 - Date and status for Case ID = 1394.
 - Generic SELECT statement that retrieves Instance 547: get Customer.${customer_id}.
