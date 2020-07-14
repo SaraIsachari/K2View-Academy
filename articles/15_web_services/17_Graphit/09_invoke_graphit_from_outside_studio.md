@@ -1,6 +1,5 @@
-# Creating and Invokin Graphit functionality from a web form
+# Creating and Invoking Graphit functionality from a web form
 
-<!-- Tali- please fix the title to Creating and Invoking... . Please crop the image of step 4.-->
 
 Graphit files can be generated in 2 different ways:
 - Using the graphit editor from [Fabric Studio](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
