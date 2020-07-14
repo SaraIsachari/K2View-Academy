@@ -47,7 +47,6 @@ Enter the following parameters inside the link of the browser's address field:
 
 The response is displayed in the Browser tab:
 ![](/articles/15_web_services/17_Graphit/images/49_invoking_graphit_files.PNG)
-
 Note that multiple parameters can be parsed to Graphit by:
 - Passing a map as a parameter in which the parameters and their values will have been stored as key / value pairs.
 - Passing a list of arguments and then looping over the list.
