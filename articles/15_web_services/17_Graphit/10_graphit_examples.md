@@ -33,9 +33,9 @@ else{
 	return graphit("grSqlBrz.graphit",i_id);}
 ```
 
+The first Graphit file displays the customer's basic information and his subscriber lines with a Gold or Platinum VIP status while the second Graphit file will display the customer's basic information and his corresponding subscriber lines with Bronze VIP status.
 
 Graphit file 1: grSQLGldPlus.graphit
-<!-- Tali- why do we need the customer id a parameter in the select if we get the LUI from Fabric and run the select in the LUI?? In addition- what id the difference betewen the 2 graphit files???-->
 ![](/articles/15_web_services/17_Graphit/images/60_graphit_examples.PNG)
 
 
@@ -43,8 +43,12 @@ Graphit file 2: grSQLBrz.graphit
 ![](/articles/15_web_services/17_Graphit/images/62_graphit_examples.PNG)
 
 
-Output from Swagger GUI:
-![](/articles/15_web_services/17_Graphit/images/61_graphit_examples.PNG)
+Output from Swagger GUI for grSQLGldPlus.graphit :
+![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG)
+
+Output from Swagger GUI for grSQLBrz.graphit :
+![](/articles/15_web_services/17_Graphit/images/59a_graphit_examples.PNG)
+
 
 
 
