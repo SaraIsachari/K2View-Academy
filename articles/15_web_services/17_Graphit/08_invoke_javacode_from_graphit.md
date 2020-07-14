@@ -34,7 +34,7 @@ Java functions can be bound to the Graphit scope when using a web service. For t
 
 Web service file: LambdaGraphit1.ws
 
-```
+```java
 Map<String, Object> scope = new HashMap<>();
 // a map object named scope in which each entry will contain the function's name and it's logic
 scope.put("times3", (Scripter.F) p->(double)p[0] *3);
