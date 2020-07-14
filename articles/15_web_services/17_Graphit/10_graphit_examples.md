@@ -1,16 +1,17 @@
+<!-- Tali- please also provide an example for CSV file - we have grCSV in out project. -->
 # Graphit - Code Examples
-### Simple example of a CustomerInfo Web Service that brings a line of data for a given instance, and all cumulated balance from the customer
+### Simple Example of a CustomerInfo Web Service that Brings a data for a Given LUI
 
-The following Graphit Web Service gets an input LUI for the CUSTOMER LU and returns data from the CUSTOMER table and balance table in the CUSTOMER LU. 
+The following Graphit file gets an input LUI. It extract the customer data from the CUSTOMER LU, calculates its balance, and set its status accordingly.  
 Output data is returned in JSON structure and adds information on whether the customer is a VIP member (total balance of over USD 10,000), or a Gold member(total balance of over USD 1,000) 
 
 ![](/articles/15_web_services/17_Graphit/images/58_graphit_examples.PNG)
 
-After deploying and running the graphit file as a web-service:
+After deploying and invoking Graphit file directly as a web-service:
 ![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG)
 
 
-###  Example of a wsGraphitExample2 Web Service that invokes a different graphit file depending on a specific condition    
+###  Example of a wsGraphitExample2 Web Service that Invokes the Relevant Graphit Gile Depending on a Specific Condition    
 The following Web Service gets an input LUI for the CUSTOMER LU and returns a response stating whether a customer has a Bronze, Gold or Platinum Status on one of his subscription lines.
 
 Code:
@@ -34,6 +35,7 @@ else{
 
 
 Graphit file 1: grSQLGldPlus.graphit
+<!-- Tali- why do we need the customer id a parameter in the select if we get the LUI from Fabric and run the select in the LUI?? In addition- what id the difference betewen the 2 graphit files???-->
 ![](/articles/15_web_services/17_Graphit/images/60_graphit_examples.PNG)
 
 
