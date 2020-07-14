@@ -28,13 +28,32 @@ Note the http link that has been generated to invoke the web-service for custome
 
 
 ## Lambda Functions
-Java functions can be bound to the Graphit scope when using a web service. For this matter, a Lambda expression based on the Scripter.F functional interface needs to be created with the following signature:
+Java functions can be bound to the Graphit scope when using a web service. For this matter, a Lambda expression based on the Scripter.F functional interface needs to be created within a key/value map entry, where the key contains the name of the function that will be invoked in Graphit, and the value contains its logic.
+  
+### Example
 
-  ▪ Object f(Object... var1);
+Web service file: LambdaGraphit1.ws
+
+```
+Map<String, Object> scope = new HashMap<>();
+// a map object named scope in which each entry will contain the function's name and it's logic
+scope.put("times3", (Scripter.F) p->(double)p[0] *3);
+// call graphit with the scope
+return graphit("LambdaGraphit1.graphit", scope);
+```
+
+Graphit File LambdaGraphit1.graphit: 
+Note that the function times3 defined above is called from the node (defined as a function)  *field 1* on a variable called *dbl* declared in the parent node 
+![](/articles/15_web_services/17_Graphit/images/52a_invoke_javacode_from_graphit.PNG)
+
+
+Output using Swagger GUI:
+![](/articles/15_web_services/17_Graphit/images/52b_invoke_javacode_from_graphit.PNG)
+
 
 Limitation:
-  ▪ This cannot be debugged in the Graphit editor (as the functional parameters cannot be created in the studio). 
-  Nevertheless, the code can be tested by deploying it to Fabric or by debugging the web service code using the the IntelliJ editor. 
+This cannot be debugged in the Graphit editor (as the functional parameters cannot be created in the studio). 
+Nevertheless, the code can be tested by deploying it to Fabric or by debugging the web service code using the the IntelliJ editor. 
   
  
 
