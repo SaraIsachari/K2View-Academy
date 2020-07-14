@@ -1,4 +1,3 @@
-<!-- Tali- please also provide an example for CSV file - we have grCSV in out project. -->
 # Graphit - Code Examples
 ### Simple Example of a Customer Info Web Service that Brings a data for a Given LUI
 
@@ -43,11 +42,27 @@ Graphit file 2: grSQLBrz.graphit
 ![](/articles/15_web_services/17_Graphit/images/62_graphit_examples.PNG)
 
 
-Output from Swagger GUI for grSQLGldPlus.graphit :
+Output from Swagger GUI for grSQLGldPlus.graphit with Customer Instance ID = 1234:
 ![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG)
 
-Output from Swagger GUI for grSQLBrz.graphit :
+Output from Swagger GUI for grSQLBrz.graphit with Customer Instance ID = 1000 :
 ![](/articles/15_web_services/17_Graphit/images/59a_graphit_examples.PNG)
+
+### Simple Example with CSV generated from JOIN queries between Subscriber and Invoice tables from Billing_DB external Database
+In this example we show how to retrieve data from multiple tables of Billing_DB database and use Graphit to prepare a CSV-formatted response:
+
+Graphit file: grCSV.graphit:
+![](/articles/15_web_services/17_Graphit/images/63_graphit_examples.PNG)
+![](/articles/15_web_services/17_Graphit/images/64_graphit_examples.PNG)
+
+Running the graphit file in debug mode with 2 and 3 as consecutive values for SubscriberID:
+![](/articles/15_web_services/17_Graphit/images/65_graphit_examples.PNG)
+
+Note the different tags used, and their effect on the output CSV document:
+e.g. csvHeader: false -> removes fields headers from the response
+
+
+
 
 
 
