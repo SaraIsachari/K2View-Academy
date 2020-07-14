@@ -1,4 +1,4 @@
-# Invoking Graphit functionality from a web form
+# Creating and Invokin Graphit functionality from a web form
 
 <!-- Tali- please fix the title to Creating and Invoking... . Please crop the image of step 4.-->
 
