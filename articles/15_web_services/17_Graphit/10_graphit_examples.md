@@ -15,7 +15,7 @@ The following Web Service gets an input LUI for the CUSTOMER LU and returns a re
 
 Code:
 
-```
+```java
 String val_brz="Bronze";
 String val_gld="Gold";
 String val_plt="Platinum";
