@@ -1,6 +1,6 @@
 <!-- Tali- please also provide an example for CSV file - we have grCSV in out project. -->
 # Graphit - Code Examples
-### Simple Example of a CustomerInfo Web Service that Brings a data for a Given LUI
+### Simple Example of a Customer Info Web Service that Brings a data for a Given LUI
 
 The following Graphit file gets an input LUI. It extract the customer data from the CUSTOMER LU, calculates its balance, and set its status accordingly.  
 Output data is returned in JSON structure and adds information on whether the customer is a VIP member (total balance of over USD 10,000), or a Gold member(total balance of over USD 1,000) 
