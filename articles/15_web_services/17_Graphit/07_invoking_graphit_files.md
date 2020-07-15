@@ -50,7 +50,7 @@ The response is displayed in the Browser tab:
 
 #### Profiler flag
 A profiling flag can be parsed in the URL using graphitProfiler=true setting. (see the URL above)
-To see the profiling information open up fabric logs (of the fabric session that processed the web-service) located in $K2_HOME/logs/k2fabric.log. Search for the lines containing "Starting webservice":
+To see the profiling information open up [fabric logs](/articles/21_Fabric_troubleshooting/02_Fabric_troubleshooting_log_files.md#log-files) (of the fabric session that processed the web-service) located in $K2_HOME/logs/k2fabric.log. Search for the lines containing "Starting webservice":
 
 ``` 
 INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,286 c.k.c.w.WebServiceMB - [LID10000000023a3] Starting webservice GraphitWS1
