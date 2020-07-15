@@ -39,7 +39,7 @@ Open Swagger and check that the Customer_id has been successfully parsed:
 ![](/articles/15_web_services/17_Graphit/images/46_graphit_with_parameters.PNG)
 
 
-### How Can I Invoke a Call from an HTTP Link?
+### How Can I Invoke a Call with a URL Link?
 Graphit can also be invoked as a parameter from the IP address link corresponding to the Web Service.
 Enter the following parameters inside the link of the browser's address field:
 
@@ -47,8 +47,44 @@ Enter the following parameters inside the link of the browser's address field:
 
 The response is displayed in the Browser tab:
 ![](/articles/15_web_services/17_Graphit/images/49_invoking_graphit_files.PNG)
+
+#### Profiler flag
+A profiling flag can be parsed in the URL using graphitProfiler=true setting. (see the URL above)
+To see the profiling information open up fabric logs (of the fabric session that processed the web-service) located in $K2_HOME/logs/k2fabric.log. Search for the lines containing "Starting webservice":
+
+``` 
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,286 c.k.c.w.WebServiceMB - [LID10000000023a3] Starting webservice GraphitWS1
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,289 c.k.f.s.FabricSession - [LID10000000023a3] START - ATTACH Customer.1472
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,289 c.k.f.s.FabricSession - [LID10000000023a3] Access to [Customer.1472] by user admin is authorized.
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,292 c.k.f.s.FabricSession - [LID10000000023a3] START - sync Customer.1472
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,292 c.k.f.s.FabricSession - [LID10000000023a3] local get request
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,292 c.k.f.s.s.l.SyncExecution - [LID10000000023a3] Start operation 'Sync Customer.1472'
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,396 c.k.f.s.s.l.SyncExecution - [LID10000000023a3] End operation 'Sync Customer.1472' successfully.  [104ms]
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,396 c.k.c.e.LogService - [LID10000000023a3] LogId K2VIEW1000 message General Fabric info - <Invoice Cleaning fonction is running> with details: null
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,397 c.k.c.e.LogService - [LID10000000023a3] LogId K2VIEW1000 message General Fabric info - <PhoneFormat fonction is running> with details: null
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,397 c.k.c.e.LogService - [LID10000000023a3] LogId K2VIEW1000 message General Fabric info - <PhoneFormat fonction is running> with details: null
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,397 c.k.f.s.s.l.SyncExecution - [LID10000000023a3] Customer:1472 was synced from source
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,399 c.k.f.s.FabricSession - [LID10000000023a3] FINISHED - sync Customer.1472 (UPDATE)
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,400 c.k.f.s.FabricSession - [LID10000000023a3] FINISHED - ATTACH Customer.1472 (UPDATE)
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,401 c.k.c.e.WebExecutionService - [LID10000000023a3] Root 112.969598ms (112.355082ms), 180 bytes, 10 nodes
+  CUSTOMER_DATA 0.183801ms (0.145869ms), 103 bytes, 5 nodes
+    CUSTOMER_ID 0.31753ms, 40 bytes
+    SSN 0.2792ms, 19 bytes
+    FIRST_NAME 0.1801ms, 21 bytes
+    LAST_NAME 0.1586ms, 21 bytes
+  CASE_DATA 0.189604ms, 15 bytes
+  Balance 0.241111ms (0.93389ms), 60 bytes, 3 nodes
+    BalValue 0.10539ms, 28 bytes
+    BalanceGBPEUR 0.137183ms, 30 bytes
+INFO  [http-nio-3213-exec-1] 2020-07-15 06:46:21,401 c.k.c.w.WebServiceMB - [LID10000000023a3] End webservice GraphitWS1
+```
+The Profiler option can also be selected from the graphit editor itself - by chosing the Output -> Profiler option on the right-side of the Run button, as shown in the picture below.
+![](/articles/15_web_services/17_Graphit/images/49a_invoking_graphit_files.PNG)
+
+
+
 Note that multiple parameters can be parsed to Graphit by:
-- Passing a map as a parameter in which the parameters and their values will have been stored as key / value pairs.
+- Passing a map as a parameter in which the parameters and their values will have been stored as key/value pairs.
 - Passing a list of arguments and then looping over the list.
 
 In addition when designing a Web Service you can rely on all [REST APIs and requests formats](/articles/15_web_services/12_Supported_Verbs_Get.md) generally supported by Web Services. Complex requests schemes can be designed whereby different Graphit files can be invoked depending on the data retrieved from its sources or LUI. 
