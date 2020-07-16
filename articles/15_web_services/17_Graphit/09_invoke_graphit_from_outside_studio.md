@@ -1,33 +1,30 @@
-# Creating and Invoking Graphit functionality from a web form
+# Creating and Invoking a Graphit Functionality From a Web Form
 
 
-Graphit files can be generated in 2 different ways:
-- Using the graphit editor from [Fabric Studio](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
-- Using a web form accessible from outside Fabric
+Graphit files can be generated either:
+- Using the Graphit Editor in the [Fabric Studio](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md).
+- Using a Web Form that can be accessed externally.
 
-## How Do I Invoke Graphit from a Browser?
+## How Do I Invoke Graphit From a Browser?
 
-1.  Open up your  **Internet Browser**. 
-2.  Enter the following address:  **http://[Fabric IP address]:3213/static/graphit/graphit.html**.
+1.  Open your  **Internet Browser** and enter the following address:  **http://[Fabric IP address]:3213/static/graphit/graphit.html**.
 
     For example: http://localhost:3213/static/graphit/graphit.html
-3.  Fill in your nodes as per described in previous [article](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
+3.  Complete the nodes as described in [article](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
    ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG).
 
-4. Set up your parameters and token by clicking on the following icon:
-![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG"). 
+4.  Click ![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG") and define the parameters and token. 
 
-   Add a value to your parameter in order to debug your graphit form.
+   Add a value to debug the Graphit form.
    ![](/articles/15_web_services/17_Graphit/images/54_invoke_javacode_from_outside.PNG)
    
-5. Select the type of output format by clicking on one of the following icons:
+5. Select the type of output format by clicking one of the following icons:
 [](/articles/15_web_services/17_Graphit/images/55_invoke_javacode_from_outside.PNG)
    - JSON - click on {:}
    - XML - click on </>
    - CSV - click on ![](/articles/15_web_services/17_Graphit/images/56_invoke_javacode_from_outside.PNG)
-   
-   
-   The response will be displayed on the white panel located on the right-side of the screen:
+      
+   The response is displayed in the white panel on the right-side of the screen:
    
    ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG)
    
