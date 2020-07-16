@@ -11,7 +11,7 @@ Graphit files can be generated either:
 
     For example: http://localhost:3213/static/graphit/graphit.html
     
-2.  Complete the nodes as described [here](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
+2.  To define the nodes, go to [Create and Edit a Graphit File](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md).
    ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG).
 
 3.  Click ![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG") and define the parameters and token. 
