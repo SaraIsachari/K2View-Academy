@@ -2,7 +2,7 @@
 Graphit files can be invoked either directly as a Web Service or embedded into a Web Service. Note that the Graphit files must first be deployed to the Fabric server. 
 
 ## How Do I Invoke Direct Calls?
-1. Go the the **Project Tree** and click **Resources** under the **Web Services**. 
+1. Go the the **Project Tree** and click **Resources** under **Web Services**. 
 
 2. Right click the **Graphit file** > **Invoke Graphit Web Service** > **Fabric server**.
 
@@ -34,11 +34,7 @@ Using the grSQL Graphit file and Customer_Id as input parameters:
 ![](/articles/15_web_services/17_Graphit/images/48_invoking_graphit_files.PNG)
 
 
-After deploying and invoking the Web Service 
-![](/articles/15_web_services/17_Graphit/images/45_graphit_with_parameters.PNG)
-
-Open Swagger and check that the Customer_id has been successfully parsed:
-![](/articles/15_web_services/17_Graphit/images/46_graphit_with_parameters.PNG)
+After deploying and invoking the Web Service,![](/articles/15_web_services/17_Graphit/images/45_graphit_with_parameters.PNG) open Swagger and check that the Customer_id has been successfully parsed: ![](/articles/15_web_services/17_Graphit/images/46_graphit_with_parameters.PNG)
 
 
 ### How Can I Invoke a Call With a URL Link?
