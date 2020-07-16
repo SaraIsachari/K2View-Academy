@@ -37,7 +37,7 @@ The following screenshot displays the Graphit file:
 
 ![](/articles/15_web_services/17_Graphit/images/35_graphit_with_parameters.PNG)
 
-Before running the file, a **Debug** value is assigned to the **${customer_id}** and **${case_id} []** input parameters.
+Before running the file, a **Debug** value is assigned to the **${customer_id}** and **${case_id}** input parameters.
 
 ![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.PNG)  
 
