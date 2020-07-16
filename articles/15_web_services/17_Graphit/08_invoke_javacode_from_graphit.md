@@ -2,7 +2,7 @@
 
 
 ## JavaScript Functions
-JavaScript functions can be added to the Graphit file using the Graphit Editor in the Fabric Studio. To do so, add a new node to any already-defined root and define it as a function that runs a code to determine the value of the node. Values extracted from datasets in parent nodes can be parsed down to the Javascript function.
+JavaScript functions can be added to the Graphit file in the Fabric Studio using the Graphit Editor. To do so, add a new node to any already-defined root and define it as a function that runs a code to determine the value of the node. Values extracted from datasets in parent nodes can be parsed down to the Javascript function.
 
 Note: You can refer to parameters directly using their name that has been defined in the Parameters Window.
 
