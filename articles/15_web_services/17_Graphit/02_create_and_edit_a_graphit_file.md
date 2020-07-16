@@ -5,11 +5,11 @@
 1. Go to **Project Tree**, click **Web Services** > **Resources**.
 2. Right click **New Resource Files** and select **New Graphit File**. 
 
-![](/articles/15_web_services/17_Graphit/images/01_new_graphit_file.png)
+    ![](/articles/15_web_services/17_Graphit/images/01_new_graphit_file.png)
 
 3. Assign a **Name** to the new Graphit file and **Save** it. Note that the filename must have a **gr%** prefix and contain alpha-numeric characters. Once the file is saved, it is displayed under the project's Web Services folder under Resources.
 
-![](/articles/15_web_services/17_Graphit/images/02_graphit_resource_file.png)
+    ![](/articles/15_web_services/17_Graphit/images/02_graphit_resource_file.png)
 
 
 ### How Do I Edit a Graphit File?
