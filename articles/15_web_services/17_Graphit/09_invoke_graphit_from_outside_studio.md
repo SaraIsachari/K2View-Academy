@@ -14,15 +14,12 @@ Graphit files can be generated either:
 2.  To define the nodes, go to [Create and Edit a Graphit File](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md).
    ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG).
 
-3.  Click ![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG") and define the parameters and token.
-
-
-4.  Add a value to debug the Graphit form.
+3.  Define the parameters/values and token to debug the Graphit form.
 
     ![](/articles/15_web_services/17_Graphit/images/54_invoke_javacode_from_outside.PNG)
 
 
-5. Select the type of output format by clicking one of the following icons:
+4.  Select the type of output format by clicking one of the following icons:
 [](/articles/15_web_services/17_Graphit/images/55_invoke_javacode_from_outside.PNG)
    - JSON - click on {:}
    - XML - click on </>
