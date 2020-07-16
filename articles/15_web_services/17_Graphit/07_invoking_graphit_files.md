@@ -11,7 +11,7 @@ Note that the Fabric server must be predefined in the [Server Configuration Tab]
 For more information refer to the example in [Using Parameters](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md#parameters-setup-when-calling-graphit-directly-from-swagger) to see how to deploy and invoke a Graphit file as a Web Service.
 ![](/articles/15_web_services/17_Graphit/images/47_invoking_graphit_files.png)
 
-Note that the Graphit file can be invoked in both GET or POST modes. To enable using a GET method, set the parameters in the **Graphit parameter window**. The Debug value does not need to be added since these values can be added in the Swagger GUI.
+Note that the Graphit file can be invoked in both GET or POST modes. To use the GET method, set the parameters in the **Graphit parameter window**. Do not set the parameters' values in the Parameters' window. When the Graphit file is invoked as a Web Service, Swagger will prompt you to enter the values.
 
 Refer to the following articles to read about the [GET](/articles/15_web_services/12_Supported_Verbs_Get.md) or [POST](/articles/15_web_services/12_Supported_Verbs_Post.md) verbose.
 
