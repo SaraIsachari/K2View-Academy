@@ -18,8 +18,10 @@ Graphit files can be generated either:
 
 
 4.  Add a value to debug the Graphit form.
+
     ![](/articles/15_web_services/17_Graphit/images/54_invoke_javacode_from_outside.PNG)
-   
+
+
 5. Select the type of output format by clicking one of the following icons:
 [](/articles/15_web_services/17_Graphit/images/55_invoke_javacode_from_outside.PNG)
    - JSON - click on {:}
