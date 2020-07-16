@@ -14,7 +14,7 @@ Node Type options define how content is structured and how a tag is presented in
 </tr>
 <tr>
 <td valign="top" width="300pxl">Field</td>
-<td valign="top" width="600pxl">Basic node type. Defines the node as a tag in XML / JSON format.<a href="/articles/15_web_services/17_Graphit/images/08_node_type_field.png" target="_blank" rel="noopener noreferrer"><img src="/articles/15_web_services/17_Graphit/images/08_node_type_field.png" alt="" /></a>.</td>
+<td valign="top" width="600pxl">Basic node type. Defines the node as a tag in XML / JSON format.<a href="/articles/15_web_services/17_Graphit/images/08_node_type_field.png" target="_blank" rel="noopener noreferrer"><img src="/articles/15_web_services/17_Graphit/images/08_node_type_field.png" alt="" /></a></td>
 </tr>
 <tr>
 <td valign="top" width="300pxl">Function</td>
@@ -56,12 +56,12 @@ To build an SQL statement for each call, set the query Type to Non-prepared SQL.
 <tr>
 <td valign="top" width="300pxl">Raw</td>
 <td valign="top" width="600pxl">Presents data as output without manipulation. For example, a header for XML format.&nbsp;</td>
+![](/articles/15_web_services/17_Graphit/images/18_node_type_raw.png)
+
 </tr>
 </tbody>
 </table>
 
-
-![](/articles/15_web_services/17_Graphit/images/18_node_type_raw.png)
 
 [![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md)
 
