@@ -45,9 +45,9 @@ Click **Run**, and view the results on the right side in the output window:
 ![](/articles/15_web_services/17_Graphit/images/39_graphit_with_parameters.PNG)
 
 ## Parameters Setup When Calling Graphit Directly From Swagger
-Add the parameters to the Parameters window to allow creating a GET request for the Graphit file and populating the parameters in Swagger. 
+Add the parameters to the Parameters window to create a GET request for the Graphit file and populate the parameters in Swagger. 
 
-Note that to execute the Graphit file, populate the parameter's value in Swagger. The debug values are taken only when debugging the Graphit file.
+Note that to execute the Graphit file, populate the parameter's value in Swagger. The debug values are only taken as input in Debug mode.
 
 Example:
 
@@ -67,7 +67,7 @@ Note that when deleting all parameters in the Parameters dialog box together, th
 
 
 ## Parameters Setup When Invoking Graphit From a Web Service 
-A Graphit file can be invoked directly or be wrapped by a WS. When wrapped by the WS, the WS sends the parameters to Graphit which then parses them accordingly when generating the XML, JSON or CSV documents. The input parameters for the Graphit file can be populated by a parameter name or by a Map object.
+A Graphit file can be invoked directly or be wrapped by a WS. When wrapped by the WS, the WS sends the parameters to Graphit which then parses them accordingly when generating the XML, JSON or CSV documents. The input parameters for the Graphit file can be populated by a parameter name or by a map object.
 
 Example:
 
