@@ -29,11 +29,11 @@ When creating a Graphit file, parameters can be defined using the ${} symbols to
 - Date and status for Case ID = 1394.
 - Generic SELECT statement that retrieves Instance 547: get Customer.${customer_id}.
 
-The corresponding queries for the SELECT statements are:
+The queries for the SELECT statements are:
 - Select customer_id,ssn,first_name,last_name From Customer.CUSTOMER where CUSTOMER_ID = ${customer_id}.
 - Select * from CASE_NOTE where case_id = ${case_id}
 
-Refer to the full Graphit file:
+The following screenshot displays the Graphit file:
 
 ![](/articles/15_web_services/17_Graphit/images/35_graphit_with_parameters.PNG)
 
