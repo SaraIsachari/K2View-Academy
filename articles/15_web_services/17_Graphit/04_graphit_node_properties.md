@@ -8,7 +8,7 @@ To assign a property to a node, click the **(+)** adjacent to the node and selec
 
 Note that there is a short description of each property in the dropdown menu.
 
-![](/articles/15_web_services/17_Graphit/images/19_node_properties_menu.png | width=100)
+![](/articles/15_web_services/17_Graphit/images/19_node_properties_menu.png width="200")
 
 ### What Are the Node Properties Options? 
 <table>
