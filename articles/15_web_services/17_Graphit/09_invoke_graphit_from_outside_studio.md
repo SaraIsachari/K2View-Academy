@@ -10,13 +10,14 @@ Graphit files can be generated either:
 1.  Open your  **Internet Browser** and enter the following address:  **http://[Fabric IP address]:3213/static/graphit/graphit.html**.
 
     For example: http://localhost:3213/static/graphit/graphit.html
-3.  Complete the nodes as described [here](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
+    
+2.  Complete the nodes as described [here](/articles/15_web_services/17_Graphit/02_create_and_edit_a_graphit_file.md)
    ![](/articles/15_web_services/17_Graphit/images/57_invoke_javacode_from_outside.PNG).
 
-4.  Click ![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG") and define the parameters and token. 
+3.  Click ![](/articles/15_web_services/17_Graphit/images/53_invoke_javacode_from_outside.PNG") and define the parameters and token. 
 
-   Add a value to debug the Graphit form.
-   ![](/articles/15_web_services/17_Graphit/images/54_invoke_javacode_from_outside.PNG)
+4.  Add a value to debug the Graphit form.
+    ![](/articles/15_web_services/17_Graphit/images/54_invoke_javacode_from_outside.PNG)
    
 5. Select the type of output format by clicking one of the following icons:
 [](/articles/15_web_services/17_Graphit/images/55_invoke_javacode_from_outside.PNG)
