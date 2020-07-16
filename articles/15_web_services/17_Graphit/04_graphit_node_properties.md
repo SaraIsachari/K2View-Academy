@@ -7,7 +7,8 @@ Node Properties are additional instructions that can be given to a node. For exa
 To assign a property to a node, click the **(+)** adjacent to the node and select the  property from the dropdown menu. 
 
 Note that there is a short description of each property in the dropdown menu.
-<img src="/articles/15_web_services/17_Graphit/images/19_node_properties_menu.png" width="200" height="400"></img>
+
+<img src="/articles/15_web_services/17_Graphit/images/19_node_properties_menu.png" width="300" height="150"></img>
 
 
 ### What Are the Node Properties Options? 
