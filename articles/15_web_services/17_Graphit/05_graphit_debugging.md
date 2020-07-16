@@ -47,10 +47,10 @@ Click for more information about [Graphit Input parameters] <a href="/articles/1
 </tr>
 </tbody>
 </table>
-<p><a href="/articles/15_web_services/Graphit/images/18_node_type_raw.png" target="_blank" rel="noopener noreferrer"><img src="/articles/15_web_services/17_Graphit/images/18_node_type_raw.png" alt="" /></a></p>
+<p><a href="/articles/15_web_services/Graphit/images/18_node_type_raw.png" width="500" height="350"><img src="/articles/15_web_services/17_Graphit/images/18_node_type_raw.png" width="500" height="350"></a></p>
 
-
- ![](/articles/15_web_services/17_Graphit/images/31_input_parameters.png)
+<a href="/articles/15_web_services/17_Graphit/images/31_input_parameters.png" width="500" height="350"></a>
+ 
 
 
 
