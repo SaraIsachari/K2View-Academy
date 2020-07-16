@@ -56,7 +56,7 @@ To build an SQL statement for each call, set the query Type to Non-prepared SQL.
 <tr>
 <td valign="top" width="300pxl">Raw</td>
 <td valign="top" width="600pxl">Presents data as output without manipulation. For example, a header for XML format.&nbsp;</td>
-![](/articles/15_web_services/17_Graphit/images/18_node_type_raw.png)
+
 
 </tr>
 </tbody>
