@@ -24,7 +24,7 @@ When creating a Graphit file, parameters can be defined using the ${} symbols to
 
 **Example**: 
  
- grSql.graphit file generates a JSON file that returns the values of the following fields:
+ The grSql.graphit file generates a JSON file that returns the values of the following fields:
 - Customer_ID, SSN, first_name and last_name for a customer whose Instance ID = 547.  
 - Date and status for Case ID = 1394.
 - Generic SELECT statement that retrieves Instance 547: get Customer.${customer_id}.
@@ -75,7 +75,7 @@ temp.put("input2",2463);
 return graphit("grSql2.graphit", temp);</code></pre>
 
 
-This code calls the following graphit file which uses ${input1} and ${input2} as parameters respectively for customer_id and subscriber_id to populate the JSON with relevant invoices:
+This code calls the following Graphit file which uses ${input1} and ${input2} as parameters for the customer_id and subscriber_id to populate the JSON output with relevant invoices:
 ![](/articles/15_web_services/17_Graphit/images/46a_graphit_with_parameters.PNG)
         
         
