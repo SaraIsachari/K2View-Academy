@@ -47,12 +47,9 @@ Click for more information about [Graphit Input parameters](/articles/15_web_ser
 </tr>
 </tbody>
 </table>
-<p><a href="/articles/15_web_services/Graphit/images/18_node_type_raw.png" width="500" height="350"><img src="/articles/15_web_services/17_Graphit/images/18_node_type_raw.png" width="500" height="350"></a></p>
-
-<a href="/articles/15_web_services/17_Graphit/images/31_input_parameters.png" width="500" height="350"></a>
- 
-
-
+<p><img src="/articles/15_web_services/Graphit/images/18_node_type_raw.png" width="600" height="450"></img></p>
+<p><img src="/articles/15_web_services/17_Graphit/images/18_node_type_raw.png" width="600" height="450"></img></p>
+<p><img src="/articles/15_web_services/17_Graphit/images/31_input_parameters.png" width="600" height="450"></img></p> 
 
 
 [![Previous](/articles/images/Previous.png)](/articles/15_web_services/17_Graphit/04_graphit_node_properties.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/articles/15_web_services/17_Graphit/06_using_graphit_files_with_parameters.md)
