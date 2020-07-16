@@ -2,7 +2,7 @@
 
 
 ## JavaScript Functions
-Javascript functions can be added to the Graphit file using the Graphit Editor in the Fabric Studio. To do so, add a new node to any already-defined root and define it as a function that runs a code to determine the value of the node. Values extracted from datasets in parent nodes can be parsed down to the Javascript function.
+JavaScript functions can be added to the Graphit file using the Graphit Editor in the Fabric Studio. To do so, add a new node to any already-defined root and define it as a function that runs a code to determine the value of the node. Values extracted from datasets in parent nodes can be parsed down to the Javascript function.
 
 Note: You can refer to parameters directly using their name that has been defined in the Parameters Window.
 
@@ -13,7 +13,7 @@ We then decide whether to convert this amount to GBP or EUR currency depending o
 -  True, displays the amount in GBP.
 -  False displays the amount in EUR.
 
-Defining the datasets nodes and Javascript node as a child of the Balance node:
+Defining the datasets nodes and JavaScript node as a child of the Balance node:
 ![](/articles/15_web_services/17_Graphit/images/50_invoke_javacode_from_graphit.PNG)
 
 
@@ -47,7 +47,7 @@ return graphit("LambdaGraphit1.graphit", scope);
 ```
 
 Graphit file LambdaGraphit1.graphit: 
-Note that the function times defined above is called from the node (defined as a function)  *field 1* on a variable called *dbl* declared in the parent node 
+Note that the function times defined above are called from the node *field 1* (defined as a function) on a variable called *dbl* declared in the parent node 
 ![](/articles/15_web_services/17_Graphit/images/52a_invoke_javacode_from_graphit.PNG)
 
 
