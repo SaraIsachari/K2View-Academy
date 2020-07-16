@@ -7,21 +7,21 @@ JavaScript functions can be added to the Graphit file in the Fabric Studio using
 Note: You can refer to parameters directly using their name defined in the Parameters Window.
 
 ### Example
-In the following example, we define a Graphit Web Service that retrieves the sum of all payments made by a customer from all the received invoices.
-We then decide whether to convert this amount to GBP or EUR currency depending on the value of a parameter called convGBP.
+In the following example, a Graphit Web Service retrieves the sum of all payments made by a customer from received invoices.
+A decision can be made whethere to convert this amount into GBP or EUR currency depending on the value of the convGBP parameter.
 
 -  True, displays the amount in GBP.
 -  False displays the amount in EUR.
 
-Defining the datasets nodes and JavaScript node as a child of the Balance node:
+The following screenshot displays how datasets nodes and JavaScript nodes are defined as a child of the Balance node:
 ![](/articles/15_web_services/17_Graphit/images/50_invoke_javacode_from_graphit.PNG)
 
 
-Running Debug mode with the customer_id set to 1000, and conversion currency set to False (i.e. GBP currency):
+The following screenshot displays how Debug mode is run with the customer_id set to 1000 and the conversion currency set to False (i.e. GBP currency):
 ![](/articles/15_web_services/17_Graphit/images/51_invoke_javacode_from_graphit.PNG)
 
 
-After deploying and launching the Web Service in Swagger:
+The following scereenshot displays how the Web Service is deployed and launched in Swagger:
 ![](/articles/15_web_services/17_Graphit/images/52_invoke_javacode_from_graphit.PNG)
 
 
