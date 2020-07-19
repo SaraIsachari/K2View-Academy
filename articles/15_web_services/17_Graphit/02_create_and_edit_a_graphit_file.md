@@ -13,7 +13,9 @@
 
 
 ### How Do I Edit a Graphit File?
-Once a new Graphit file is created, you can edit it to create the required CSV / XML / JSON document structure. A Graphit file is structured as a hierarchical representation of nodes, where each node defines a tag or condition in the structure of the CSV, XML or JSON document. 
+Once a new Graphit file is created, you can edit it to create the required CSV / XML / JSON document structure. 
+
+A Graphit file is structured as a hierarchical representation of nodes, where each node defines a tag or condition in the structure of the CSV, XML or JSON document. 
 Nodes can have child nodes, and a child node can have child nodes, whereby creating nested tags in the generated document. When creating a document, the Node Name, Type and Properties can be defined for  each node. 
 
 ![](/articles/15_web_services/17_Graphit/images/03_edit_graphit_file.png)
