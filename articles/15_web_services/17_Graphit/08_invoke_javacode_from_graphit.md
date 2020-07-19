@@ -7,7 +7,7 @@ JavaScript functions can be added to the Graphit file in the Fabric Studio using
 Note: You can refer to parameters directly using their name defined in the Parameters Window.
 
 ### Example
-In the following example, a Graphit Web Service retrieves the sum of all payments made by a customer from received invoices.
+In the following example, a Graphit Web Service retrieves the sum of all payments made by a customer from the Received Invoices table.
 A decision can be made whethere to convert this amount into GBP or EUR currency depending on the value of the convGBP parameter.
 
 -  True, displays the amount in GBP.
@@ -58,7 +58,7 @@ Output using Swagger GUI:
 
 
 Limitations:
-This cannot be debugged in the Graphit Editor since the functional parameters cannot be created in the Studio. However, the code can be tested by deploying it to Fabric or by debugging the Web Service code using the the IntelliJ editor. 
+This type of functions cannot be debugged in the Graphit Editor since the functional parameters cannot be created in the Studio. However, the code can be tested by deploying it to Fabric or by debugging the Web Service code using the the IntelliJ editor. 
   
  
 
