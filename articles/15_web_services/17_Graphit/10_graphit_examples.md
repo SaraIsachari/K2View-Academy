@@ -67,8 +67,8 @@ Running the Graphit file in Debug mode with 2 and 3 as consecutive values for th
 
 ![](/articles/15_web_services/17_Graphit/images/65_graphit_examples.PNG)
 
-Note the different tags used and their affect on the output CSV document:
-e.g. csvHeader: false -> removes fields headers from the response
+Note the different tags used and their respective effect on the output CSV document:
+e.g. csvHeader: false -> removes fields headers from the response.
 
 
 
