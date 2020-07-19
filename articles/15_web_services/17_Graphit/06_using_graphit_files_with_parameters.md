@@ -7,7 +7,7 @@ Parameters can be set when:
 - Invoking Graphit directly from Swagger or another http link.
 - Calling Graphit from a Web Service whereby parameters are parsed as a mapped object. 
 
-## Graphit Window - Parameters Setup
+## Graphit Window - How Do I Configure Graphit Parameters?
 Click **Parameters** in the **Graphit window** to open the **Graphit Parameters** dialog box. 
 
 ![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.PNG)
@@ -18,7 +18,7 @@ Graphit Parameters are added to support the following:
 
 Note that if the parameters have not been added to the Graphit Parameters dialog box, you can create a POST request for the Graphit file and add the parameters in the Request body. Alternatively, you can wrap the Graphit file using a Web Service and send the parameters to the Graphit file via the Web Service. 
 
-## Parameters Setup When Running Graphit From Fabric Studio
+## How Do I Configure Parameters When Running Graphit From Fabric Studio?
 When creating a Graphit file, parameters can be defined using the **${}** symbols to refer to the value that is set in the Parameters window. In this specific case, you must also define a **Debug** value in the Parameter window. If not, the response is empty.
 
 
@@ -45,7 +45,7 @@ Click **Run** to see the results on the right side of the output window.
 
 ![](/articles/15_web_services/17_Graphit/images/39_graphit_with_parameters.PNG)
 
-## Parameters Setup When Calling Graphit Directly From Swagger
+## How Do I Configure Parameters When Calling Graphit Directly From Swagger?
 Add the parameters to the Parameters window to create a GET request for the Graphit file and populate the parameters in Swagger. 
 
 Note that to execute the Graphit file, populate the parameter's value in Swagger. The Debug values are only taken as input in Debug mode.
@@ -70,7 +70,7 @@ Note that when deleting all parameters in the Parameters dialog box together, th
 
 ![](/articles/15_web_services/17_Graphit/images/44_graphit_with_parameters.PNG)
 
-## Parameters Setup When Invoking Graphit From a Web Service 
+## How Do I Configure Parameters When Invoking Graphit From a Web Service 
 A Graphit file can be invoked directly or be wrapped by a WS. When wrapped by a WS, the WS sends the parameters to Graphit which then parses them accordingly when generating the XML, JSON or CSV documents. The input parameters for the Graphit file can be populated by a parameter name or by a map object.
 
 Example:
