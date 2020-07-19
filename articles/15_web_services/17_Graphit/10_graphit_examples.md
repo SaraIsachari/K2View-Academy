@@ -11,7 +11,7 @@ Output data is returned in JSON structure and adds information on whether the cu
 
 After deploying and invoking the Graphit file directly as a Web Service:
 
-<img src="/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG" width="500" height="250"></img>
+<img src="/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG" width="700" height="400"></img>
 
 
 ###  Example of a wsGraphitExample2 Web Service that Invokes the Relevant Graphit File Depending on a Specific Condition    
@@ -39,6 +39,7 @@ else{
 The first Graphit file displays the customer's basic information and their subscriber lines with a Gold or Platinum VIP status while the second Graphit file displays the customer's basic information and corresponding subscriber lines in Bronze VIP status.
 
 Graphit file 1: grSQLGldPlus.graphit:
+
 <img src="/articles/15_web_services/17_Graphit/images/60_graphit_examples.PNG" width="700" height="400"></img>
 
 
@@ -49,11 +50,11 @@ Graphit file 2: grSQLBrz.graphit:
 
 Output from Swagger GUI for grSQLGldPlus.graphit with Customer Instance ID = 1234:
 
-<img src="/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG" width="500" height="250"></img>
+<img src="/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG" width="700" height="400"></img>
 
 
 Output from Swagger GUI for grSQLBrz.graphit with Customer Instance ID = 1000:
-<img src="/articles/15_web_services/17_Graphit/images/59a_graphit_examples.PNG" width="500" height="250"></img>
+<img src="/articles/15_web_services/17_Graphit/images/59a_graphit_examples.PNG" width="700" height="400"></img>
 
 ### Simple Example with CSV Generated from JOIN Queries Between Subscriber and Invoice Tables from the Billing_DB External Database
 This example displays how to retrieve data from multiple tables in the Billing_DB database and use Graphit to prepare a CSV-formatted response:
