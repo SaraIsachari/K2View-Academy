@@ -1,17 +1,20 @@
 # Graphit - Code Examples
-### Simple Example of a Customer Info Web Service that Brings Data for a Given LUI
+### Simple Example Of a Customer Info Web Service That Brings Data For a Given LUI
 
-The following Graphit file gets an input LUI which extracts customer data from the CUSTOMER LU, calculates its balance and sets its status accordingly. Output data is returned in JSON structure and adds information on whether the customer is either a:
+The following Graphit file gets an input LUI which extracts customer data from the CUSTOMER LU, calculates its balance and sets its status accordingly. 
+
+Output data is returned in JSON structure and adds information on whether the customer is either a:
 -  VIP member, with a total balance of over USD 10,000.
 -  Gold member, with a total balance of over USD 1,000. 
 
 ![](/articles/15_web_services/17_Graphit/images/58_graphit_examples.PNG)
 
 After deploying and invoking the Graphit file directly as a Web Service:
+
 ![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG)
 
 
-###  Example of a wsGraphitExample2 Web Service that Invokes the Relevant Graphit File Depending on a Specific Condition    
+###  Example Of a wsGraphitExample2 Web Service That Invokes the Relevant Graphit File Depending On a Specific Condition    
 The following Web Service gets an input LUI for the CUSTOMER LU and returns a response stating whether a customer has a Bronze, Gold or Platinum status in their subscription lines.
 
 Code:
