@@ -1,7 +1,9 @@
 # Graphit - Code Examples
 ### Simple Example of a Customer Info Web Service that Brings Data for a Given LUI
 
-The following Graphit file gets an input LUI which extracts customer data from the CUSTOMER LU, calculates its balance and sets its status accordingly. Output data is returned in JSON structure and adds information on whether the customer is a VIP member (total balance of over USD 10,000), or a Gold member (total balance of over USD 1,000). 
+The following Graphit file gets an input LUI which extracts customer data from the CUSTOMER LU, calculates its balance and sets its status accordingly. Output data is returned in JSON structure and adds information on whether the customer is either a:
+-  VIP member, with a total balance of over USD 10,000.
+-  Gold member, with a total balance of over USD 1,000. 
 
 ![](/articles/15_web_services/17_Graphit/images/58_graphit_examples.PNG)
 
