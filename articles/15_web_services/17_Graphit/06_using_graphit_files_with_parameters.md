@@ -19,12 +19,12 @@ Graphit Parameters are added to support the following:
 Note that if the parameters have not been added to the Graphit Parameters dialog box, you can create a POST request for the Graphit file and add the parameters in the Request body. Alternatively, you can wrap the Graphit file using a Web Service and send the parameters to the Graphit file via the Web Service. 
 
 ## Parameters Setup When Running Graphit From Fabric Studio
-When creating a Graphit file, parameters can be defined using the ${} symbols to refer to the value that is set in the Parameters window. In this specific case, you must also define a debug value in the Parameter window. If not, the response is empty.
+When creating a Graphit file, parameters can be defined using the **${}** symbols to refer to the value that is set in the Parameters window. In this specific case, you must also define a **Debug** value in the Parameter window. If not, the response is empty.
 
 
 **Example**: 
  
- The grSql.graphit file generates a JSON file that returns the values of the following fields:
+ The **grSql.graphit** file generates a JSON file that returns the values of the following fields:
 - Customer_ID, SSN, first_name and last_name for a customer whose Instance ID = 547.  
 - Date and status for Case ID = 1394.
 - Generic SELECT statement that retrieves Instance 547: get Customer.${customer_id}.
@@ -41,33 +41,39 @@ Before running the file, a **Debug** value is assigned to the **${customer_id}**
 
 ![](/articles/15_web_services/17_Graphit/images/38_graphit_with_parameters.PNG)  
 
-Click **Run**, and view the results on the right side in the output window:
+Click **Run**, and view the results on the right side in the output window.
+
 ![](/articles/15_web_services/17_Graphit/images/39_graphit_with_parameters.PNG)
 
 ## Parameters Setup When Calling Graphit Directly From Swagger
 Add the parameters to the Parameters window to create a GET request for the Graphit file and populate the parameters in Swagger. 
 
-Note that to execute the Graphit file, populate the parameter's value in Swagger. The debug values are only taken as input in Debug mode.
+Note that to execute the Graphit file, populate the parameter's value in Swagger. The Debug values are only taken as input in Debug mode.
 
 Example:
 
-Using the same grSql.graphit Graphit file used in the previous example, in the following screenshot, the customer_id Debug value has been left empty intentionaly.
+Using the same **grSql.graphit** Graphit file used in the previous example, in the following screenshot the **customer_id Debug** value has been left empty intentionally.
+
 ![](/articles/15_web_services/17_Graphit/images/40_graphit_with_parameters.PNG)
-Following its deployment, the Graphit file is deployed as a Web Service. 
+Following its deployment, the Graphit file is deployed as a Web Service.
+
 ![](/articles/15_web_services/17_Graphit/images/41_graphit_with_parameters.PNG)
 
-As indicated below, the two Parameters fields are marked as required,
+As indicated below, the two Parameters fields are marked as required.
+
 ![](/articles/15_web_services/17_Graphit/images/42_graphit_with_parameters.PNG)
 
-The customer_id=547, and case_id=1394 values are filled in the Parameters fields. 
+The **customer_id=547** and **case_id=1394** values are filled in the Parameters fields. 
+
 ![](/articles/15_web_services/17_Graphit/images/43_graphit_with_parameters.PNG)
 
-Note that when deleting all parameters in the Parameters dialog box together, the values in the GET section in the Swagger GUI cannot be specified but can be injected in the POST section, with a succedful response upon execution:
+Note that when deleting all parameters in the Parameters dialog box together, the values in the GET section in the Swagger GUI cannot be specified but can be injected in the POST section, with a successful response upon execution.
+
 ![](/articles/15_web_services/17_Graphit/images/44_graphit_with_parameters.PNG)
 
 
 ## Parameters Setup When Invoking Graphit From a Web Service 
-A Graphit file can be invoked directly or be wrapped by a WS. When wrapped by the WS, the WS sends the parameters to Graphit which then parses them accordingly when generating the XML, JSON or CSV documents. The input parameters for the Graphit file can be populated by a parameter name or by a map object.
+A Graphit file can be invoked directly or be wrapped by a WS. When wrapped by a WS, the WS sends the parameters to Graphit which then parses them accordingly when generating the XML, JSON or CSV documents. The input parameters for the Graphit file can be populated by a parameter name or by a map object.
 
 Example:
 
@@ -77,7 +83,7 @@ temp.put("input2",2463);
 return graphit("grSql2.graphit", temp);</code></pre>
 
 
-This code calls the following Graphit file which uses ${input1} and ${input2} as parameters for the customer_id and subscriber_id to populate the JSON output with relevant invoices:
+This code calls the following Graphit file which uses **${input1}** and **${input2}** as parameters for the **customer_id** and **subscriber_id** to populate the JSON output with relevant invoices:
 ![](/articles/15_web_services/17_Graphit/images/46a_graphit_with_parameters.PNG)
         
         
