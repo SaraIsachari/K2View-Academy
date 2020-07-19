@@ -49,6 +49,7 @@ Graphit file 2: grSQLBrz.graphit:
 
 
 Output from Swagger GUI for grSQLGldPlus.graphit with Customer Instance ID = 1234:
+
 ![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG)
 
 Output from Swagger GUI for grSQLBrz.graphit with Customer Instance ID = 1000:
