@@ -1,5 +1,5 @@
 # Graphit - Code Examples
-### Simple Example Of a Customer Info Web Service That Brings Data For a Given LUI
+### Simple Example of a Customer Info Web Service that Brings Data for a Given LUI
 
 The following Graphit file gets an input LUI which extracts customer data from the CUSTOMER LU, calculates its balance and sets its status accordingly. 
 
@@ -14,7 +14,7 @@ After deploying and invoking the Graphit file directly as a Web Service:
 ![](/articles/15_web_services/17_Graphit/images/59_graphit_examples.PNG)
 
 
-###  Example Of a wsGraphitExample2 Web Service That Invokes the Relevant Graphit File Depending On a Specific Condition    
+###  Example of a wsGraphitExample2 Web Service that Invokes the Relevant Graphit File Depending on a Specific Condition    
 The following Web Service gets an input LUI for the CUSTOMER LU and returns a response stating whether a customer has a Bronze, Gold or Platinum status in their subscription lines.
 
 Code:
@@ -38,11 +38,13 @@ else{
 
 The first Graphit file displays the customer's basic information and their subscriber lines with a Gold or Platinum VIP status while the second Graphit file displays the customer's basic information and corresponding subscriber lines in Bronze VIP status.
 
-Graphit file 1: grSQLGldPlus.graphit
+Graphit file 1: grSQLGldPlus.graphit:
+
 ![](/articles/15_web_services/17_Graphit/images/60_graphit_examples.PNG)
 
 
-Graphit file 2: grSQLBrz.graphit
+Graphit file 2: grSQLBrz.graphit:
+
 ![](/articles/15_web_services/17_Graphit/images/62_graphit_examples.PNG)
 
 
@@ -52,17 +54,19 @@ Output from Swagger GUI for grSQLGldPlus.graphit with Customer Instance ID = 123
 Output from Swagger GUI for grSQLBrz.graphit with Customer Instance ID = 1000:
 ![](/articles/15_web_services/17_Graphit/images/59a_graphit_examples.PNG)
 
-### Simple Example with CSV Generated from JOIN Queries Between Subscriber and Invoice Tables From the Billing_DB External Database
+### Simple Example with CSV Generated from JOIN Queries Between Subscriber and Invoice Tables from the Billing_DB External Database
 This example displays how to retrieve data from multiple tables in the Billing_DB database and use Graphit to prepare a CSV-formatted response:
 
 Graphit file: grCSV.graphit:
+
 ![](/articles/15_web_services/17_Graphit/images/63_graphit_examples.PNG)
 ![](/articles/15_web_services/17_Graphit/images/64_graphit_examples.PNG)
 
 Running the Graphit file in Debug mode with 2 and 3 as consecutive values for the SubscriberID:
+
 ![](/articles/15_web_services/17_Graphit/images/65_graphit_examples.PNG)
 
-Note the different tags used and their effect on the output CSV document:
+Note the different tags used and their affect on the output CSV document:
 e.g. csvHeader: false -> removes fields headers from the response
 
 
