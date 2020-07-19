@@ -13,7 +13,7 @@ A decision can be made whethere to convert this amount into GBP or EUR currency 
 -  True, displays the amount in GBP.
 -  False displays the amount in EUR.
 
-The following screenshot displays how dataset nodes and JavaScript nodes are defined as a child of the Balance node:
+The following screenshot displays how dataset nodes and JavaScript nodes are defined as children of the main Balance node:
 
 ![](/articles/15_web_services/17_Graphit/images/50_invoke_javacode_from_graphit.PNG)
 
