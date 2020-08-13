@@ -117,7 +117,8 @@ In the Step, you check the number of records: check if the number of records >= 
  B.<strong>Stage 7</strong> has been executed since the condition returned <strong>false</strong>.
  C.The following messsage has been given by Stage 7's Logger Actor: 
      <strong>ERROR: Error- Error- there are not enough records in the list.</strong> 
-     Stage 6 and Stage 7 Logger Actors have set different message levels since each has a different value in the level input parameter.
+     Stage 6 and Stage 7 Logger Actors have set different message levels since each has a different 
+     value in the level input parameter.
  </code></pre>
  </ul>
 
