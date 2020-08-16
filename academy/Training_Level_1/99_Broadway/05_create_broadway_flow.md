@@ -11,12 +11,12 @@ By the end of the Broadway Flow learning item you will:
 - View, run and debug your Broadway flow.
 
 
-A Broadway Flow:
+A Broadway flow:
 -  Represents a business process that binds other objects into the same flow. 
 -  Acts as a graph or a tree that has several [Stages](/articles/19_Broadway/19_broadway_flow_stages.md) where each Stage includes one or more [Actors](/articles/19_Broadway/03_broadway_actor.md). Stages are executed consecutively from left to right, where the Actors in each Stage of the flow are executed top-down.
 
 
-To learn more about a Broadway flow, please refer to [Broadway Flow Overview](/articles/19_Broadway/02a_broadway_flow_overview.md).
+To learn more about a Broadway flow, please refer to the [Broadway Flow Overview](/articles/19_Broadway/02a_broadway_flow_overview.md).
 
 ### ![](/academy/images/example.png)Example - Building a Simple Broadway Flow
 
@@ -30,7 +30,7 @@ Let's create a new Broadway flow that selects data from a DB table and creates a
 
 #### Step 2 - Populate Stage 1 of the Flow
 
-1. Select the number of cases for each case status from **CASES** table in **CRM_DB**  interface. Use the following SQL query:
+1. Select the number of cases for each case status from the **CASES** table in the **CRM_DB** interface. Use the following SQL query:
 
 ```
 Select Count(*) AS NUMBER_OF_CASES,
@@ -43,8 +43,8 @@ Group By CASES.STATUS
 
 2. Add a **DbCommand** Actor to run the above **SELECT statement** in Stage 1: 
 
-   - Read How [Do I Add Actor to Stage](/articles/19_Broadway/03_broadway_actor.md#how-do-i-add-actor-to-stage) to learn how to add an Actor to the Broadway flow.
-   - Read more about [DbCommand](/articles/19_Broadway/04_built_in_actor_types.md#db) Built-In Actor. 
+   - Read How [Do I Add an Actor to a Stage](/articles/19_Broadway/03_broadway_actor.md#how-do-i-add-actor-to-stage) to learn how to add an Actor to the Broadway flow.
+   - Read more about the [DbCommand](/articles/19_Broadway/04_built_in_actor_types.md#db) Built-In Actor. 
 
 3. Edit the **DbCommand** Actor in Stage 1. Add the DB interface and the SQL above to the Actor:
 
@@ -54,7 +54,7 @@ Group By CASES.STATUS
 ![DbCommand-Example](/academy/Training_Level_1/99_Broadway/images/MyFirstFlow_Example_Stage1_DbCommand.png)
 
 #### Step 3 - Read the Customer's List and Create a File
-1. The SQL query, executed by the **DbCommand**, returns several records. The next Stages run a loop on the list of  the selected records. For each selected record you need to:
+1. The SQL query, executed by the **DbCommand**, returns several records. The next Stages run a loop on the list of  the selected records. Do the following for each selected record:
 
    - Build a JSON object.
    - Write the JSON object to an output file.
@@ -79,7 +79,7 @@ Group By CASES.STATUS
 
 8. Add a **FileWrite** Actor to **Stage 3** and edit it as follows:
 
-   - Set **Interface** to **LocalFileSystem**.
+   - Set the **Interface** to **LocalFileSystem**.
    - Set the **path's Population Type** to **Const** instead of **Link**.
    - Set the value of the **Path** to **customer_list.json**. This parameter is populated by the new filename created by the **FileWrite** Actor.
    - Set the **Append** Boolean parameter to **false** to rewrite each flow execution into the file.
@@ -109,21 +109,21 @@ Group By CASES.STATUS
 
 ##### Updating the Output Schema of the DbCommand Actor
 
-1. The **DbCommand** Actor returns  a complex schema.  Broadway Debug process *learns* the Schema of complex output parameters and can suggest how to update it based on a parameter's value. To update the output parameter of the **DbCommand**, do the following:
+1. The **DbCommand** Actor returns  a complex schema. The Broadway Debug process *learns* the Schema's complex output parameters and can suggest how to update it based on a parameter's value. To update the output parameter of the **DbCommand**, do the following:
 
    - Run the flow in a debug mode when the debug is set to ON ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png).
 
-   - Click the red port next to the **[result]** output of the **DbCommand**.  The **Compare Schema** window is opened. Click the UPDATE to update the schema.
+   - Click the red port next to the **[result]** output of the **DbCommand**.  The **Compare Schema** window is opened. Click **UPDATE** to update the schema.
 
        ![Update Schema](/academy/Training_Level_1/99_Broadway/images/MyFirstFlow_DbCommand_Update_Schema.png) 
 
    - Click ![image](/academy/Training_Level_1/99_Broadway/images/red_cross.png) adjacent to the Actor's output argument to open the [Data Inspectior]((/articles/19_Broadway/27_broadway_data_inspection.md)) and display the Schema on the left and the data values on the right.
 
-   - Add a  **Breakpoint** to **Stage 1 ** and run again the debug. Click ![Debug Step](/academy/Training_Level_1/99_Broadway/images/debug_step_icon.png) to execute the next steps after the breakpoint step.
+   - Add a  **Breakpoint** to **Stage 1** and run the Debug again. Click ![Debug Step](/academy/Training_Level_1/99_Broadway/images/debug_step_icon.png) to execute the next steps after the breakpoint step.
 
-   - Now you see the input and output values are displayed for each iteration in the flow.
+   - The input and output values are displayed for each iteration in the flow.
 
-   - Click each one of the debug values (marked by blue) to open the **Data Viewer** window for the selected parameter. See example below:
+   - Click each debug value (marked by blue) to open the **Data Viewer** window for the selected parameter. See the following example:
 
      ![image](/academy/Training_Level_1/99_Broadway/images/MyFirstFlow_Example_debug.png)
 
@@ -133,7 +133,7 @@ Group By CASES.STATUS
 
    ##### Checking the Flow's Execution Results
 
-2. Check your local directory (C:\k2view\Broadway_Training) and open the new JSON file that contains the list of cases selected from CASE table.
+2. Check your local directory (C:\k2view\Broadway_Training) and open the new JSON file that contains the list of cases selected from the CASE table.
 
    
 
