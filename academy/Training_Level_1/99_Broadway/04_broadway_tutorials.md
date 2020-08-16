@@ -15,27 +15,27 @@ To learn more about a Broadway flow, please refer to the [Broadway Flow Overview
 
 ### How Do I Open The Broadway Tutorial Flow  
 
-Broadway Tutorials flows can be opened in the Broadway Flow window.
+The Broadway Tutorial flows can be opened in the Broadway Flow window.
 
 1. Download and open the [Demo Project](/articles/demo_project) in the **Fabric Studio**. 
 2. Go to the **project tree** > **Shared Objects**, right click **Broadway** > **New Flow** to open the Flow Name window.
 3. Populate the **Flow Name** and click **OK** to open an empty flow.
-4. In the flow window: select **Actions > Examples** > **a-broadway-tutorial** to open the **Broadway Tutorial flow**.
+4. In the Flow window, select **Actions > Examples** > **a-broadway-tutorial** to open the **Broadway Tutorial flow**.
 
-### Debugging The Broadway Tutorials Flow
+### Debugging The Broadway Tutorial Flow
 
 The Broadway Tutorial flow runs manipulations on the **Hello Broadway** string and returns the **Hello Broadway** result.
 
 In the following exercise you will run and debug the flow to view the input and the output of each [Stage](/articles/19_Broadway/19_broadway_flow_stages.md) and each [Actor](/articles/19_Broadway/03_broadway_actor.md) in the flow.
 
 
-Before you start the exercise, please read [Run and Debug Broadway Flow](/articles/19_Broadway/25_broadway_flow_window_run_and_debug_flow.md) to debug the Broadway Tutorial flow steps.
+Before starting the exercise, please read [Run and Debug Broadway Flow](/articles/19_Broadway/25_broadway_flow_window_run_and_debug_flow.md) to debug the Broadway Tutorial flow steps.
 
 ###  ![](/academy/images/Exercise.png) **Exercise – Run and Debug Broadway Tutorial Flow**
 
 #### Step 1 - Open the Broadway Tutorial Flow
 
-1. Open the  **a-broadway-tutorial**  flow as [explained above](/academy/Training_Level_1/99_Broadway/04_broadway_tutorials.md#how-do-i-open-the-broadway-tutorial-flow).
+1. Open the **a-broadway-tutorial** flow as [explained above](/academy/Training_Level_1/99_Broadway/04_broadway_tutorials.md#how-do-i-open-the-broadway-tutorial-flow).
 
 #### Step 2 - Run and Debug the Broadway Tutorial Flow
 1. Click **Debug ON** ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png) to set it to Debug OFF ![debug off](/academy/Training_Level_1/99_Broadway/images/debug_off.png) and click ![Run Flow](/academy/Training_Level_1/99_Broadway/images/run_flow_icon.png) to run the flow.
@@ -46,7 +46,7 @@ Before you start the exercise, please read [Run and Debug Broadway Flow](/articl
 
 
 
-2. Add a  **Breakpoint** to **for each Stage**, click the Debug OFF ![debug off](/academy/Training_Level_1/99_Broadway/images/debug_off.png) to set it back to Debug ON ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png), and then click the ![Run Flow](/academy/Training_Level_1/99_Broadway/images/run_flow_icon.png) to execute the flow in a debug mode till the breakpoint.
+2. Add a  **Breakpoint** to **for each Stage**, click **Debug OFF** ![debug off](/academy/Training_Level_1/99_Broadway/images/debug_off.png) to set it back to **Debug ON** ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png), and then click ![Run Flow](/academy/Training_Level_1/99_Broadway/images/run_flow_icon.png) to execute the flow in a debug mode to the breakpoint.
 
 3. Click ![Debug Step](/academy/Training_Level_1/99_Broadway/images/debug_step_icon.png) to execute the next steps after the breakpoint step.
 
@@ -73,8 +73,8 @@ Before you start the exercise, please read [Run and Debug Broadway Flow](/articl
 
  ![info](/academy/images/information.png) Read more about [Stage Condition](/articles/19_Broadway/02_broadway_high_level_components.md#stage-conditions) to help you answer this question.
 
-3. Click ![Stop Debug](/academy/Training_Level_1/99_Broadway/images/stop_debug_icon.png) to stop the **Debug process**. 
-4. Edit the **Const** Actor in the **Hello Broadway** Stage:  click the **Const** Actor in the **Hello Broadway** Stage. The [Actor window](/articles/19_Broadway/03_broadway_actor_window.md) is displayed.
+3. Click ![**Stop Debug**](/academy/Training_Level_1/99_Broadway/images/stop_debug_icon.png) to stop the **Debug process**. 
+4. Edit the **Const** Actor in the **Hello Broadway** Stage: click the **Const** Actor in the **Hello Broadway** Stage. The [Actor window](/articles/19_Broadway/03_broadway_actor_window.md) is displayed.
 5. Edit the value of the first input variable from **Hello Broadway** to **Broadway Training**.
 6. Run the flow. 
 
@@ -105,7 +105,7 @@ A. The flow's result is "Hello Broadway"</code></pre>
 A and B, The flow executes two iteration runs on the <strong>StringBuilder</strong> Actor. 
 The first iteration runs on **Hello** and the second iteration runs on **Broadway**.
 C. The <strong>StringBuilder</strong> returns the following output: <strong>Hello Broadway</strong>.
-D. The <strong>StringBuilder</strong> Actor returns one output. It gets its inputs by a loop and builds the string. 
+D. The <strong>StringBuilder</strong> Actor returns one output and gets its inputs from a loop and builds the string. 
 The <strong>for each</strong> State is marked <strong>Iterate Close</strong>. 
 As a result, the StringBuilder in this Stage closes the loop and only then returns its output.
 E. The next Stage executed after the <strong>Splitting the flow</strong> Stage is the <strong>Dynamic Logic Actors</strong> Stage, 
