@@ -11,7 +11,7 @@
 
 #### **DAY 1 – Afternoon**
 
-- Building a Simple flow
+- Building a simple flow
   - Creating a simple flow that selects data from a DB table and creates a JSON file based on the selected DB records:
     - Adding Stages and Actors
     - Linking between Stages
@@ -22,16 +22,16 @@
 
 #### **DAY 2 – Morning**
 
-- Common use cases: DB, Files, Parsers
-  - Use case 1: manipulating data and loading it to a DB, parsing and manipulating files and tables
-  - Use case 2: subscribing to a Kafka topic and writing it to a file
+- Common use cases: DB files and parsers
+  - Use case 1: Manipulating data and loading it to a DB, parsing and manipulating files and tables
+  - Use case 2: Subscribing to a Kafka topic and writing it to a file
 
 #### **DAY 2 – Afternoon**
 
 - Actors
-  - Edit Actor's input and output, editing a schema, adding a remark
+  - Editing an Actor's input and output, editing a schema, adding a remark
   - Actors input and output types
-  - Writing JavaScript code in Actor
+  - Writing JavaScript code in an Actor
   - Dynamic Actors
 - Editing Actors using Fabric interfaces and functions
 - Data inspection
@@ -42,11 +42,11 @@
 
 #### **DAY 3 – Morning**
 
-- Error Handling
+- Error handling
 - Flow enhancement
   - Transaction
-- Edit Actors - special cases
-  - Editing a DbCommand using a DB interface defined in Fabric Studio
+- Edit Actors: special cases
+  - Editing a DbCommand using a DB interface defined in the Fabric Studio
   - Defining a Translation table and using it with a Lookup table
   - Parsing input files
 - Actor inheritance mechanism and Export Actor
