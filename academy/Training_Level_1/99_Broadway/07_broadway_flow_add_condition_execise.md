@@ -15,7 +15,7 @@ In this exercise you will add a condition to your flow that does the following:
 
     
 
-Before you start, please read [Broadway Flow - Stages](/articles/19_Broadway/19_broadway_flow_stages.md) to learn about splitting and merging the Stages of a flow and about adding conditions to a Stage. 
+Before starting, please read [Broadway Flow - Stages](/articles/19_Broadway/19_broadway_flow_stages.md) to learn about splitting and merging the Stages of a flow and about adding conditions to a Stage. 
 
 #### Step 1 - Open the Broadway Flow
 1. Go to the **project tree** > **Shared Objects** > **Broadway** and click the flow you created in the [previous lesson](/academy/Training_Level_1/99_Broadway/05_create_broadway_flow.md).
@@ -26,11 +26,11 @@ Before you start, please read [Broadway Flow - Stages](/articles/19_Broadway/19_
 
 #### Step 3 - Add a Condition to the Flow
 
-In the Step, you check the number of records: check if the number of records >= 3. 
+In this Step, you will check if the number of records is >= 3. 
 
 1. Add a new Stage to the flow.
 
-2. Click ![three dots](/academy/Training_Level_1/99_Broadway/images/three_dots_icon.png) in the new Stage and select  **Stage Condition** option. A window opens where you can select the required Actor and add it to the Stage.
+2. Click ![three dots](/academy/Training_Level_1/99_Broadway/images/three_dots_icon.png) in the new Stage and select  **Stage Condition**. A window opens where you can select the Actor and add it to the Stage.
 
 3. Select the **GreaterThanEquals** Actor and click  **SUBMIT**:
 
@@ -42,10 +42,10 @@ In the Step, you check the number of records: check if the number of records >= 
 
 5.  Set the **b** input parameter to be a **Const** and set its value to 3.
 
-6. Now you need to split **Stage 4** into two forks: one fork to be executed if the **GreaterThanEquals** Actor returns **true** and another fork if the **GreaterThanEquals** returns **false**:
+6. Split **Stage 4** into two forks: one fork to be executed if the **GreaterThanEquals** Actor returns **true** and another fork if the **GreaterThanEquals** returns **false**:
 
       - Click ![three dots](/academy/Training_Level_1/99_Broadway/images/three_dots_icon.png) in **Stage 4** and select **Split**. 
-      - A new **Stage 5** is created in the same level of **Stage 4**.  
+      - A new **Stage 5** is created on the same level as **Stage 4**.  
       - Click ![three dots](/academy/Training_Level_1/99_Broadway/images/three_dots_icon.png) in the newly created **Stage 5** and select **Else**.
 
 #### Step 4 - Add the Next Stages
@@ -60,11 +60,9 @@ In the Step, you check the number of records: check if the number of records >= 
 5. Set the **Logger** Actor's parameters of **Stage 7**:
    - Set the **message** input parameter as **Const**.
    
-   - Set the **message** input parameter value to: **Error- there are not enough records in the list**.
+   - Set the **message** input parameter value to **Error- there are not enough records in the list**.
    
-   - Set the **level** input parameter to **error**.
-   
-     Now you have a condition in your flow:
+   - Set the **level** input parameter to **error**. The condition has been added to your flow:
    
      ![image](/academy/Training_Level_1/99_Broadway/images/MyFirstFlow_including_condition.png)
 
