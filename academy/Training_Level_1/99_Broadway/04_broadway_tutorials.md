@@ -38,7 +38,7 @@ Before you start the exercise, please read [Run and Debug Broadway Flow](/articl
 1. Open the  **a-broadway-tutorial**  flow as [explained above](/academy/Training_Level_1/99_Broadway/04_broadway_tutorials.md#how-do-i-open-the-broadway-tutorial-flow).
 
 #### Step 2 - Run and Debug the Broadway Tutorial Flow
-1. Click the Debug ON ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png) to set it to Debug OFF ![debug off](/academy/Training_Level_1/99_Broadway/images/debug_off.png) and click ![Run Flow](/academy/Training_Level_1/99_Broadway/images/run_flow_icon.png) to run the flow.
+1. Click **Debug ON** ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png) to set it to Debug OFF ![debug off](/academy/Training_Level_1/99_Broadway/images/debug_off.png) and click ![Run Flow](/academy/Training_Level_1/99_Broadway/images/run_flow_icon.png) to run the flow.
 
   <ul>
   <pre><code>A. What is the result of the flow?</code></pre>
@@ -112,7 +112,8 @@ E. The next Stage executed after the <strong>Splitting the flow</strong> Stage i
  <ul>
 <pre><code>
 <strong>Step 3.2</strong>
-A. The new <strong>Now</strong> Actor added to <strong>Stage 3</strong> has not been exectued since this Stage runs only if the <strong>Paradox</strong> condition is fulfilled.</code></pre>
+A. The new <strong>Now</strong> Actor added to <strong>Stage 3</strong> has not been exectued since this Stage runs only
+if the <strong>Paradox</strong> condition is fulfilled.</code></pre>
 </ul>
 
 <ul>
@@ -127,6 +128,7 @@ A. There are two flows. A local copy of the Tutorial flow has been saved in the 
 
 <ul><pre><code>
 <strong>Step 4.2</strong>
-A. The value of the input parameter is <strong>Broadway Training</strong>. You can edit the flow and save the changes or execute the flow. A local copy of the flow is saved in the Fabric project. </code></pre></ul> 
+A. The value of the input parameter is <strong>Broadway Training</strong>. You can edit the flow and save the changes or execute the flow. 
+A local copy of the flow is saved in the Fabric project. </code></pre></ul> 
 
 [![Previous](/articles/images/Previous.png)](/academy/Training_Level_1/99_Broadway/03_broadway_overview.md)[<img align="right" width="60" height="54" src="/articles/images/Next.png">](/academy/Training_Level_1/99_Broadway/05_create_broadway_flow.md)
