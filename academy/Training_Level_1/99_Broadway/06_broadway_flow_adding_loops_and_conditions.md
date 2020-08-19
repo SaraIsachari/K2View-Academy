@@ -10,7 +10,7 @@ For example, the  [Simple Broadway Flow](/academy/Training_Level_1/99_Broadway/0
 
 You can add iterations to the flow either by:
 
-- Adding iterations on Stages: setting the [Link Type](/articles/19_Broadway/20_broadway_flow_linking_actors.md#link-object-properties)  to **Iterate** when linking an Actor to another Actor opens a loop. The loop runs on the next Stages in the flow and is closed by the first Stage marked as **Iterate Close**.
+- Adding iterations on Stages by setting the [Link Type](/articles/19_Broadway/20_broadway_flow_linking_actors.md#link-object-properties)  to **Iterate** when linking an Actor to another Actor opens a loop. The loop runs on the next Stages in the flow and is closed by the first Stage marked as **Iterate Close**.
 
   Read [Broadway Flow Window](/articles/19_Broadway/18_broadway_flow_window.md) to learn more about the Stage context menu.
 
@@ -20,7 +20,7 @@ You can add iterations to the flow either by:
 
 ### Adding Conditions
 
-A Broadway flow can be split into different execution paths based on conditions. More than one Stage can be executed in each fork in the path. If a condition is required in the flow, the flow can be split and a **Stage condition** Actor can be added to one or more Stages that have been created as a result of the split. 
+A Broadway flow can be split into different execution paths based on conditions. More than one Stage can be executed in each fork of the path. If a condition is required in the flow, the flow can be split and a **Stage condition** Actor can be added to one or more Stages that have been created as a result of the split. 
 
   For example:
 
