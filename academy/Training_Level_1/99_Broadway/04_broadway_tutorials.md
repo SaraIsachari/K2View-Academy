@@ -15,7 +15,7 @@ To learn more about a Broadway flow, please refer to the [Broadway Flow Overview
 
 ### How Do I Open The Broadway Tutorial Flow  
 
-The Broadway Tutorial flows can be opened in the Broadway Flow window.
+Broadway Tutorial flows can be opened in the Broadway Flow window.
 
 1. Download and open the [Demo Project](/articles/demo_project) in the **Fabric Studio**. 
 2. Go to the **project tree** > **Shared Objects**, right click **Broadway** > **New Flow** to open the Flow Name window.
@@ -46,13 +46,13 @@ Before starting the exercise, please read [Run and Debug Broadway Flow](/article
 
 
 
-2. Add a  **Breakpoint** to **for each Stage**, click **Debug OFF** ![debug off](/academy/Training_Level_1/99_Broadway/images/debug_off.png) to set it back to **Debug ON** ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png), and then click ![Run Flow](/academy/Training_Level_1/99_Broadway/images/run_flow_icon.png) to execute the flow in a debug mode to the breakpoint.
+2. Add a  **Breakpoint** to **for each Stage**, click **Debug OFF** ![debug off](/academy/Training_Level_1/99_Broadway/images/debug_off.png) to set it back to **Debug ON** ![debug on](/academy/Training_Level_1/99_Broadway/images/debug_on.png) and then click ![Run Flow](/academy/Training_Level_1/99_Broadway/images/run_flow_icon.png) to execute the flow in a debug mode to the breakpoint.
 
 3. Click ![Debug Step](/academy/Training_Level_1/99_Broadway/images/debug_step_icon.png) to execute the next steps after the breakpoint step.
 
   <ul>
   <pre><code>
-  A. How many iterations run on the <strong>StringBuilder</strong> Actor of the <strong>for each Stage</strong>?<br>
+  A. How many iterations run on the <strong>StringBuilder</strong> Actor of <strong>for each Stage</strong>?<br>
   B. Which input value is sent to the <strong>StringBuilder</strong> Actor on each iteration?<br>
   C. What is the output of the <strong>StringBuilder</strong> Actor?
   D. How many outputs are returned by the <strong>StringBuilder</strong> Actor? Please explain.
@@ -64,17 +64,17 @@ Before starting the exercise, please read [Run and Debug Broadway Flow](/article
 
   #### Step 3 - Edit the Flow to Test a Conditinal Stage
 
-1. Add **Now** Actor to **Stage 3**: click **Stage 3** in the flow and select the **Now** Actor in the popup window to add an Actor to **Stage 3**.
+1. Add the **Now** Actor to **Stage 3**: click **Stage 3** in the flow and select **Now** Actor in the popup window to add an Actor to **Stage 3**.
 2. Click ![Debug Step](/academy/Training_Level_1/99_Broadway/images/debug_step_icon.png) to execute the flow's steps in **Debug mode**. 
 
   <ul>
-  <pre><code>A. Has the new <strong>Now</strong> Actor of <strong>Stage 3</strong> been executed? Why?</code></pre>
+  <pre><code>A. Has the new <strong>Now</strong> Actor in <strong>Stage 3</strong> been executed? Why?</code></pre>
   </ul>
 
  ![info](/academy/images/information.png) Read more about [Stage Condition](/articles/19_Broadway/02_broadway_high_level_components.md#stage-conditions) to help you answer this question.
 
 3. Click ![**Stop Debug**](/academy/Training_Level_1/99_Broadway/images/stop_debug_icon.png) to stop the **Debug process**. 
-4. Edit the **Const** Actor in the **Hello Broadway** Stage: click the **Const** Actor in the **Hello Broadway** Stage. The [Actor window](/articles/19_Broadway/03_broadway_actor_window.md) is displayed.
+4. Edit the **Const** Actor in the **Hello Broadway** Stage: click **Const** Actor in the **Hello Broadway** Stage. The [Actor window](/articles/19_Broadway/03_broadway_actor_window.md) is displayed.
 5. Edit the value of the first input variable from **Hello Broadway** to **Broadway Training**.
 6. Run the flow. 
 
@@ -86,7 +86,7 @@ Before starting the exercise, please read [Run and Debug Broadway Flow](/article
 
 <ul><pre><code>A. How may flows do you have now?</code></pre></ul>
 
-2. Reopen the **Broadway Tutorial flow** and click the **Const** Actor in the <strong>Hello Broadway</strong> Stage.
+2. Reopen the **Broadway Tutorial flow** and click **Const** Actor in the <strong>Hello Broadway</strong> Stage.
 
 <ul><pre><code>A. Which value is set for the input parameter?</code></pre></ul> 
 
@@ -96,20 +96,20 @@ Before starting the exercise, please read [Run and Debug Broadway Flow](/article
  <ul>
  <pre><code> 
 <strong>Step 2.1</strong>
-A. The flow's result is "Hello Broadway"</code></pre>
+A. The flow's result is "Hello Broadway".</code></pre>
  </ul>
 
 <ul>
 <pre><code>
 <strong>Step 2.3</strong>
-A and B, The flow executes two iteration runs on the <strong>StringBuilder</strong> Actor. 
-The first iteration runs on **Hello** and the second iteration runs on **Broadway**.
+A and B: The flow executes two iteration runs on the <strong>StringBuilder</strong> Actor. The first iteration runs on **Hello**
+  and the second iteration runs on **Broadway**.
 C. The <strong>StringBuilder</strong> returns the following output: <strong>Hello Broadway</strong>.
 D. The <strong>StringBuilder</strong> Actor returns one output and gets its inputs from a loop and builds the string. 
-The <strong>for each</strong> State is marked <strong>Iterate Close</strong>. 
-As a result, the StringBuilder in this Stage closes the loop and only then returns its output.
-E. The next Stage executed after the <strong>Splitting the flow</strong> Stage is the <strong>Dynamic Logic Actors</strong> Stage, 
-since this Stage is on the same level as the <strong>else</strong> of the condition, and the condition returns <strong>false</strong>. 
+   The <strong>for each</strong> State is marked <strong>Iterate Close</strong>. As a result, the StringBuilder 
+   in this Stage closes the loop and only then returns its output.
+E. The next Stage executed after <strong>Splitting the flow</strong> is <strong>Dynamic Logic Actors</strong> since this Stage
+   is on the same level as the <strong>else</strong> of the condition and the condition returns <strong>false</strong>. 
 See <a href="/articles/19_Broadway/02a_broadway_flow_overview.md#flow-with-condition">Flow with Conditions</a>.
 </code></pre>
 </ul>
