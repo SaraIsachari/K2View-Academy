@@ -44,7 +44,7 @@ Group By CASES.STATUS
 2. Add a **DbCommand** Actor to run the above **SELECT statement** in Stage 1: 
 
    - Read How [Do I Add an Actor to a Stage](/articles/19_Broadway/03_broadway_actor.md#how-do-i-add-actor-to-stage) to learn how to add an Actor to the Broadway flow.
-   - Read more about the [DbCommand](/articles/19_Broadway/04_built_in_actor_types.md#db) Built-In Actor. 
+   - Read more about the [DbCommand](/articles/19_Broadway/04_built_in_actor_types.md#db) built-in Actor. 
 
 3. Edit the **DbCommand** Actor in Stage 1. Add the DB interface and the SQL above to the Actor:
 
@@ -86,7 +86,7 @@ Group By CASES.STATUS
 
     ![FileWrite](/academy/Training_Level_1/99_Broadway/images/MyFirstFlow_Example_Stage3_FileWrite.png) 
 
-   Read [Broadway Actor's Window](/articles/19_Broadway/03_broadway_actor_window.md) to learn about the Actor window and setting the Actor's parameters. 
+   Read [Broadway Actors Window](/articles/19_Broadway/03_broadway_actor_window.md) to learn about the Actor window and setting the Actor's parameters. 
 
 9.  The **FileWrite** Actor executes the following activities:
 
