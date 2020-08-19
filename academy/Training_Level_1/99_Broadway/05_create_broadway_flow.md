@@ -54,12 +54,12 @@ Group By CASES.STATUS
 ![DbCommand-Example](/academy/Training_Level_1/99_Broadway/images/MyFirstFlow_Example_Stage1_DbCommand.png)
 
 #### Step 3 - Read the Customer's List and Create a File
-1. The SQL query, executed by the **DbCommand**, returns several records. The next Stages run a loop on the list of  the selected records. Do the following for each selected record:
+1. The SQL query executed by the **DbCommand**, returns several records. The next Stages run a loop on the list of the selected records. Do the following for each selected record:
 
    - Build a JSON object.
    - Write the JSON object to an output file.
 
-   ##### Building a JSON Object for Each Selected Record
+   ##### Build a JSON Object for Each Selected Record
 
 2. Click ![plus](/academy/Training_Level_1/99_Broadway/images/plus_icon.png) in the right of the Flow window to create Stage 2 which builds a JSON object for each selected customer record.
 
@@ -69,7 +69,7 @@ Group By CASES.STATUS
 
    Read [linking Actors in a Broadway Flow](/articles/19_Broadway/20_broadway_flow_linking_actors.md) to learn how to link Actors in a Broadway flow.
 
-   ##### Writing the JSON Object to an Output File for Each Selected Record
+   ##### Write the JSON Object to an Output File for Each Selected Record
 
 5. Add Stage 3 to the flow. Both Stages 2 and 3 are marked in grey since they are included in the loop that has been opened by linking Stages 1 and 2. Read [Broadway Iterations](/articles/19_Broadway/21_iterations.md) to learn more about handling loops on Broadway flows. 
 
@@ -107,7 +107,7 @@ Group By CASES.STATUS
 
 #### Step 4 - Flow Execution and Debug
 
-##### Updating the Output Schema of the DbCommand Actor
+##### Update the Output Schema of the DbCommand Actor
 
 1. The **DbCommand** Actor returns  a complex schema. The Broadway Debug process *learns* the Schema's complex output parameters and can suggest how to update it based on a parameter's value. To update the output parameter of the **DbCommand**, do the following:
 
@@ -131,7 +131,7 @@ Group By CASES.STATUS
 
    Read about [Run and Debug Broadway Flow](/articles/19_Broadway/25_broadway_flow_window_run_and_debug_flow.md) and [Broadway Data Inspector](/articles/19_Broadway/27_broadway_data_inspection.md).
 
-   ##### Checking the Flow's Execution Results
+   ##### Check the Flow's Execution Results
 
 2. Check your local directory (C:\k2view\Broadway_Training) and open the new JSON file that contains the list of cases selected from the CASE table.
 
