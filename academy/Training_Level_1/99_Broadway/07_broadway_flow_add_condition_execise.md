@@ -44,8 +44,7 @@ In this Step, you will check if the number of records is >= 3.
 
 6. Split **Stage 4** into two forks: one fork to be executed if the **GreaterThanEquals** Actor returns **true** and another fork if the **GreaterThanEquals** returns **false**:
 
-      - Click ![three dots](/academy/Training_Level_1/99_Broadway/images/three_dots_icon.png) in **Stage 4** and select **Split**. 
-      - A new **Stage 5** is created on the same level as **Stage 4**.  
+      - Click ![three dots](/academy/Training_Level_1/99_Broadway/images/three_dots_icon.png) in **Stage 4** and select **Split**. A new **Stage 5** is created on the same level as **Stage 4**.  
       - Click ![three dots](/academy/Training_Level_1/99_Broadway/images/three_dots_icon.png) in the newly created **Stage 5** and select **Else**.
 
 #### Step 4 - Add the Next Stages
